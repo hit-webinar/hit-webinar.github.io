@@ -9,7 +9,6 @@
     <meta name="description" content="HIT Webinar Homepage">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="vender/bootstrap.min.css" rel="stylesheet">
-    <!-- <link href="vender/jemdoc.css" rel="stylesheet"> -->
     <script src="vender/vue.min.js"></script>
     <link href="assets/favicon.ico" rel="icon" type="image/x-icon" />
 </head>
@@ -19,31 +18,51 @@
 
     <div class="container" id="app">
 
-        something
-
-        HIT Webinar
-
+        <div class="row">
+            <img src="assets/logo.png" class="img-fluid">
+        </div>
 
         <hr>
 
-        <!-- <p align="center">
-            Copyright © {{site.year}} <span class="d-block d-sm-none"></span>{{about.nameCN}} {{about.nameEN}}
+        <div class="row">
+            huodongxinxi
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <h2>
+                关于
+            </h2>
+            <p style="text-align:justify; text-justify:inter-ideograph">
+                <span v-html="about"></span>
+            </p>
+        </div>
+
+        <hr>
+
+        <p align="center">
+            Copyright © {{site.year}} <span class="d-block d-sm-none"></span>
+            HIT Webinar 团队
         </p>
 
         <p align="center">
             <small>
-                This <a v-bind:href="site.siteURL" target="_blank">website</a> is hosted on <a
-                    v-bind:href="site.repoURL" target="_blank">GitHub</a>.
-                Updated on {{site.lastUpdated}}.
+                This
+                <a v-bind:href="site.siteURL" target="_blank">website</a>
+                created by
+                <a v-bind:href="site.creatorURL" target="_blank">{{site.creator}}</a>
+                is hosted on
+                <a v-bind:href="site.repoURL" target="_blank">GitHub</a>.
             </small>
-        </p> -->
+        </p>
 
-        <!-- <p align="center" v-show="site.showPageviews"> -->
-        <p align="center">
+        <p align="center" v-show="site.showPageviews">
             <!-- Please DO NOT use the following page tracker if you are using my website as template. -->
             <small>Pageviews since 2023</small><br>
             <a href="https://clustrmaps.com/site/1bso5" title="Visit tracker">
-                <img src="https:///www.clustrmaps.com/map_v2.png?d=gL5NFeMPPK6kDESB2pWmbN-2sJuaFntXJno2i7tIv0A&cl=ffffff">
+                <img
+                    src="https:///www.clustrmaps.com/map_v2.png?d=gL5NFeMPPK6kDESB2pWmbN-2sJuaFntXJno2i7tIv0A&cl=ffffff">
             </a>
         </p>
 
@@ -54,7 +73,7 @@
     <script src="vender/bootstrap.min.js"></script>
 
     <script src="assets/data.js"></script>
-    <!-- <script src="assets/app.js"></script> -->
+    <script src="assets/app.js"></script>
 
 </body>
 
