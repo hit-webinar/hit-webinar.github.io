@@ -28,57 +28,54 @@
 
         <div class="row">
             <div class="col">
-                    <div v-for="(item, pid) in reports" style="text-align:justify; text-justify:inter-ideograph"
-                        v-on:mouseover="hoverRepId = pid" v-on:mouseleave="hoverRepId = -1">
+                <div v-for="(item, pid) in reports" style="text-align:justify; text-justify:inter-ideograph"
+                    v-on:mouseover="hoverRepId = pid" v-on:mouseleave="hoverRepId = -1">
 
-                        <div v-bind:class="{'bg-light': hoverRepId === pid}">
+                    <div v-bind:class="{'bg-light': hoverRepId === pid}">
 
-                            <h4>
-                                <span v-if="item.id.startsWith('routine')" class="badge badge-dark">
-                                    常规活动第{{item.id.slice(7)}}期
-                                </span>
-                                <span v-else class="badge badge-dark">
-                                    特邀报告
-                                </span>
-                                <span v-html="item.title"></span>
-
-                            </h4>
-
-
-                            <span v-if="item.id.startsWith('routine')">
-                                [新闻分享]
-                                {{item.speakerNews}}
-                                &nbsp;
-                                [论文分享]
-                                {{item.speakerPaper}}
+                        <h4>
+                            <span v-if="item.id.startsWith('routine')" class="badge badge-dark">
+                                常规活动第{{item.id.slice(7)}}期
                             </span>
-                            <span v-else>
-                                [特邀嘉宾]
-                                {{item.speaker}}
-                                &nbsp;
-                                [主持人]
-                                {{item.host}}
+                            <span v-else class="badge badge-dark">
+                                特邀报告
                             </span>
+                            <span v-html="item.title"></span>
+                        </h4>
 
-                            &nbsp;&nbsp;<i>@{{item.date}}</i>
+                        <span v-if="item.id.startsWith('routine')">
+                            [新闻分享]
+                            {{item.speakerNews}}
+                            &nbsp;
+                            [论文分享]
+                            {{item.speakerPaper}}
+                        </span>
+                        <span v-else>
+                            [特邀嘉宾]
+                            {{item.speaker}}
+                            &nbsp;
+                            [主持人]
+                            {{item.host}}
+                        </span>
 
+                        <br>
 
-                            <br>
+                        <i>@{{item.date}}</i>
 
-                            <span v-if="item.materials">
-                                <span v-for="material in item.materials">
-                                    [<a v-bind:href="material.href" target="_blank">{{material.tag}}</a>]
-                                </span>
+                        <span v-if="item.materials">
+                            <span v-for="material in item.materials">
+                                [<a v-bind:href="material.href" target="_blank">{{material.tag}}</a>]
                             </span>
-                        </div>
-
-                        <p align="center">
-                            <img v-if="item.poster && (hoverRepId === pid)" v-bind:src="'assets/poster/'+item.poster"
-                            class="img-fluid" style="max-width:400px;width:100%;height:auto;">
-                        </p>
-
-                        <hr>
+                        </span>
                     </div>
+
+                    <p align="center">
+                        <img v-if="item.poster && (hoverRepId === pid)" v-bind:src="'assets/poster/'+item.poster"
+                            class="img-fluid" style="max-width:400px;width:100%;height:auto;">
+                    </p>
+
+                    <hr>
+                </div>
             </div>
         </div>
 
