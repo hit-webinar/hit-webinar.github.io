@@ -19,24 +19,79 @@
     <div class="container" id="app">
 
         <div class="row">
-            <img src="assets/logo.png" class="img-fluid">
+            <div class="col">
+                <img src="assets/logo.png" class="img-fluid">
+            </div>
         </div>
 
         <hr>
 
         <div class="row">
-            huodongxinxi
+            <div class="col">
+                <ul>
+                    <li v-for="(item, pid) in reports" style="text-align:justify; text-justify:inter-ideograph"
+                        v-on:mouseover="hoverRepId = pid" v-on:mouseleave="hoverRepId = -1">
+
+                        <div v-bind:class="{'bg-light': hoverRepId === pid}">
+
+                            <h4>
+                                <span v-if="item.id.startsWith('routine')" class="badge badge-dark">
+                                    常规活动第{{item.id.slice(7)}}期
+                                </span>
+                                <span v-else class="badge badge-dark">
+                                    特邀报告
+                                </span>
+                                <span v-html="item.title"></span>
+
+                            </h4>
+
+
+                            <span v-if="item.id.startsWith('routine')">
+                                [新闻分享]
+                                {{item.speakerNews}}
+                                &nbsp;
+                                [论文分享]
+                                {{item.speakerPaper}}
+                            </span>
+                            <span v-else>
+                                [特邀嘉宾]
+                                {{item.speaker}}
+                                &nbsp;
+                                [主持人]
+                                {{item.host}}
+                            </span>
+
+                            &nbsp;&nbsp;<i>@{{item.date}}</i>
+
+
+                            <br>
+
+                            <span v-if="item.materials">
+                                <span v-for="material in item.materials">
+                                    [<a v-bind:href="material.href" target="_blank">{{material.tag}}</a>]
+                                </span>
+                            </span>
+                        </div>
+
+                        <img v-if="item.poster && (hoverRepId === pid)" v-bind:src="'assets/poster/'+item.poster"
+                            class="img-fluid" style="max-width:450px; height:auto">
+                    </li>
+                </ul>
+            </div>
         </div>
 
         <hr>
 
         <div class="row">
-            <h2>
-                关于
-            </h2>
-            <p style="text-align:justify; text-justify:inter-ideograph">
-                <span v-html="about"></span>
-            </p>
+            <div class="col">
+                <h2>
+                    关于
+                </h2>
+                <p style="text-align:justify; text-justify:inter-ideograph">
+                    <span v-html="about"></span>
+                </p>
+            </div>
+
         </div>
 
         <hr>
@@ -58,7 +113,7 @@
         </p>
 
         <p align="center" v-show="site.showPageviews">
-            <!-- Please DO NOT use the following page tracker if you are using my website as template. -->
+            Please DO NOT use the following page tracker if you are using my website as template.
             <small>Pageviews since 2023</small><br>
             <a href="https://clustrmaps.com/site/1bso5" title="Visit tracker">
                 <img

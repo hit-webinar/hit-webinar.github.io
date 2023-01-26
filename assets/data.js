@@ -15,7 +15,35 @@ HIT Webinar由点内科技、高校学生学术联盟医工学人、上海交通
 
 const reports = [
     {
-        "id": "routine23",
-        "title": "",
-    }
+        id: "routine23",
+        poster: "routine23.jpeg",
+        date: "2023/1/13",
+        title: "[ECCV 2022] 部分距离相关性在深度学习中的应用",
+        speakerPaper: "李之豪",
+        speakerNews: "旷小欢",
+        materials: [
+            {
+                tag: "论文",
+                href: "https://arxiv.org/abs/2207.09684"
+            },
+        ],
+    },
+    {
+        id: "talk230106",
+        poster: "talk230106.jpeg",
+        date: "2023/1/6",
+        title: "北大博士后分享时序电子病历可解释分析",
+        speaker: "马连韬",
+        host: "景宝宇",
+        materials: [
+            {
+                tag: "论文1",
+                href: "https://arxiv.org/abs/2209.07805"
+            },
+            {
+                tag: "论文2",
+                href: "https://ojs.aaai.org//index.php/AAAI/article/view/5427"
+            },
+        ],
+    },
 ];
