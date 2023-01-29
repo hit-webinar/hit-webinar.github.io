@@ -34,10 +34,10 @@
                     <div v-bind:class="{'bg-light': hoverRepId === pid}">
 
                         <h4>
-                            <span v-if="item.id.startsWith('routine')" class="badge badge-dark">
+                            <span v-if="item.id.startsWith('routine')" class="badge badge-info">
                                 常规活动第{{item.id.slice(7)}}期
                             </span>
-                            <span v-else class="badge badge-dark">
+                            <span v-else class="badge badge-warning">
                                 特邀报告
                             </span>
                             <span v-html="item.title"></span>
@@ -86,7 +86,7 @@
 
                     <div>
                         <h4>
-                            <span class="badge badge-dark">
+                            <span class="badge badge-light">
                                 试运行
                             </span>
                             <span v-html="item.title"></span>
