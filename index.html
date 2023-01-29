@@ -44,11 +44,11 @@
                         </h4>
 
                         <span v-if="item.id.startsWith('routine')">
-                            [新闻分享]
-                            {{item.speakerNews}}
-                            &nbsp;
                             [论文分享]
                             {{item.speakerPaper}}
+                            &nbsp;
+                            [新闻分享]
+                            {{item.speakerNews}}
                         </span>
                         <span v-else>
                             [特邀嘉宾]
