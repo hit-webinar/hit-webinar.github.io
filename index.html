@@ -43,7 +43,7 @@
                             <span v-html="item.title"></span>
                         </h4>
 
-                        <span v-if="item.id.startsWith('routine')">
+                        <span v-if="item.speakerPaper">
                             [论文分享]
                             {{item.speakerPaper}}
                             &nbsp;
@@ -74,6 +74,50 @@
                         <img v-if="item.poster && (hoverRepId === pid)" v-bind:src="'assets/poster/'+item.poster"
                             class="img-fluid" style="max-width:400px;width:100%;height:auto;">
                     </p>
+
+                    <hr>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div v-for="(item, pid) in tests" style="text-align:justify; text-justify:inter-ideograph">
+
+                    <div>
+                        <h4>
+                            <span class="badge badge-dark">
+                                试运行
+                            </span>
+                            <span v-html="item.title"></span>
+                        </h4>
+
+                        <span v-if="item.speakerPaper">
+                            [论文分享]
+                            {{item.speakerPaper}}
+                            &nbsp;
+                            [新闻分享]
+                            {{item.speakerNews}}
+                        </span>
+                        <span v-else>
+                            [特邀嘉宾]
+                            {{item.speaker}}
+                            &nbsp;
+                            [主持人]
+                            {{item.host}}
+                        </span>
+
+                        <br>
+
+                        <i>@{{item.date}}</i>
+                        &nbsp;
+
+                        <span v-if="item.materials">
+                            <span v-for="material in item.materials">
+                                [<a v-bind:href="material.href" target="_blank">{{material.tag}}</a>]
+                            </span>
+                        </span>
+                    </div>
 
                     <hr>
                 </div>

@@ -189,7 +189,7 @@ const reports = [
         id: "routine14",
         poster: "routine14.jpeg",
         date: "2022/10/14",
-        title: "[Nature BME] 患者脑血管的经颅超快超声定位显微镜",
+        title: "[Nature BME'21] 患者脑血管的经颅超快超声定位显微镜",
         speakerPaper: "李轶恒",
         speakerNews: "罗虎",
         materials: [
@@ -249,10 +249,6 @@ const reports = [
         speaker: "曾以诺",
         host: "刘帅",
         materials: [
-            {
-                tag: "讲者主页",
-                href: "nan"
-            },
         ]
     },
     {
@@ -357,10 +353,6 @@ const reports = [
         speakerPaper: "王琼",
         speakerNews: "罗虎",
         materials: [
-            {
-                tag: "论文",
-                href: "nan"
-            },
         ]
     },
     {
@@ -465,3 +457,70 @@ HlT意为Healthcare，Intelligence和Technology，关注诸多医疗科技领域
 HIT Webinar由点内科技、高校学生学术联盟医工学人、上海交通大学HealthX医疗科技俱乐部、DrugAI公众号、中美生科青年创投俱乐部共同发起和组织，包含常规活动和特邀报告。
 常规活动主要包括论文精读分享和产学研用行业新闻分享，特邀报告则将邀请嘉宾分享特定领域的前沿进展。<br>
 活动通常于每周五晚上进行。`;
+
+const tests = [
+    {
+        date: "2022/05/27",
+        title: "[Patterns'22] HINT: Hierarchical Interaction Network for Clinical Trial Outcome Prediction",
+        speaker: "符天凡",
+        host: "周介立",
+        materials: [
+            {
+                tag: "讲者主页",
+                href: "https://futianfan.github.io/"
+            },
+            {
+                tag: "论文",
+                href: "https://www.sciencedirect.com/science/article/pii/S2666389922000186"
+            },
+        ],
+    },
+    {
+        date: "2022/05/20",
+        title: "[arXiv'22/TMLR'22] A Generalist Agent",
+        speakerPaper: "卢鸣轩",
+        speakerNews: "王天予",
+        materials: [
+            {
+                tag: "论文",
+                href: "https://www.deepmind.com/publications/a-generalist-agent"
+            },
+        ],
+    },
+    {
+        date: "2022/05/13",
+        title: "[CVPR'22] HINT: Hierarchical Interaction Network for Clinical Trial Outcome Prediction",
+        speakerPaper: "袁康",
+        speakerNews: "杨健程",
+        materials: [
+            {
+                tag: "论文",
+                href: "https://arxiv.org/abs/2203.16427"
+            },
+        ],
+    },
+    {
+        date: "2022/05/06",
+        title: "[Nature Medicine'22] Swarm learning for decentralized artificial intelligence in cancer histopathology",
+        speakerPaper: "周介立",
+        speakerNews: "卢鸣轩",
+        materials: [
+            {
+                tag: "论文",
+                href: "https://www.nature.com/articles/s41591-022-01768-5"
+            },
+        ],
+    },
+    {
+        date: "2022/04/29",
+        title: "[CVPR'22] Joint Distribution Matters: Deep Brownian Distance Covariance for Few-Shot Classification",
+        speakerPaper: "旷小欢",
+        speakerNews: "袁康",
+        materials: [
+            {
+                tag: "论文",
+                href: "https://arxiv.org/abs/2204.04567"
+            },
+        ],
+    },
+];
