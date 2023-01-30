@@ -3,7 +3,7 @@ const reports = [
         id: "routine24",
         poster: "routine24.jpeg",
         date: "2023/02/03",
-        title: "[NeurIPS 2022] C-mixup: 提高回归任务的泛化能力",
+        title: "[NeurIPS'22] C-mixup: 提高回归任务的泛化能力",
         speakerPaper: "李璟瑜",
         speakerNews: "俞映红",
         materials: [
