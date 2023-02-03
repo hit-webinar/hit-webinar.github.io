@@ -367,6 +367,10 @@ const reports = [
         speakerPaper: "王琼",
         speakerNews: "罗虎",
         materials: [
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1n84y157Su/"
+            },
         ]
     },
     {
