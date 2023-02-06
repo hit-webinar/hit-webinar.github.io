@@ -343,6 +343,10 @@ const reports = [
                 tag: "论文",
                 href: "https://www.nature.com/articles/s41591-022-01894-0"
             },
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1DM411e7FR/"
+            },
         ]
     },
     {
@@ -356,6 +360,10 @@ const reports = [
             {
                 tag: "讲者主页",
                 href: "https://sailor-z.github.io/"
+            },
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV12T411d7oi/"
             },
         ]
     },
