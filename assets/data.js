@@ -1,5 +1,19 @@
 const reports = [
     {
+        id: "routine25",
+        poster: "routine25.jpeg",
+        date: "2023/02/10",
+        title: "[Front. Cardiovasc. Med'20] IVUS/OCT的研究进展及新型混合导管系统在冠状动脉成像中的应用前景",
+        speakerPaper: "杨炳乾",
+        speakerNews: "徐嘉阳",
+        materials: [
+            {
+                tag: "论文",
+                href: "https://doi.org/10.3389/fcvm.2020.00119"
+            },
+        ],
+    },
+    {
         id: "routine24",
         poster: "routine24.jpeg",
         date: "2023/02/03",
