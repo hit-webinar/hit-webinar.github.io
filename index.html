@@ -43,6 +43,9 @@
                             <span v-html="item.title"></span>
                         </h4>
 
+                        <i>{{item.date}}</i>
+                        &nbsp;
+
                         <span v-if="item.speakerPaper">
                             [论文分享]
                             {{item.speakerPaper}}
@@ -59,9 +62,6 @@
                         </span>
 
                         <br>
-
-                        <i>@{{item.date}}</i>
-                        &nbsp;
 
                         <span v-if="item.materials">
                             <span v-for="material in item.materials">
@@ -92,6 +92,9 @@
                             <span v-html="item.title"></span>
                         </h4>
 
+                        <i>{{item.date}}</i>
+                        &nbsp;
+
                         <span v-if="item.speakerPaper">
                             [论文分享]
                             {{item.speakerPaper}}
@@ -107,10 +110,7 @@
                             {{item.host}}
                         </span>
 
-                        <br>
-
-                        <i>@{{item.date}}</i>
-                        &nbsp;
+                        <br>            
 
                         <span v-if="item.materials">
                             <span v-for="material in item.materials">
