@@ -46,7 +46,7 @@ const reports = [
         poster: "talk230106.jpeg",
         date: "2023/01/06",
         title: "北大博士后分享时序电子病历可解释分析",
-        speaker: "马连韬",
+        speaker: "马连韬-北大",
         host: "景宝宇",
         materials: [
             {
@@ -92,7 +92,7 @@ const reports = [
         poster: "talk221216.jpeg",
         date: "2022/12/16",
         title: "约翰霍普金斯博士后分享医学图像分析",
-        speaker: "周纵苇",
+        speaker: "周纵苇-JHU",
         host: "杨健程",
         materials: [
             {
@@ -120,7 +120,7 @@ const reports = [
         poster: "talk221203.jpeg",
         date: "2022/12/03",
         title: "Mila博士分享AI制药与蛋白质表征学习",
-        speaker: "徐明皓",
+        speaker: "徐明皓-Mila",
         host: "杨健程",
         materials: [
             {
@@ -190,7 +190,7 @@ const reports = [
         poster: "talk221028.jpeg",
         date: "2022/10/28",
         title: "北航副教授分享新一代智能感知和混合现实",
-        speaker: "邹征夏",
+        speaker: "邹征夏-北航",
         host: "杨健程",
         materials: [
             {
@@ -232,7 +232,7 @@ const reports = [
         poster: "talk221007.jpeg",
         date: "2022/10/07",
         title: "哈佛医学院博士后解读神经图像合成技术及其临床应用",
-        speaker: "李宏伟",
+        speaker: "李宏伟-Harvard/TUM",
         host: "杨健程",
         materials: [
             {
@@ -274,7 +274,7 @@ const reports = [
         poster: "talk220918.jpeg",
         date: "2022/09/18",
         title: "经颅超声刺激——一种新型的非侵入式神经调控技术",
-        speaker: "曾以诺",
+        speaker: "曾以诺-交大",
         host: "刘帅",
         materials: [
         ]
@@ -312,7 +312,7 @@ const reports = [
         poster: "talk220827.jpeg",
         date: "2022/08/27",
         title: "以临床用户为中心的可解释AI在医学图像分析的应用",
-        speaker: "金巍娜",
+        speaker: "金巍娜-Simon Fraser",
         host: "周介立",
         materials: [
             {
@@ -368,7 +368,7 @@ const reports = [
         poster: "talk220730.jpeg",
         date: "2022/07/30",
         title: "ECCV作者分享3D计算机视觉的前沿进展",
-        speaker: "赵晨",
+        speaker: "赵晨-EPFL",
         host: "杨健程",
         materials: [
             {
@@ -414,7 +414,7 @@ const reports = [
         poster: "talk220710.jpeg",
         date: "2022/07/10",
         title: "Nature Medicine 作者分享健康和医学领域的人工智能",
-        speaker: "Emma Chen",
+        speaker: "Emma Chen-Stanford/Harvard",
         host: "周介立",
         materials: [
             {
@@ -502,7 +502,7 @@ const tests = [
     {
         date: "2022/05/27",
         title: "[Patterns'22] HINT: Hierarchical Interaction Network for Clinical Trial Outcome Prediction",
-        speaker: "符天凡",
+        speaker: "符天凡-Gatech",
         host: "周介立",
         materials: [
             {
