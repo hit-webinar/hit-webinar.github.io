@@ -197,6 +197,10 @@ const reports = [
                 tag: "讲者主页",
                 href: "https://zhengxiazou.github.io/"
             },
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV15Y411q7rG/"
+            },
         ]
     },
     {
@@ -210,6 +214,10 @@ const reports = [
             {
                 tag: "论文",
                 href: "https://arxiv.org/pdf/2205.09113.pdf"
+            },
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1Q24y1i74q/"
             },
         ]
     },
@@ -238,6 +246,10 @@ const reports = [
             {
                 tag: "讲者主页",
                 href: "https://hongweilibran.github.io/"
+            },
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1hR4y1z7zk/"
             },
         ]
     },
@@ -291,6 +303,10 @@ const reports = [
                 tag: "论文",
                 href: "https://arxiv.org/abs/2207.03337"
             },
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1Zy4y1D7vM/"
+            },
         ]
     },
     {
@@ -329,6 +345,10 @@ const reports = [
         speakerPaper: "任冯刚&李卓群",
         speakerNews: "杨炳乾",
         materials: [
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1h24y1i72n/"
+            },
         ]
     },
     {
@@ -342,6 +362,10 @@ const reports = [
             {
                 tag: "论文",
                 href: "https://jianglongye.com/gifs/"
+            },
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1Gv4y1b7Gk/"
             },
         ]
     },
