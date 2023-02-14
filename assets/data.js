@@ -1,5 +1,19 @@
 const reports = [
     {
+        id: "routine26",
+        poster: "routine26.jpeg",
+        date: "2023/02/17",
+        title: "[AAAI 2023] 基于变分特征融合的少样本目标检测模型",
+        speakerPaper: "旷小欢",
+        speakerNews: "李璟瑜",
+        materials: [
+            {
+                tag: "论文",
+                href: "https://arxiv.org/abs/2301.13411"
+            },
+        ],
+    },
+    {
         id: "routine25",
         poster: "routine25.jpeg",
         date: "2023/02/10",
