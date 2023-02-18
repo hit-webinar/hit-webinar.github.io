@@ -3,7 +3,7 @@ const reports = [
         id: "routine26",
         poster: "routine26.jpeg",
         date: "2023/02/17",
-        title: "[AAAI 2023] 基于变分特征融合的少样本目标检测模型",
+        title: "[AAAI'23] 基于变分特征融合的少样本目标检测模型",
         speakerPaper: "旷小欢",
         speakerNews: "李璟瑜",
         materials: [
@@ -113,6 +113,10 @@ const reports = [
                 tag: "讲者主页",
                 href: "https://www.zongweiz.com/"
             },
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1uj411T7uq/"
+            },
         ]
     },
     {
@@ -127,6 +131,10 @@ const reports = [
                 tag: "论文",
                 href: "https://www.science.org/doi/10.1126/scirobotics.aay9108"
             },
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1aM4y1Q7uF/"
+            },
         ]
     },
     {
@@ -140,6 +148,10 @@ const reports = [
             {
                 tag: "讲者主页",
                 href: "https://chrisallenming.github.io/"
+            },
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1ZA411B7AG/"
             },
         ]
     },
@@ -169,6 +181,10 @@ const reports = [
                 tag: "论文",
                 href: "https://www.science.org/doi/10.1126/scitranslmed.abn6036"
             },
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1VM411e7EE/"
+            },
         ]
     },
     {
@@ -183,6 +199,10 @@ const reports = [
                 tag: "论文",
                 href: "https://arxiv.org/abs/2207.07361"
             },
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1L14y1c7Ab/"
+            },
         ]
     },
     {
@@ -196,6 +216,10 @@ const reports = [
             {
                 tag: "论文",
                 href: "https://doi.org/10.1038/s41928-022-00851-6"
+            },
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1ZG4y1U79c/"
             },
         ]
     },
