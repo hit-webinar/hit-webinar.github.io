@@ -1,5 +1,19 @@
 const reports = [
     {
+        id: "talk230224",
+        poster: "talk230224.jpeg",
+        date: "2023/02/24",
+        title: "智能药物设计方法在难成药靶点上的实践",
+        speaker: "郑双佳",
+        host: "杨健程",
+        materials: [
+            {
+                tag: "讲者主页",
+                href: " https://prokia.github.io/"
+            },
+        ],
+    },
+    {
         id: "routine26",
         poster: "routine26.jpeg",
         date: "2023/02/17",
