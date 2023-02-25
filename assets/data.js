@@ -4,7 +4,7 @@ const reports = [
         poster: "talk230224.jpeg",
         date: "2023/02/24",
         title: "智能药物设计方法在难成药靶点上的实践",
-        speaker: "郑双佳",
+        speaker: "郑双佳 中山/星药",
         host: "杨健程",
         materials: [
             {
@@ -25,6 +25,10 @@ const reports = [
                 tag: "论文",
                 href: "https://arxiv.org/abs/2301.13411"
             },
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1eY411v7rc/"
+            },
         ],
     },
     {
@@ -38,6 +42,10 @@ const reports = [
             {
                 tag: "论文",
                 href: "https://doi.org/10.3389/fcvm.2020.00119"
+            },
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1rM411E76f/"
             },
         ],
     },
@@ -53,6 +61,10 @@ const reports = [
                 tag: "论文",
                 href: "https://arxiv.org/abs/2210.05775"
             },
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1Hv4y1W7YU/"
+            },
         ],
     },
     {
@@ -67,14 +79,18 @@ const reports = [
                 tag: "论文",
                 href: "https://arxiv.org/abs/2207.09684"
             },
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1iA411U7ik/"
+            },
         ],
     },
     {
         id: "talk230106",
         poster: "talk230106.jpeg",
         date: "2023/01/06",
-        title: "北大博士后分享时序电子病历可解释分析",
-        speaker: "马连韬-北大",
+        title: "多变量时序电子病历数据深度学习可解释分析",
+        speaker: "马连韬 北大",
         host: "景宝宇",
         materials: [
             {
@@ -84,6 +100,10 @@ const reports = [
             {
                 tag: "论文2",
                 href: "https://ojs.aaai.org//index.php/AAAI/article/view/5427"
+            },
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1YA411U7yw/"
             },
         ],
     },
@@ -99,6 +119,10 @@ const reports = [
                 tag: "论文",
                 href: "https://ieeexplore.ieee.org/document/9756910"
             },
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1dR4y1q7xv/"
+            },
         ]
     },
     {
@@ -113,14 +137,18 @@ const reports = [
                 tag: "论文",
                 href: "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136900423.pdf"
             },
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1nj411T7ov/"
+            },
         ]
     },
     {
         id: "talk221216",
         poster: "talk221216.jpeg",
         date: "2022/12/16",
-        title: "约翰霍普金斯博士后分享医学图像分析",
-        speaker: "周纵苇-JHU",
+        title: "如何高效利用已公开的医学影像数据集",
+        speaker: "周纵苇 JHU",
         host: "杨健程",
         materials: [
             {
@@ -155,8 +183,8 @@ const reports = [
         id: "talk221203",
         poster: "talk221203.jpeg",
         date: "2022/12/03",
-        title: "Mila博士分享AI制药与蛋白质表征学习",
-        speaker: "徐明皓-Mila",
+        title: "蛋白质表征学习：基准测试与模型设计",
+        speaker: "徐明皓 Mila",
         host: "杨健程",
         materials: [
             {
@@ -241,8 +269,8 @@ const reports = [
         id: "talk221028",
         poster: "talk221028.jpeg",
         date: "2022/10/28",
-        title: "北航副教授分享新一代智能感知和混合现实",
-        speaker: "邹征夏-北航",
+        title: "面向新一代无人系统的智能感知和混合现实技术",
+        speaker: "邹征夏 北航",
         host: "杨健程",
         materials: [
             {
@@ -291,8 +319,8 @@ const reports = [
         id: "talk221007",
         poster: "talk221007.jpeg",
         date: "2022/10/07",
-        title: "哈佛医学院博士后解读神经图像合成技术及其临床应用",
-        speaker: "李宏伟-Harvard/TUM",
+        title: "神经图像合成技术及其在多发性硬化症的临床应用",
+        speaker: "李宏伟 Harvard/TUM",
         host: "杨健程",
         materials: [
             {
@@ -338,7 +366,7 @@ const reports = [
         poster: "talk220918.jpeg",
         date: "2022/09/18",
         title: "经颅超声刺激——一种新型的非侵入式神经调控技术",
-        speaker: "曾以诺-交大",
+        speaker: "曾以诺 上海交大",
         host: "刘帅",
         materials: [
         ]
@@ -380,7 +408,7 @@ const reports = [
         poster: "talk220827.jpeg",
         date: "2022/08/27",
         title: "以临床用户为中心的可解释AI在医学图像分析的应用",
-        speaker: "金巍娜-Simon Fraser",
+        speaker: "金巍娜 Simon Fraser",
         host: "周介立",
         materials: [
             {
@@ -444,7 +472,7 @@ const reports = [
         poster: "talk220730.jpeg",
         date: "2022/07/30",
         title: "ECCV作者分享3D计算机视觉的前沿进展",
-        speaker: "赵晨-EPFL",
+        speaker: "赵晨 EPFL",
         host: "杨健程",
         materials: [
             {
@@ -490,7 +518,7 @@ const reports = [
         poster: "talk220710.jpeg",
         date: "2022/07/10",
         title: "Nature Medicine 作者分享健康和医学领域的人工智能",
-        speaker: "Emma Chen-Stanford/Harvard",
+        speaker: "Emma Chen Stanford/Harvard",
         host: "周介立",
         materials: [
             {
