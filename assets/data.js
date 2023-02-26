@@ -606,7 +606,7 @@ const tests = [
     {
         date: "2022/05/27",
         title: "[Patterns'22] HINT: Hierarchical Interaction Network for Clinical Trial Outcome Prediction",
-        speaker: "符天凡-Gatech",
+        speaker: "符天凡 Gatech",
         host: "周介立",
         materials: [
             {
