@@ -11,6 +11,10 @@ const reports = [
                 tag: "讲者主页",
                 href: " https://prokia.github.io/"
             },
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1To4y1e75K/"
+            },            
         ],
     },
     {
