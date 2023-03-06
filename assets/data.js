@@ -7,10 +7,10 @@ const reports = [
         speakerPaper: "张星语",
         speakerNews: "杨炳乾",
         materials: [
-            {
-                tag: "视频回放",
-                href: "#TODO"
-            },
+            // {
+            //     tag: "视频回放",
+            //     href: "#TODO"
+            // },
         ],
     },
     {
