@@ -1,5 +1,19 @@
 const reports = [
     {
+        id: "routine27",
+        poster: "routine27.jpg",
+        date: "2023/03/10",
+        title: "基于“形压匹配”的糖尿病足分级刚度鞋垫研究综述",
+        speakerPaper: "张星语",
+        speakerNews: "杨炳乾",
+        materials: [
+            {
+                tag: "视频回放",
+                href: "#TODO"
+            },
+        ],
+    },
+    {
         id: "talk230224",
         poster: "talk230224.jpeg",
         date: "2023/02/24",
@@ -604,7 +618,7 @@ const about = `HIT Webinar是一个聚焦生物医疗，人工智能以及前沿
 HlT意为Healthcare，Intelligence和Technology，关注诸多医疗科技领域的前沿问题，包括医学影像处理、计算机视觉、智慧医疗、生物信息学、新型临床诊疗装备、智能康复机器人、医疗可穿戴设备、人工智能辅助制药等等。<br>
 HIT Webinar由点内科技、高校学生学术联盟医工学人、上海交通大学HealthX医疗科技俱乐部、中美生科青年创投俱乐部共同发起和组织，包含常规活动和特邀报告。
 常规活动主要包括论文精读分享和产学研用行业新闻分享，特邀报告则将邀请嘉宾分享特定领域的前沿进展。<br>
-活动通常于每周五晚上进行。`;
+活动通常于周五晚上进行。`;
 
 const tests = [
     {
