@@ -5,12 +5,12 @@ const reports = [
         date: "2023/03/10",
         title: "基于“形压匹配”的糖尿病足分级刚度鞋垫研究综述",
         speakerPaper: "张星语",
-        speakerNews: "杨炳乾",
+        speakerNews: "罗虎",
         materials: [
-            // {
-            //     tag: "视频回放",
-            //     href: "#TODO"
-            // },
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1xL411y7XB/"
+            },
         ],
     },
     {
