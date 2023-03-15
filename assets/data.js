@@ -1,22 +1,22 @@
 const reports = [
-    // {
-    //     id: "talk230324",
-    //     poster: "talk230324.jpeg",
-    //     date: "2023/03/24",
-    //     title: "AR/VR中的神经渲染、编辑交互与基于耳廓重建的声场应用",
-    //     speaker: "黄晓阳 上海交大",
-    //     host: "杨健程",
-    //     materials: [
-    //         {
-    //             tag: "讲者主页",
-    //             href: " https://github.com/seanywang0408"
-    //         },
-    //         {
-    //             tag: "视频回放",
-    //             href: ""
-    //         },            
-    //     ],
-    // },
+    {
+        id: "talk230324",
+        poster: "talk230324.jpeg",
+        date: "2023/03/24",
+        title: "AR/VR中的神经渲染、编辑交互与基于耳廓重建的声场应用",
+        speaker: "黄晓阳 上海交大",
+        host: "杨健程",
+        materials: [
+            {
+                tag: "讲者主页",
+                href: " https://github.com/seanywang0408"
+            },
+            {
+                tag: "视频回放",
+                href: ""
+            },            
+        ],
+    },
     {
         id: "routine27",
         poster: "routine27.jpg",
