@@ -14,8 +14,12 @@ const reports = [
             {
                 tag: "视频回放",
                 href: ""
-            },            
+            },
         ],
+        topics: [
+            "Intelligence",
+            "Technology"
+        ]
     },
     {
         id: "routine27",
@@ -30,6 +34,10 @@ const reports = [
                 href: "https://www.bilibili.com/video/BV1xL411y7XB/"
             },
         ],
+        topics: [
+            "Healthcare",
+            "Technology"
+        ]
     },
     {
         id: "talk230224",
@@ -46,8 +54,12 @@ const reports = [
             {
                 tag: "视频回放",
                 href: "https://www.bilibili.com/video/BV1To4y1e75K/"
-            },            
+            },
         ],
+        topics: [
+            "Healthcare",
+            "Intelligence"
+        ]
     },
     {
         id: "routine26",
@@ -66,6 +78,9 @@ const reports = [
                 href: "https://www.bilibili.com/video/BV1eY411v7rc/"
             },
         ],
+        topics: [
+            "Intelligence",
+        ]
     },
     {
         id: "routine25",
@@ -84,6 +99,10 @@ const reports = [
                 href: "https://www.bilibili.com/video/BV1rM411E76f/"
             },
         ],
+        topics: [
+            "Healthcare",
+            "Technology"
+        ]
     },
     {
         id: "routine24",
@@ -102,6 +121,9 @@ const reports = [
                 href: "https://www.bilibili.com/video/BV1Hv4y1W7YU/"
             },
         ],
+        topics: [
+            "Intelligence",
+        ]
     },
     {
         id: "routine23",
@@ -120,6 +142,9 @@ const reports = [
                 href: "https://www.bilibili.com/video/BV1iA411U7ik/"
             },
         ],
+        topics: [
+            "Intelligence",
+        ]
     },
     {
         id: "talk230106",
@@ -142,6 +167,10 @@ const reports = [
                 href: "https://www.bilibili.com/video/BV1YA411U7yw/"
             },
         ],
+        topics: [
+            "Healthcare",
+            "Intelligence"
+        ]
     },
     {
         id: "routine22",
@@ -159,6 +188,10 @@ const reports = [
                 tag: "视频回放",
                 href: "https://www.bilibili.com/video/BV1dR4y1q7xv/"
             },
+        ],
+        topics: [
+            "Healthcare",
+            "Technology"
         ]
     },
     {
@@ -177,6 +210,9 @@ const reports = [
                 tag: "视频回放",
                 href: "https://www.bilibili.com/video/BV1nj411T7ov/"
             },
+        ],
+        topics: [
+            "Intelligence"
         ]
     },
     {
@@ -195,6 +231,10 @@ const reports = [
                 tag: "视频回放",
                 href: "https://www.bilibili.com/video/BV1uj411T7uq/"
             },
+        ],
+        topics: [
+            "Healthcare",
+            "Intelligence"
         ]
     },
     {
@@ -213,6 +253,10 @@ const reports = [
                 tag: "视频回放",
                 href: "https://www.bilibili.com/video/BV1aM4y1Q7uF/"
             },
+        ],
+        topics: [
+            "Healthcare",
+            "Technology"
         ]
     },
     {
@@ -231,6 +275,10 @@ const reports = [
                 tag: "视频回放",
                 href: "https://www.bilibili.com/video/BV1ZA411B7AG/"
             },
+        ],
+        topics: [
+            "Healthcare",
+            "Intelligence"
         ]
     },
     {
@@ -245,6 +293,9 @@ const reports = [
                 tag: "论文",
                 href: "https://arxiv.org/abs/2112.01528"
             },
+        ],
+        topics: [
+            "Intelligence"
         ]
     },
     {
@@ -263,6 +314,10 @@ const reports = [
                 tag: "视频回放",
                 href: "https://www.bilibili.com/video/BV1VM411e7EE/"
             },
+        ],
+        topics: [
+            "Healthcare",
+            "Technology"
         ]
     },
     {
@@ -281,6 +336,9 @@ const reports = [
                 tag: "视频回放",
                 href: "https://www.bilibili.com/video/BV1L14y1c7Ab/"
             },
+        ],
+        topics: [
+            "Intelligence"
         ]
     },
     {
@@ -299,6 +357,10 @@ const reports = [
                 tag: "视频回放",
                 href: "https://www.bilibili.com/video/BV1ZG4y1U79c/"
             },
+        ],
+        topics: [
+            "Healthcare",
+            "Technology"
         ]
     },
     {
@@ -313,6 +375,10 @@ const reports = [
                 tag: "讲者主页",
                 href: "https://zhengxiazou.github.io/"
             }
+        ],
+        topics: [
+            "Intelligence",
+            "Technology"
         ]
     },
     {
@@ -331,6 +397,9 @@ const reports = [
                 tag: "视频回放",
                 href: "https://www.bilibili.com/video/BV1Q24y1i74q/"
             },
+        ],
+        topics: [
+            "Intelligence"
         ]
     },
     {
@@ -345,6 +414,10 @@ const reports = [
                 tag: "论文",
                 href: "https://www.nature.com/articles/s41551-021-00697-x"
             },
+        ],
+        topics: [
+            "Healthcare",
+            "Technology"
         ]
     },
     {
@@ -363,6 +436,10 @@ const reports = [
                 tag: "视频回放",
                 href: "https://www.bilibili.com/video/BV1hR4y1z7zk/"
             },
+        ],
+        topics: [
+            "Healthcare",
+            "Intelligence",
         ]
     },
     {
@@ -377,6 +454,9 @@ const reports = [
                 tag: "论文",
                 href: "https://openaccess.thecvf.com/content/CVPR2022/papers/Iofinova_How_Well_Do_Sparse_ImageNet_Models_Transfer_CVPR_2022_paper.pdf"
             },
+        ],
+        topics: [
+            "Intelligence"
         ]
     },
     {
@@ -391,6 +471,9 @@ const reports = [
                 tag: "论文",
                 href: "https://arxiv.org/abs/2207.00476"
             },
+        ],
+        topics: [
+            "Intelligence"
         ]
     },
     {
@@ -401,6 +484,10 @@ const reports = [
         speaker: "曾以诺 上海交大",
         host: "刘帅",
         materials: [
+        ],
+        topics: [
+            "Healthcare",
+            "Technology"
         ]
     },
     {
@@ -419,6 +506,9 @@ const reports = [
                 tag: "视频回放",
                 href: "https://www.bilibili.com/video/BV1Zy4y1D7vM/"
             },
+        ],
+        topics: [
+            "Intelligence"
         ]
     },
     {
@@ -433,6 +523,9 @@ const reports = [
                 tag: "论文",
                 href: "https://arxiv.org/abs/2203.13254"
             },
+        ],
+        topics: [
+            "Intelligence"
         ]
     },
     {
@@ -447,6 +540,10 @@ const reports = [
                 tag: "讲者主页",
                 href: "https://weina.me/"
             },
+        ],
+        topics: [
+            "Healthcare",
+            "Intelligence"
         ]
     },
     {
@@ -461,6 +558,10 @@ const reports = [
                 tag: "视频回放",
                 href: "https://www.bilibili.com/video/BV1h24y1i72n/"
             },
+        ],
+        topics: [
+            "Healthcare",
+            "Technology"
         ]
     },
     {
@@ -479,13 +580,16 @@ const reports = [
                 tag: "视频回放",
                 href: "https://www.bilibili.com/video/BV1Gv4y1b7Gk/"
             },
+        ],
+        topics: [
+            "Intelligence"
         ]
     },
     {
         id: "routine7",
         poster: "routine7.jpeg",
         date: "2022/08/05",
-        title: "[Nature Medicine'22] 人工智能加速败血症检测 ",
+        title: "[Nature Medicine'22] 人工智能加速败血症检测",
         speakerPaper: "周介立",
         speakerNews: "卢鸣轩",
         materials: [
@@ -497,6 +601,10 @@ const reports = [
                 tag: "视频回放",
                 href: "https://www.bilibili.com/video/BV1DM411e7FR/"
             },
+        ],
+        topics: [
+            "Healthcare",
+            "Intelligence"
         ]
     },
     {
@@ -515,6 +623,9 @@ const reports = [
                 tag: "视频回放",
                 href: "https://www.bilibili.com/video/BV12T411d7oi/"
             },
+        ],
+        topics: [
+            "Intelligence"
         ]
     },
     {
@@ -529,6 +640,10 @@ const reports = [
                 tag: "视频回放",
                 href: "https://www.bilibili.com/video/BV1n84y157Su/"
             },
+        ],
+        topics: [
+            "Healthcare",
+            "Technology"
         ]
     },
     {
@@ -543,6 +658,9 @@ const reports = [
                 tag: "论文",
                 href: "https://openaccess.thecvf.com/content/CVPR2022/papers/Cheng_Masked-Attention_Mask_Transformer_for_Universal_Image_Segmentation_CVPR_2022_paper.pdf"
             },
+        ],
+        topics: [
+            "Intelligence"
         ]
     },
     {
@@ -557,6 +675,10 @@ const reports = [
                 tag: "论文",
                 href: "https://www.nature.com/articles/s41591-021-01614-0"
             },
+        ],
+        topics: [
+            "Healthcare",
+            "Intelligence"
         ]
     },
     {
@@ -571,6 +693,9 @@ const reports = [
                 tag: "论文",
                 href: "https://arxiv.org/abs/2201.12740"
             },
+        ],
+        topics: [
+            "Intelligence"
         ]
     },
     {
@@ -585,6 +710,9 @@ const reports = [
                 tag: "论文",
                 href: "https://arxiv.org/abs/2203.01881"
             },
+        ],
+        topics: [
+            "Intelligence"
         ]
     },
     {
@@ -599,6 +727,9 @@ const reports = [
                 tag: "论文",
                 href: "https://arxiv.org/abs/2206.02066"
             },
+        ],
+        topics: [
+            "Intelligence"
         ]
     },
     {
@@ -613,6 +744,9 @@ const reports = [
                 tag: "论文",
                 href: "https://arxiv.org/abs/2203.12119"
             },
+        ],
+        topics: [
+            "Intelligence"
         ]
     }
 ];
@@ -650,6 +784,10 @@ const tests = [
                 href: "https://www.sciencedirect.com/science/article/pii/S2666389922000186"
             },
         ],
+        topics: [
+            "Healthcare",
+            "Intelligence"
+        ]
     },
     {
         date: "2022/05/20",
@@ -662,6 +800,9 @@ const tests = [
                 href: "https://www.deepmind.com/publications/a-generalist-agent"
             },
         ],
+        topics: [
+            "Intelligence"
+        ]
     },
     {
         date: "2022/05/13",
@@ -674,6 +815,10 @@ const tests = [
                 href: "https://arxiv.org/abs/2203.16427"
             },
         ],
+        topics: [
+            "Healthcare",
+            "Intelligence"
+        ]
     },
     {
         date: "2022/05/06",
@@ -686,6 +831,10 @@ const tests = [
                 href: "https://www.nature.com/articles/s41591-022-01768-5"
             },
         ],
+        topics: [
+            "Healthcare",
+            "Intelligence"
+        ]
     },
     {
         date: "2022/04/29",
@@ -698,5 +847,8 @@ const tests = [
                 href: "https://arxiv.org/abs/2204.04567"
             },
         ],
+        topics: [
+            "Intelligence"
+        ]
     },
 ];

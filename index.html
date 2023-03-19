@@ -28,11 +28,24 @@
 
         <div class="row">
             <div class="col">
+                <h5>
+                    <span v-for="(count, topic) in topicCounter">
+                        <span class="badge" v-on:click="selectedTopic = topic"
+                            v-bind:class="[ selectedTopic == topic ? 'badge-dark': 'badge-light']">
+                            {{topic}} ({{count}})
+                        </span>
+                        &nbsp;
+                    </span>
+                </h5>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
                 <div v-for="(item, pid) in reports" style="text-align:justify; text-justify:inter-ideograph"
-                    v-on:mouseover="hoverRepId = pid" v-on:mouseleave="hoverRepId = -1">
-
+                    v-on:mouseover="hoverRepId = pid" v-on:mouseleave="hoverRepId = -1"
+                    v-if="item.topics.includes(selectedTopic)">
                     <div v-bind:class="{'bg-light': hoverRepId === pid}">
-
                         <h4>
                             <span v-if="item.id.startsWith('routine')" class="badge badge-info">
                                 常规活动第{{item.id.slice(7)}}期
@@ -82,8 +95,8 @@
 
         <div class="row">
             <div class="col">
-                <div v-for="(item, pid) in tests" style="text-align:justify; text-justify:inter-ideograph">
-
+                <div v-for="(item, pid) in tests" style="text-align:justify; text-justify:inter-ideograph"
+                    v-if="item.topics.includes(selectedTopic)">
                     <div>
                         <h4>
                             <span class="badge badge-light">
@@ -110,7 +123,7 @@
                             {{item.host}}
                         </span>
 
-                        <br>            
+                        <br>
 
                         <span v-if="item.materials">
                             <span v-for="material in item.materials">
@@ -134,6 +147,25 @@
                 </p>
             </div>
         </div>
+
+        <!-- <div class="row">
+            <div class="col">
+                <h2>
+                    现任组委
+                </h2>
+                // TODO：组织者信息（应该分为组委和讲者）
+
+                <h2>
+                    往期组委
+                </h2>
+                // TODO：组织者信息（应该分为组委和讲者）
+
+                <h2>
+                    合作单位
+                </h2>
+                // TODO：合作单位信息
+            </div>
+        </div> -->
 
         <div class="row">
             <div class="col">
