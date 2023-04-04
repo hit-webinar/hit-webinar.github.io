@@ -1,5 +1,27 @@
 const reports = [
     {
+        id: "routine28",
+        poster: "routine28.jpg",
+        date: "2023/04/07",
+        title: "足部多关节运动耦合关键技术分析研究",
+        speakerPaper: "黎杰文",
+        speakerNews: "刘帅",
+        materials: [
+            {
+                tag: "论文",
+                href: "https://www.sciencedirect.com/science/article/pii/S0021929008003709"
+            },
+            // {
+            //     tag: "视频回放",
+            //     href: ""
+            // },
+        ],
+        topics: [
+            "Healthcare",
+            "Technology"
+        ]
+    },
+    {
         id: "talk230324",
         poster: "talk230324.jpeg",
         date: "2023/03/24",
