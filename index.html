@@ -59,12 +59,22 @@
                         <i>{{item.date}}</i>
                         &nbsp;
 
-                        <span v-if="item.speakerPaper">
-                            [论文分享]
-                            {{item.speakerPaper}}
-                            &nbsp;
-                            [新闻分享]
-                            {{item.speakerNews}}
+                        <span v-if="item.id.startsWith('routine')">
+                            <span v-if="item.speakerPaper">[论文分享]
+                                {{item.speakerPaper}}
+                                &nbsp;
+                            </span>
+                            <span v-if="item.speakerAuthor">[作者精读]
+                                {{item.speakerAuthor}}
+                                &nbsp;
+                            </span>
+                            <span v-if="item.host">[主持人]
+                                {{item.host}}
+                                &nbsp;
+                            </span>
+                            <span v-if="item.speakerNews">[新闻分享]
+                                {{item.speakerNews}}
+                            </span>
                         </span>
                         <span v-else>
                             [特邀嘉宾]

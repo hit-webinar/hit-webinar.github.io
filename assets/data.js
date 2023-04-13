@@ -1,5 +1,27 @@
 const reports = [
     {
+        id: "routine29",
+        poster: "routine29.jpg",
+        date: "2023/04/21",
+        title: "[CVPR'23 作者精读] 基于Diffusion Models的3D模型生成",
+        speakerAuthor: "李昱翰",
+        host: "陈炫宏",
+        speakerNews: "徐嘉阳",
+        materials: [
+            {
+                tag: "论文",
+                href: "https://arxiv.org/abs/2303.10406"
+            },
+            // {
+            //     tag: "视频回放",
+            //     href: ""
+            // },
+        ],
+        topics: [
+            "Intelligence",
+        ]
+    },
+    {
         id: "routine28",
         poster: "routine28.jpg",
         date: "2023/04/07",
@@ -11,10 +33,10 @@ const reports = [
                 tag: "论文",
                 href: "https://www.sciencedirect.com/science/article/pii/S0021929008003709"
             },
-            // {
-            //     tag: "视频回放",
-            //     href: ""
-            // },
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1Fk4y1i7Z4/"
+            },
         ],
         topics: [
             "Healthcare",
