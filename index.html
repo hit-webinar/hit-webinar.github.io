@@ -30,7 +30,7 @@
             <div class="col">
                 <h5>
                     <span v-for="(count, topic) in topicCounter">
-                        <span class="badge" v-on:mouseover="selectedTopic = topic" 
+                        <span class="badge" v-on:click="selectedTopic = topic"
                             v-bind:class="[ selectedTopic == topic ? 'badge-dark': 'badge-light']">
                             {{topic}} ({{count}})
                         </span>
@@ -43,8 +43,7 @@
         <div class="row">
             <div class="col">
                 <div v-for="(item, pid) in reports" style="text-align:justify; text-justify:inter-ideograph"
-                    v-on:mouseover="hoverRepId = pid" v-on:mouseleave="hoverRepId = -1"
-                    v-if="item.topics.includes(selectedTopic)">
+                    v-on:click="hoverRepId = pid" v-if="item.topics.includes(selectedTopic)">
                     <div v-bind:class="{'bg-light': hoverRepId === pid}">
                         <h4>
                             <span v-if="item.id.startsWith('routine')" class="badge badge-info">
@@ -93,7 +92,7 @@
                         </span>
 
                         <span v-bind:class="[ hoverRepId === pid ? 'badge-dark': 'badge-light']">
-                            [悬停鼠标或触摸屏幕以查看海报]
+                            [<b>点击➚</b>查看海报]
                         </span>
                     </div>
 
