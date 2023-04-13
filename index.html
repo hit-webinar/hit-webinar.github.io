@@ -30,7 +30,7 @@
             <div class="col">
                 <h5>
                     <span v-for="(count, topic) in topicCounter">
-                        <span class="badge" v-on:click="selectedTopic = topic"
+                        <span class="badge" v-on:mouseover="selectedTopic = topic" 
                             v-bind:class="[ selectedTopic == topic ? 'badge-dark': 'badge-light']">
                             {{topic}} ({{count}})
                         </span>
@@ -90,6 +90,10 @@
                             <span v-for="material in item.materials">
                                 [<a v-bind:href="material.href" target="_blank">{{material.tag}}</a>]
                             </span>
+                        </span>
+
+                        <span v-bind:class="[ hoverRepId === pid ? 'badge-dark': 'badge-light']">
+                            [悬停鼠标或触摸屏幕以查看海报]
                         </span>
                     </div>
 
