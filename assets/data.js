@@ -3,7 +3,7 @@ const reports = [
         id: "routine30",
         poster: "routine30.jpg",
         date: "2023/05/12",
-        title: "[Science TM'23] 用于无创监测术后游离皮瓣和再植手指的皮肤生物传感器",
+        title: "[Science TransMed'23] 用于无创监测术后游离皮瓣和再植手指的皮肤生物传感器",
         speakerPaper: "刘帅",
         speakerNews: "杨炳乾",
         materials: [
@@ -368,7 +368,7 @@ const reports = [
         id: "routine18",
         poster: "routine18.jpeg",
         date: "2022/11/18",
-        title: "[Science TM'22] 挑战与机遇：可穿戴设备的医学转化之旅",
+        title: "[Science TransMed'22] 挑战与机遇：可穿戴设备的医学转化之旅",
         speakerPaper: "罗虎",
         speakerNews: "刘帅",
         materials: [
