@@ -1,5 +1,27 @@
 const reports = [
     {
+        id: "routine30",
+        poster: "routine30.jpg",
+        date: "2023/05/12",
+        title: "[Science TM'23] 用于无创监测术后游离皮瓣和再植手指的皮肤生物传感器",
+        speakerPaper: "刘帅",
+        speakerNews: "杨炳乾",
+        materials: [
+            {
+                tag: "论文",
+                href: "https://www.science.org/doi/10.1126/scitranslmed.abq1634"
+            },
+            // {
+            //     tag: "视频回放",
+            //     href: ""
+            // },
+        ],
+        topics: [
+            "Healthcare",
+            "Technology"
+        ]
+    },
+    {
         id: "routine29",
         poster: "routine29.jpg",
         date: "2023/04/21",
