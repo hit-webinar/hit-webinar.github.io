@@ -43,7 +43,7 @@
         <div class="row">
             <div class="col">
                 <div v-for="(item, pid) in reports" style="text-align:justify; text-justify:inter-ideograph"
-                    v-on:click="hoverRepId = pid" v-if="item.topics.includes(selectedTopic)">
+                    v-on:click="clickRepId(pid)" v-if="item.topics.includes(selectedTopic)">
                     <div v-bind:class="{'bg-light': hoverRepId === pid}">
                         <h4>
                             <span v-if="item.id.startsWith('routine')" class="badge badge-info">
@@ -180,7 +180,7 @@
             </div>
         </div> -->
 
-<!--        
+        <!--        
         <div class="row">
             <div class="col">
                 <h4>

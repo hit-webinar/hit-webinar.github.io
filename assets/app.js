@@ -31,5 +31,14 @@ const app = new Vue({
                 }
             }
         },
+        clickRepId: function (pid) {
+            console.log("hoverRepId: " + pid);
+            if (this.hoverRepId == pid) {
+                this.hoverRepId = -1;
+            }
+            else {
+                this.hoverRepId = pid;
+            }
+        }
     }
 });

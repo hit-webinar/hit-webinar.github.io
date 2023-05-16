@@ -1,5 +1,26 @@
 const reports = [
     {
+        id: "talk230519",
+        poster: "talk230519.jpeg",
+        date: "2023/05/19",
+        title: "AIGC中的视频/图像生成与编辑研究",
+        speaker: "陈炫宏 上海交大",
+        host: "杨健程",
+        materials: [
+            {
+                tag: "讲者主页",
+                href: " https://github.com/neuralchen"
+            },
+            // {
+            //     tag: "视频回放",
+            //     href: "#TODO"
+            // },
+        ],
+        topics: [
+            "Intelligence"
+        ]
+    },
+    {
         id: "routine30",
         poster: "routine30.jpg",
         date: "2023/05/12",
@@ -11,10 +32,10 @@ const reports = [
                 tag: "论文",
                 href: "https://www.science.org/doi/10.1126/scitranslmed.abq1634"
             },
-            // {
-            //     tag: "视频回放",
-            //     href: ""
-            // },
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1eg4y1G7u3/"
+            },
         ],
         topics: [
             "Healthcare",
@@ -34,10 +55,6 @@ const reports = [
                 tag: "论文",
                 href: "https://arxiv.org/abs/2303.10406"
             },
-            // {
-            //     tag: "视频回放",
-            //     href: ""
-            // },
         ],
         topics: [
             "Intelligence",
