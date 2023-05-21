@@ -1,5 +1,26 @@
 const reports = [
     {
+        id: "talk230526",
+        poster: "talk230526.jpeg",
+        date: "2023/05/26",
+        title: "CAMEL：探索大语言模型LLM的多智能体社会",
+        speaker: "李国豪 KAUST",
+        host: "杨健程",
+        materials: [
+            {
+                tag: "讲者主页",
+                href: " https://ghli.org/"
+            },
+            // {
+            //     tag: "视频回放",
+            //     href: ""
+            // },
+        ],
+        topics: [
+            "Intelligence"
+        ]
+    },
+    {
         id: "talk230519",
         poster: "talk230519.jpeg",
         date: "2023/05/19",
@@ -11,10 +32,10 @@ const reports = [
                 tag: "讲者主页",
                 href: " https://github.com/neuralchen"
             },
-            // {
-            //     tag: "视频回放",
-            //     href: "#TODO"
-            // },
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1ys4y1z7cN/"
+            },
         ],
         topics: [
             "Intelligence"
