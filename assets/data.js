@@ -11,6 +11,14 @@ const reports = [
                 tag: "讲者主页",
                 href: " https://ghli.org/"
             },
+            {
+                tag: "项目主页",
+                href: "https://github.com/lightaime/camel"
+            },
+            {
+                tag: "slides",
+                href: "materials/talk230526.pdf"
+            },
             // {
             //     tag: "视频回放",
             //     href: ""

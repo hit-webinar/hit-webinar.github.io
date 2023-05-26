@@ -52,6 +52,7 @@
                             <span v-else class="badge badge-warning">
                                 特邀报告
                             </span>
+                            <span v-if="!item.id.startsWith('routine')">[{{item.speaker}}]</span>
                             <span v-html="item.title"></span>
                         </h4>
 
