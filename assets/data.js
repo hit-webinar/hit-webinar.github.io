@@ -1,5 +1,23 @@
 const reports = [
     {
+        id: "routine31",
+        poster: "routine31.jpg",
+        date: "2023/06/02",
+        title: "用于高通量步态参数分析的可穿戴设备“Lab-in-Shoe”系统开发",
+        speakerPaper: "黄吉",
+        speakerNews: "史林融",
+        materials: [
+            // {
+            //     tag: "视频回放",
+            //     href: "#TODO"
+            // },
+        ],
+        topics: [
+            "Healthcare",
+            "Technology"
+        ]
+    },
+    {
         id: "talk230526",
         poster: "talk230526.jpeg",
         date: "2023/05/26",
@@ -19,10 +37,10 @@ const reports = [
                 tag: "slides",
                 href: "materials/talk230526.pdf"
             },
-            // {
-            //     tag: "视频回放",
-            //     href: ""
-            // },
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1Xc411A7iB/"
+            },
         ],
         topics: [
             "Intelligence"
