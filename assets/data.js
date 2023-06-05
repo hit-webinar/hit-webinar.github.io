@@ -4,7 +4,7 @@ const reports = [
         poster: "talk230609.jpeg",
         date: "2023/06/09",
         title: "“生理时序数据”与“中文医疗大模型”双主题分享",
-        speaker: "张磊+张海鹏",
+        speaker: "张磊 & 张海鹏",
         host: "刘帅",
         materials: [
             // {
@@ -53,12 +53,12 @@ const reports = [
                 href: "https://github.com/lightaime/camel"
             },
             {
-                tag: "slides",
-                href: "materials/talk230526.pdf"
-            },
-            {
                 tag: "视频回放",
                 href: "https://www.bilibili.com/video/BV1Xc411A7iB/"
+            },
+            {
+                tag: "slides",
+                href: "materials/talk230526.pdf"
             },
         ],
         topics: [
