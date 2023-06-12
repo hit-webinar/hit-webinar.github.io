@@ -5,7 +5,7 @@ const reports = [
         date: "2023/06/09",
         title: "“生理时序数据”与“中文医疗大模型”双主题分享",
         speaker: "张磊 & 张海鹏",
-        host: "刘帅",
+        host: "刘帅 & 张玉冰",
         materials: [
             // {
             //     tag: "视频回放",
