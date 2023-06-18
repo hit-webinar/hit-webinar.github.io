@@ -1,5 +1,23 @@
 const reports = [
     {
+        id: "talk230623",
+        poster: "talk230623.jpeg",
+        date: "2023/06/23",
+        title: "智能对抗数据生成在深度医学图像分割的应用",
+        speaker: "陈晨 牛津",
+        host: "杨健程",
+        materials: [
+            // {
+            //     tag: "视频回放",
+            //     href: "#TODO"
+            // },
+        ],
+        topics: [
+            "Healthcare",
+            "Intelligence",
+        ]
+    },
+    {
         id: "talk230609",
         poster: "talk230609.jpeg",
         date: "2023/06/09",
@@ -7,10 +25,10 @@ const reports = [
         speaker: "张磊 & 张海鹏",
         host: "刘帅 & 张玉冰",
         materials: [
-            // {
-            //     tag: "视频回放",
-            //     href: "#TODO"
-            // },
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1Hz4y1i7Gp/"
+            },
         ],
         topics: [
             "Healthcare",
