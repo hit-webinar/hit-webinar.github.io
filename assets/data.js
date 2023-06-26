@@ -7,10 +7,14 @@ const reports = [
         speaker: "陈晨 牛津",
         host: "杨健程",
         materials: [
-            // {
-            //     tag: "视频回放",
-            //     href: "#TODO"
-            // },
+            {
+                tag: "讲者主页",
+                href: " https://sites.google.com/view/morningchen-site/home"
+            },
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1Aj411Q7Ur/"
+            },
         ],
         topics: [
             "Healthcare",
