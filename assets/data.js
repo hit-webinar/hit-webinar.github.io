@@ -1,5 +1,27 @@
 const reports = [
     {
+        id: "talk230702",
+        poster: "talk230702.jpg",
+        date: "2023/07/02",
+        title: "利用鲁棒机器学习深入了解阿尔茨海默病亚型",
+        speaker: "汪浩瀚 UIUC",
+        host: "景宝宇",
+        materials: [
+            {
+                tag: "讲者主页",
+                href: "https://haohanwang.github.io/"
+            },
+            // {
+            //     tag: "视频回放",
+            //     href: "#TODO"
+            // },
+        ],
+        topics: [
+            "Healthcare",
+            "Intelligence",
+        ]
+    },
+    {
         id: "talk230623",
         poster: "talk230623.jpeg",
         date: "2023/06/23",
@@ -9,7 +31,7 @@ const reports = [
         materials: [
             {
                 tag: "讲者主页",
-                href: " https://sites.google.com/view/morningchen-site/home"
+                href: "https://sites.google.com/view/morningchen-site/home"
             },
             {
                 tag: "视频回放",
