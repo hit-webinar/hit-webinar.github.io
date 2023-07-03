@@ -11,10 +11,14 @@ const reports = [
                 tag: "讲者主页",
                 href: "https://haohanwang.github.io/"
             },
-            // {
-            //     tag: "视频回放",
-            //     href: "#TODO"
-            // },
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1bs4y1F78d/"
+            },
+            {
+                tag: "slides",
+                href: "materials//talk230702.pdf"
+            },
         ],
         topics: [
             "Healthcare",
