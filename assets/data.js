@@ -1,5 +1,54 @@
 const reports = [
     {
+        id: "talk230714",
+        poster: "talk230714.jpg",
+        date: "2023/07/14",
+        title: "AI优化临床影像采集",
+        speaker: "项磊 深透医疗",
+        host: "杨健程",
+        materials: [
+            {
+                tag: "讲者主页",
+                href: "https://scholar.google.com/citations?user=Dy3NMrwAAAAJ&hl=zh-CN"
+            },
+            // {
+            //     tag: "视频回放",
+            //     href: "#TODO"
+            // },
+        ],
+        topics: [
+            "Healthcare",
+            "Intelligence",
+            "Technology"
+        ]
+    },
+    {
+        id: "talk230702",
+        poster: "talk230702.jpg",
+        date: "2023/07/02",
+        title: "利用鲁棒机器学习深入了解阿尔茨海默病亚型",
+        speaker: "汪浩瀚 UIUC",
+        host: "景宝宇",
+        materials: [
+            {
+                tag: "讲者主页",
+                href: "https://haohanwang.github.io/"
+            },
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1bs4y1F78d/"
+            },
+            {
+                tag: "slides",
+                href: "materials//talk230702.pdf"
+            },
+        ],
+        topics: [
+            "Healthcare",
+            "Intelligence",
+        ]
+    },
+    {
         id: "talk230702",
         poster: "talk230702.jpg",
         date: "2023/07/02",
