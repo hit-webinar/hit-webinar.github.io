@@ -1,5 +1,23 @@
 const reports = [
     {
+        id: "routine32",
+        poster: "routine32.jpg",
+        date: "2023/07/21",
+        title: "下肢假肢机械仿生",
+        speakerPaper: "许阳阳",
+        speakerNews: "罗虎",
+        materials: [
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1Eh4y1y7th/"
+            },
+        ],
+        topics: [
+            "Healthcare",
+            "Technology"
+        ]
+    },
+    {
         id: "talk230714",
         poster: "talk230714.jpg",
         date: "2023/07/14",
