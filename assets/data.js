@@ -1,5 +1,27 @@
 const reports = [
     {
+        id: "routine33",
+        poster: "routine33.png",
+        date: "2023/07/28",
+        title: "[Nature BME'23] AI系统解读手术视频",
+        speakerPaper: "邵良靖",
+        speakerNews: "张玉冰",
+        materials: [
+            {
+                tag: "论文",
+                href: "https://doi.org/10.1038/s41551-023-01010-8"
+            },
+            // {
+            //     tag: "视频回放",
+            //     href: "#TODO"
+            // },
+        ],
+        topics: [
+            "Healthcare",
+            "Intelligence",
+        ]
+    },
+    {
         id: "routine32",
         poster: "routine32.jpg",
         date: "2023/07/21",
