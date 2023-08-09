@@ -1,5 +1,27 @@
 const reports = [
     {
+        id: "routine34",
+        poster: "routine34.png",
+        date: "2023/08/11",
+        title: "足底多维力检测平台：设计、制造与标定",
+        speakerPaper: "罗虎",
+        host: "张玉冰",
+        materials: [
+            {
+                tag: "论文",
+                href: "https://doi.org/10.1038/s41551-023-01010-8"
+            },
+            // {
+            //     tag: "视频回放",
+            //     href: "#TODO"
+            // },
+        ],
+        topics: [
+            "Healthcare",
+            "Technology",
+        ]
+    },
+    {
         id: "routine33",
         poster: "routine33.png",
         date: "2023/07/28",
@@ -11,10 +33,10 @@ const reports = [
                 tag: "论文",
                 href: "https://doi.org/10.1038/s41551-023-01010-8"
             },
-            // {
-            //     tag: "视频回放",
-            //     href: "#TODO"
-            // },
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1o94y1Y7JJ/"
+            },
         ],
         topics: [
             "Healthcare",
