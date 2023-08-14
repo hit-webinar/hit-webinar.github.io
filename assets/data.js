@@ -8,13 +8,9 @@ const reports = [
         host: "张玉冰",
         materials: [
             {
-                tag: "论文",
-                href: "https://doi.org/10.1038/s41551-023-01010-8"
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1R14y1q7os/"
             },
-            // {
-            //     tag: "视频回放",
-            //     href: "#TODO"
-            // },
         ],
         topics: [
             "Healthcare",
