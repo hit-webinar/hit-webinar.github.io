@@ -1,5 +1,23 @@
 const reports = [
     {
+        id: "talk230818",
+        poster: "talk230818.jpg",
+        date: "2023/08/18",
+        title: "高灵敏度超快超声微泡造影成像研究进展",
+        speaker: "褚寒冰 西安交大",
+        host: "杨炳乾",
+        materials: [
+            // {
+            //     tag: "视频回放",
+            //     href: "#TODO"
+            // },
+        ],
+        topics: [
+            "Healthcare",
+            "Technology"
+        ]
+    },
+    {
         id: "routine34",
         poster: "routine34.png",
         date: "2023/08/11",
