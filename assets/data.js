@@ -1,5 +1,27 @@
 const reports = [
     {
+        id: "talk230825",
+        poster: "talk230825.jpg",
+        date: "2023/08/25",
+        title: "智能超声：从智能成像、智能分析、泛化安全到基础软件",
+        speaker: "杨鑫 深大",
+        host: "杨健程",
+        materials: [
+            {
+                tag: "讲者主页",
+                href: "https://xy0806.github.io/"
+            },
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV11r4y1X7oR/"
+            },
+        ],
+        topics: [
+            "Healthcare",
+            "Intelligence",
+        ]
+    },
+    {
         id: "talk230818",
         poster: "talk230818.jpg",
         date: "2023/08/18",
@@ -7,10 +29,10 @@ const reports = [
         speaker: "褚寒冰 西安交大",
         host: "杨炳乾",
         materials: [
-            // {
-            //     tag: "视频回放",
-            //     href: "#TODO"
-            // },
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1cX4y147Xv/"
+            },
         ],
         topics: [
             "Healthcare",
@@ -87,10 +109,10 @@ const reports = [
                 tag: "讲者主页",
                 href: "https://scholar.google.com/citations?user=Dy3NMrwAAAAJ&hl=zh-CN"
             },
-            // {
-            //     tag: "视频回放",
-            //     href: "#TODO"
-            // },
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1ru41157Ja/"
+            },
         ],
         topics: [
             "Healthcare",
