@@ -1,10 +1,41 @@
+const site = {
+    year: "2022-2023",
+    repoURL: "https://github.com/hit-webinar/hit-webinar.github.io",
+    siteURL: "https://hit-webinar.github.io/",
+    creator: "Jiancheng Yang",
+    creatorURL: "https://jiancheng-yang.com/",
+    showPageviews: false,
+};
+
 const reports = [
+    {
+        id: "talk230901",
+        poster: "talk230901.jpg",
+        date: "2023/09/01",
+        title: "融合临床专业知识的医学视觉语言建模基准",
+        speaker: "Yingying Zhu @UT Arlington",
+        host: "张玉冰",
+        materials: [
+            {
+                tag: "讲者主页",
+                href: "https://zyy123jy.github.io/My-Web-Sites/"
+            },
+            // {
+            //     tag: "视频回放",
+            //     href: "#TODO"
+            // },
+        ],
+        topics: [
+            "Healthcare",
+            "Intelligence",
+        ]
+    },
     {
         id: "talk230825",
         poster: "talk230825.jpg",
         date: "2023/08/25",
         title: "智能超声：从智能成像、智能分析、泛化安全到基础软件",
-        speaker: "杨鑫 深大",
+        speaker: "杨鑫 @深大",
         host: "杨健程",
         materials: [
             {
@@ -26,7 +57,7 @@ const reports = [
         poster: "talk230818.jpg",
         date: "2023/08/18",
         title: "高灵敏度超快超声微泡造影成像研究进展",
-        speaker: "褚寒冰 西安交大",
+        speaker: "褚寒冰 @西安交大",
         host: "杨炳乾",
         materials: [
             {
@@ -102,7 +133,7 @@ const reports = [
         poster: "talk230714.jpg",
         date: "2023/07/14",
         title: "AI优化临床影像采集",
-        speaker: "项磊 深透医疗",
+        speaker: "项磊 @深透医疗",
         host: "杨健程",
         materials: [
             {
@@ -125,7 +156,7 @@ const reports = [
         poster: "talk230702.jpg",
         date: "2023/07/02",
         title: "利用鲁棒机器学习深入了解阿尔茨海默病亚型",
-        speaker: "汪浩瀚 UIUC",
+        speaker: "汪浩瀚 @UIUC",
         host: "景宝宇",
         materials: [
             {
@@ -151,7 +182,7 @@ const reports = [
         poster: "talk230623.jpeg",
         date: "2023/06/23",
         title: "智能对抗数据生成在深度医学图像分割的应用",
-        speaker: "陈晨 牛津",
+        speaker: "陈晨 @牛津",
         host: "杨健程",
         materials: [
             {
@@ -210,7 +241,7 @@ const reports = [
         poster: "talk230526.jpeg",
         date: "2023/05/26",
         title: "CAMEL：探索大语言模型LLM的多智能体社会",
-        speaker: "李国豪 KAUST",
+        speaker: "李国豪 @KAUST",
         host: "杨健程",
         materials: [
             {
@@ -239,7 +270,7 @@ const reports = [
         poster: "talk230519.jpeg",
         date: "2023/05/19",
         title: "AIGC中的视频/图像生成与编辑研究",
-        speaker: "陈炫宏 上海交大",
+        speaker: "陈炫宏 @上海交大",
         host: "杨健程",
         materials: [
             {
@@ -282,8 +313,8 @@ const reports = [
         poster: "routine29.jpg",
         date: "2023/04/21",
         title: "[CVPR'23 作者精读] 基于Diffusion Models的3D模型生成",
-        speakerAuthor: "李昱翰",
-        host: "陈炫宏",
+        speakerAuthor: "李昱翰 @上海交大",
+        host: "杨健程",
         speakerNews: "徐嘉阳",
         materials: [
             {
@@ -322,7 +353,7 @@ const reports = [
         poster: "talk230324.jpeg",
         date: "2023/03/24",
         title: "AR/VR中的神经渲染、编辑交互与基于耳廓重建的声场应用",
-        speaker: "黄晓阳 上海交大",
+        speaker: "黄晓阳 @上海交大",
         host: "杨健程",
         materials: [
             {
@@ -362,7 +393,7 @@ const reports = [
         poster: "talk230224.jpeg",
         date: "2023/02/24",
         title: "智能药物设计方法在难成药靶点上的实践",
-        speaker: "郑双佳 中山/星药",
+        speaker: "郑双佳 @中山/星药",
         host: "杨健程",
         materials: [
             {
@@ -469,7 +500,7 @@ const reports = [
         poster: "talk230106.jpeg",
         date: "2023/01/06",
         title: "多变量时序电子病历数据深度学习可解释分析",
-        speaker: "马连韬 北大",
+        speaker: "马连韬 @北大",
         host: "景宝宇",
         materials: [
             {
@@ -538,7 +569,7 @@ const reports = [
         poster: "talk221216.jpeg",
         date: "2022/12/16",
         title: "如何高效利用已公开的医学影像数据集",
-        speaker: "周纵苇 JHU",
+        speaker: "周纵苇 @JHU",
         host: "杨健程",
         materials: [
             {
@@ -582,7 +613,7 @@ const reports = [
         poster: "talk221203.jpeg",
         date: "2022/12/03",
         title: "蛋白质表征学习：基准测试与模型设计",
-        speaker: "徐明皓 Mila",
+        speaker: "徐明皓 @Mila",
         host: "杨健程",
         materials: [
             {
@@ -686,7 +717,7 @@ const reports = [
         poster: "talk221028.jpeg",
         date: "2022/10/28",
         title: "面向新一代无人系统的智能感知和混合现实技术",
-        speaker: "邹征夏 北航",
+        speaker: "邹征夏 @北航",
         host: "杨健程",
         materials: [
             {
@@ -743,7 +774,7 @@ const reports = [
         poster: "talk221007.jpeg",
         date: "2022/10/07",
         title: "神经图像合成技术及其在多发性硬化症的临床应用",
-        speaker: "李宏伟 Harvard/TUM",
+        speaker: "李宏伟 @Harvard/TUM",
         host: "杨健程",
         materials: [
             {
@@ -799,7 +830,7 @@ const reports = [
         poster: "talk220918.jpeg",
         date: "2022/09/18",
         title: "经颅超声刺激——一种新型的非侵入式神经调控技术",
-        speaker: "曾以诺 上海交大",
+        speaker: "曾以诺 @上海交大",
         host: "刘帅",
         materials: [
         ],
@@ -851,7 +882,7 @@ const reports = [
         poster: "talk220827.jpeg",
         date: "2022/08/27",
         title: "以临床用户为中心的可解释AI在医学图像分析的应用",
-        speaker: "金巍娜 Simon Fraser",
+        speaker: "金巍娜 @Simon Fraser",
         host: "周介立",
         materials: [
             {
@@ -930,7 +961,7 @@ const reports = [
         poster: "talk220730.jpeg",
         date: "2022/07/30",
         title: "ECCV作者分享3D计算机视觉的前沿进展",
-        speaker: "赵晨 EPFL",
+        speaker: "赵晨 @EPFL",
         host: "杨健程",
         materials: [
             {
@@ -986,7 +1017,7 @@ const reports = [
         poster: "talk220710.jpeg",
         date: "2022/07/10",
         title: "Nature Medicine 作者分享健康和医学领域的人工智能",
-        speaker: "Emma Chen Stanford/Harvard",
+        speaker: "Emma Chen @Stanford/Harvard",
         host: "周介立",
         materials: [
             {
@@ -1070,27 +1101,20 @@ const reports = [
 ];
 
 
-const site = {
-    year: "2022-2023",
-    repoURL: "https://github.com/hit-webinar/hit-webinar.github.io",
-    siteURL: "https://hit-webinar.com/",
-    creator: "Jiancheng Yang",
-    creatorURL: "https://jiancheng-yang.com/",
-    showPageviews: false,
-};
+// const about = `HIT Webinar是一个聚焦生物医疗，人工智能以及前沿科技的网络研讨会。<br>
+// HlT意为Healthcare，Intelligence和Technology，关注诸多医疗科技领域的前沿问题，包括医学影像处理、计算机视觉、智慧医疗、生物信息学、新型临床诊疗装备、智能康复机器人、医疗可穿戴设备、人工智能辅助制药等等。<br>
+// HIT Webinar由点内科技、高校学生学术联盟医工学人、上海交通大学HealthX医疗科技俱乐部、中美生科青年创投俱乐部共同发起和组织，包含常规活动和特邀报告。
+// 常规活动主要包括论文精读分享和产学研用行业新闻分享，特邀报告则将邀请嘉宾分享特定领域的前沿进展。<br>
+// 活动通常于周五晚上进行。`;
 
 
-const about = `HIT Webinar是一个聚焦生物医疗，人工智能以及前沿科技的网络研讨会。<br>
-HlT意为Healthcare，Intelligence和Technology，关注诸多医疗科技领域的前沿问题，包括医学影像处理、计算机视觉、智慧医疗、生物信息学、新型临床诊疗装备、智能康复机器人、医疗可穿戴设备、人工智能辅助制药等等。<br>
-HIT Webinar由点内科技、高校学生学术联盟医工学人、上海交通大学HealthX医疗科技俱乐部、中美生科青年创投俱乐部共同发起和组织，包含常规活动和特邀报告。
-常规活动主要包括论文精读分享和产学研用行业新闻分享，特邀报告则将邀请嘉宾分享特定领域的前沿进展。<br>
-活动通常于周五晚上进行。`;
+
 
 const tests = [
     {
         date: "2022/05/27",
         title: "[Patterns'22] HINT: Hierarchical Interaction Network for Clinical Trial Outcome Prediction",
-        speaker: "符天凡 Gatech",
+        speaker: "符天凡 @Gatech",
         host: "周介立",
         materials: [
             {
