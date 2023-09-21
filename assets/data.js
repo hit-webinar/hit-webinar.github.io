@@ -9,6 +9,24 @@ const site = {
 
 const reports = [
     {
+        id: "routine35",
+        poster: "routine35.jpg",
+        date: "2023/09/22",
+        title: "动态导航技术在颧种植手术中的应用",
+        speakerPaper: "陶宝鑫",
+        host: "罗虎",
+        materials: [
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/#TODO"
+            },
+        ],
+        topics: [
+            "Healthcare",
+            "Technology",
+        ]
+    },
+    {
         id: "talk230901",
         poster: "talk230901.jpg",
         date: "2023/09/01",
@@ -169,7 +187,7 @@ const reports = [
             },
             {
                 tag: "slides",
-                href: "assets/materials/talk230702.pdf"
+                href: "https://1drv.ms/b/s!AqZcVxAtazRmj8JOegTxi3idlgNpVA?e=3kBT9z" // talk230702.pdf
             },
         ],
         topics: [
@@ -258,7 +276,7 @@ const reports = [
             },
             {
                 tag: "slides",
-                href: "assets/materials/talk230526.pdf"
+                href: "https://1drv.ms/b/s!AqZcVxAtazRmj8JNsO8YocPrRy4f4Q?e=oOsHEt" // talk230526.pdf
             },
         ],
         topics: [
