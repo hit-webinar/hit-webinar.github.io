@@ -10,7 +10,7 @@ const site = {
 const reports = [
     {
         id: "talk231006",
-        poster: "talk231006.jpeg",
+        poster: "talk231006.jpg",
         date: "2023/10/06",
         title: "STU-Net: 大规模预训练医学图像分割",
         speaker: "何军军 @上海人工智能实验室",
