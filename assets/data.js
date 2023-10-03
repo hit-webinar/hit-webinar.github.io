@@ -9,6 +9,28 @@ const site = {
 
 const reports = [
     {
+        id: "talk231006",
+        poster: "talk231006.jpeg",
+        date: "2023/10/06",
+        title: "STU-Net: 大规模预训练医学图像分割",
+        speaker: "何军军 @上海人工智能实验室",
+        host: "杨健程",
+        materials: [
+            {
+                tag: "讲者主页",
+                href: "https://scholar.google.com/citations?user=Z4LgebkAAAAJ"
+            },
+            // {
+            //     tag: "视频回放",
+            //     href: "#TODO"
+            // },
+        ],
+        topics: [
+            "Healthcare",
+            "Intelligence",
+        ]
+    },
+    {
         id: "routine35",
         poster: "routine35.jpg",
         date: "2023/09/22",
