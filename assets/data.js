@@ -20,10 +20,10 @@ const reports = [
                 tag: "讲者主页",
                 href: "https://scholar.google.com/citations?user=Z4LgebkAAAAJ"
             },
-            // {
-            //     tag: "视频回放",
-            //     href: "#TODO"
-            // },
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1oB4y1f7qa/"
+            },
         ],
         topics: [
             "Healthcare",
