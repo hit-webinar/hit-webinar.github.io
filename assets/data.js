@@ -38,10 +38,6 @@ const reports = [
         speakerPaper: "陶宝鑫",
         host: "罗虎",
         materials: [
-            {
-                tag: "视频回放",
-                href: "https://www.bilibili.com/video/#TODO"
-            },
         ],
         topics: [
             "Healthcare",
