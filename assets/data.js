@@ -9,6 +9,20 @@ const site = {
 
 const reports = [
     {
+        id: "routine36",
+        poster: "routine36.jpg",
+        date: "2023/10/27",
+        title: "足底软组织多维力学特性在体动态表征",
+        speakerPaper: "吴龙燕 @复旦",
+        host: "李轶恒 @中科大",
+        materials: [
+        ],
+        topics: [
+            "Healthcare",
+            "Technology",
+        ]
+    },
+    {
         id: "talk231006",
         poster: "talk231006.jpg",
         date: "2023/10/06",
