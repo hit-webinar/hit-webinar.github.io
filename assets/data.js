@@ -16,6 +16,10 @@ const reports = [
         speakerPaper: "吴龙燕 @复旦",
         host: "李轶恒 @中科大",
         materials: [
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1BN4y1k7Ax/"
+            },
         ],
         topics: [
             "Healthcare",
