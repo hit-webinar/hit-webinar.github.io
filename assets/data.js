@@ -9,6 +9,28 @@ const site = {
 
 const reports = [
     {
+        id: "talk231112",
+        poster: "talk231112.jpg",
+        date: "2023/11/12",
+        title: "针对不完美医学数据的组学图像多模态AI",
+        speaker: "邢小涵 @Stanford",
+        host: "杨健程 @EPFL",
+        materials: [
+            {
+                tag: "讲者主页",
+                href: "https://hathawayxxh.github.io/"
+            },
+            {
+                tag: "视频回放",
+                href: "#TODO"
+            },
+        ],
+        topics: [
+            "Healthcare",
+            "Intelligence",
+        ]
+    },
+    {
         id: "routine36",
         poster: "routine36.jpg",
         date: "2023/10/27",
