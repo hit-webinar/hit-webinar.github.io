@@ -9,6 +9,28 @@ const site = {
 
 const reports = [
     {
+        id: "talk231124",
+        poster: "talk231124.jpg",
+        date: "2023/11/24",
+        title: "基于因果推断的全景病理图像多实例学习",
+        speaker: "林天成 @上海交大",
+        host: "杨健程 @EPFL",
+        materials: [
+            {
+                tag: "讲者主页",
+                href: "https://scholar.google.com/citations?user=-ok791gAAAAJ"
+            },
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/#TODO"
+            },
+        ],
+        topics: [
+            "Healthcare",
+            "Intelligence",
+        ]
+    },
+    {
         id: "talk231112",
         poster: "talk231112.jpg",
         date: "2023/11/12",
