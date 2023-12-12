@@ -8,6 +8,49 @@ const site = {
 };
 
 const reports = [
+    // {
+    //     id: "talk240105",
+    //     poster: "talk240105.jpg",
+    //     date: "2024/1/5",
+    //     title: "如何提高AI诊断模型的效率与可解释性",
+    //     speaker: "尤晨羽 @Yale",
+    //     host: "杨健程 @EPFL",
+    //     materials: [
+    //         {
+    //             tag: "讲者主页",
+    //             href: "http://chenyuyou.me/"
+    //         },
+    //         {
+    //             tag: "视频回放",
+    //             href: "https://www.bilibili.com/video/#TODO"
+    //         },
+    //     ],
+    //     topics: [
+    //         "Healthcare",
+    //         "Intelligence",
+    //     ]
+    // },    
+    {
+        id: "talk231215",
+        poster: "talk231215.jpg",
+        date: "2023/12/15",
+        title: "长视频理解的挑战与创新：算力、算法和数据",
+        speaker: "赵琛 @KAUST",
+        host: "杨健程 @EPFL",
+        materials: [
+            {
+                tag: "讲者主页",
+                href: "https://zhao-chen.com/"
+            },
+            // {
+            //     tag: "视频回放",
+            //     href: "https://www.bilibili.com/video/#TODO"
+            // },
+        ],
+        topics: [
+            "Intelligence",
+        ]
+    },    
     {
         id: "talk231124",
         poster: "talk231124.jpg",
