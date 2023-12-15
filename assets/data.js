@@ -42,10 +42,10 @@ const reports = [
                 tag: "讲者主页",
                 href: "https://zhao-chen.com/"
             },
-            // {
-            //     tag: "视频回放",
-            //     href: "https://www.bilibili.com/video/#TODO"
-            // },
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1FN411V7tj/"
+            },
         ],
         topics: [
             "Intelligence",
