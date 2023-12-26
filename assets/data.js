@@ -31,6 +31,24 @@ const reports = [
     //     ]
     // },    
     {
+        id: "talk291229",
+        poster: "talk291229.jpg",
+        date: "2023/12/29",
+        title: "面向医学影像的多模态多任务协同学习",
+        speaker: "谷元杰 @复旦",
+        host: "罗虎 @复旦",
+        materials: [
+            // {
+            //     tag: "视频回放",
+            //     href: "https://www.bilibili.com/video/#TODO"
+            // },
+        ],
+        topics: [
+            "Healthcare",
+            "Intelligence",
+        ]
+    },    
+    {
         id: "talk231215",
         poster: "talk231215.jpg",
         date: "2023/12/15",
