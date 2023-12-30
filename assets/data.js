@@ -8,28 +8,28 @@ const site = {
 };
 
 const reports = [
-    // {
-    //     id: "talk240105",
-    //     poster: "talk240105.jpg",
-    //     date: "2024/1/5",
-    //     title: "如何提高AI诊断模型的效率与可解释性",
-    //     speaker: "尤晨羽 @Yale",
-    //     host: "杨健程 @EPFL",
-    //     materials: [
-    //         {
-    //             tag: "讲者主页",
-    //             href: "http://chenyuyou.me/"
-    //         },
-    //         {
-    //             tag: "视频回放",
-    //             href: "https://www.bilibili.com/video/#TODO"
-    //         },
-    //     ],
-    //     topics: [
-    //         "Healthcare",
-    //         "Intelligence",
-    //     ]
-    // },    
+    {
+        id: "talk240105",
+        poster: "talk240105.jpg",
+        date: "2024/1/5",
+        title: "如何提高AI诊断模型的效率与可解释性",
+        speaker: "尤晨羽 @Yale",
+        host: "杨健程 @EPFL",
+        materials: [
+            {
+                tag: "讲者主页",
+                href: "http://chenyuyou.me/"
+            },
+            // {
+            //     tag: "视频回放",
+            //     href: "https://www.bilibili.com/video/#TODO"
+            // },
+        ],
+        topics: [
+            "Healthcare",
+            "Intelligence",
+        ]
+    },    
     {
         id: "talk291229",
         poster: "talk291229.jpg",
@@ -38,10 +38,10 @@ const reports = [
         speaker: "谷元杰 @复旦",
         host: "罗虎 @复旦",
         materials: [
-            // {
-            //     tag: "视频回放",
-            //     href: "https://www.bilibili.com/video/#TODO"
-            // },
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1Bw411g7u2/"
+            },
         ],
         topics: [
             "Healthcare",
