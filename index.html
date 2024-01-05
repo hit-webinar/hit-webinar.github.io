@@ -56,7 +56,9 @@
                             <span v-html="item.title"></span>
                         </h4>
 
-                        <i>{{item.date}}</i>
+                        <i>{{item.date}} </i> 
+                        <span v-if="item.daytime" style="color: blueviolet;">{{item.daytime}}</span>
+                        <span v-else>周五 20:00</span>
                         &nbsp;
 
                         <span v-if="item.id.startsWith('routine')">
