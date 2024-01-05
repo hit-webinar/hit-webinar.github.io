@@ -8,10 +8,32 @@ const site = {
 };
 
 const reports = [
+    // {
+    //     id: "talk240112",
+    //     poster: "talk240112.jpg",
+    //     date: "2024/01/12",
+    //     title: "“数据集压缩与合成”和“3D医学图像通用交互分割”双主题分享",
+    //     speaker: "赵波 & 杜雨新 & 白帆 @智源研究院",
+    //     host: "杨健程 @EPFL",
+    //     materials: [
+    //         {
+    //             tag: "讲者主页",
+    //             href: "https://www.bozhao.me/"
+    //         },
+    //         // {
+    //         //     tag: "视频回放",
+    //         //     href: "https://www.bilibili.com/video/#TODO"
+    //         // },
+    //     ],
+    //     topics: [
+    //         "Healthcare",
+    //         "Intelligence",
+    //     ]
+    // },
     {
         id: "talk240105",
         poster: "talk240105.jpg",
-        date: "2024/1/5",
+        date: "2024/1/5 20:30",
         title: "如何提高AI诊断模型的效率与可解释性",
         speaker: "尤晨羽 @Yale",
         host: "杨健程 @EPFL",
@@ -20,10 +42,10 @@ const reports = [
                 tag: "讲者主页",
                 href: "http://chenyuyou.me/"
             },
-            // {
-            //     tag: "视频回放",
-            //     href: "https://www.bilibili.com/video/#TODO"
-            // },
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1Ji4y1z7bH/"
+            },
         ],
         topics: [
             "Healthcare",
@@ -94,7 +116,7 @@ const reports = [
     {
         id: "talk231112",
         poster: "talk231112.jpg",
-        date: "2023/11/12",
+        date: "2023/11/12 14:30",
         title: "针对不完美医学数据的组学图像多模态AI",
         speaker: "邢小涵 @Stanford",
         host: "杨健程 @EPFL",
