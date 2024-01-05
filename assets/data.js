@@ -1,5 +1,5 @@
 const site = {
-    year: "2022-2023",
+    year: "2022-2024",
     repoURL: "https://github.com/hit-webinar/hit-webinar.github.io",
     siteURL: "https://hit-webinar.github.io/",
     creator: "Jiancheng Yang",
