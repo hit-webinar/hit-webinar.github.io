@@ -8,28 +8,28 @@ const site = {
 };
 
 const reports = [
-    // {
-    //     id: "talk240112",
-    //     poster: "talk240112.jpg",
-    //     date: "2024/01/12",
-    //     title: "“数据集压缩与合成”和“3D医学图像通用交互分割”双主题分享",
-    //     speaker: "赵波 & 杜雨新 & 白帆 @智源研究院",
-    //     host: "杨健程 @EPFL",
-    //     materials: [
-    //         {
-    //             tag: "讲者主页",
-    //             href: "https://www.bozhao.me/"
-    //         },
-    //         // {
-    //         //     tag: "视频回放",
-    //         //     href: "https://www.bilibili.com/video/#TODO"
-    //         // },
-    //     ],
-    //     topics: [
-    //         "Healthcare",
-    //         "Intelligence",
-    //     ]
-    // },
+    {
+        id: "talk240112",
+        poster: "talk240112.jpg",
+        date: "2024/01/12",
+        title: "“数据集压缩与合成”和“3D医学图像通用交互分割”双主题分享",
+        speaker: "赵波 & 杜雨新 & 白帆 @智源研究院",
+        host: "杨健程 @EPFL",
+        materials: [
+            {
+                tag: "讲者主页",
+                href: "https://www.bozhao.me/"
+            },
+            // {
+            //     tag: "视频回放",
+            //     href: "https://www.bilibili.com/video/#TODO"
+            // },
+        ],
+        topics: [
+            "Healthcare",
+            "Intelligence",
+        ]
+    },
     {
         id: "talk240105",
         poster: "talk240105.jpg",
