@@ -20,10 +20,10 @@ const reports = [
                 tag: "讲者主页",
                 href: "https://www.bozhao.me/"
             },
-            // {
-            //     tag: "视频回放",
-            //     href: "https://www.bilibili.com/video/#TODO"
-            // },
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1gK4y1z7FQ/"
+            },
         ],
         topics: [
             "Healthcare",
