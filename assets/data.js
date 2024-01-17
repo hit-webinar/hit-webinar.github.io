@@ -9,8 +9,8 @@ const site = {
 
 const reports = [
     // {
-    //     id: "talk020304",
-    //     poster: "talk020304.jpg",
+    //     id: "talk240203",
+    //     poster: "talk240203.jpg",
     //     date: "2024/2/3",
     //     daytime: "周六 20:00",
     //     title: "智能机器人超声检测：自适应、动态和学习驱动的图像采集",
