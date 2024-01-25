@@ -8,29 +8,29 @@ const site = {
 };
 
 const reports = [
-    // {
-    //     id: "talk240203",
-    //     poster: "talk240203.jpg",
-    //     date: "2024/2/3",
-    //     daytime: "周六 20:00",
-    //     title: "智能机器人超声检测：自适应、动态和学习驱动的图像采集",
-    //     speaker: "蒋中亮 @TUM",
-    //     host: "杨健程 @EPFL",
-    //     materials: [
-    //         {
-    //             tag: "讲者主页",
-    //             href: "https://www.cs.cit.tum.de/en/camp/members/zhongliang-jiang/"
-    //         },
-    //         // {
-    //         //     tag: "视频回放",
-    //         //     href: "https://www.bilibili.com/video/#TODO"
-    //         // },
-    //     ],
-    //     topics: [
-    //         "Healthcare",
-    //         "Intelligence",
-    //     ]
-    // },    
+    {
+        id: "talk240203",
+        poster: "talk240203.jpg",
+        date: "2024/2/3",
+        daytime: "周六 20:00",
+        title: "智能机器人超声检测：自适应、动态和学习驱动的图像采集",
+        speaker: "蒋中亮 @TUM",
+        host: "杨健程 @EPFL",
+        materials: [
+            {
+                tag: "讲者主页",
+                href: "https://www.cs.cit.tum.de/en/camp/members/zhongliang-jiang/"
+            },
+            // {
+            //     tag: "视频回放",
+            //     href: "https://www.bilibili.com/video/#TODO"
+            // },
+        ],
+        topics: [
+            "Healthcare",
+            "Intelligence",
+        ]
+    },    
     {
         id: "talk240112",
         poster: "talk240112.jpg",
