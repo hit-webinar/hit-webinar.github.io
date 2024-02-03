@@ -21,10 +21,10 @@ const reports = [
                 tag: "讲者主页",
                 href: "https://www.cs.cit.tum.de/en/camp/members/zhongliang-jiang/"
             },
-            // {
-            //     tag: "视频回放",
-            //     href: "https://www.bilibili.com/video/#TODO"
-            // },
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1KF4m1u7LQ/"
+            },
         ],
         topics: [
             "Healthcare",
