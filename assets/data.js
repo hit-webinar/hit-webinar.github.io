@@ -9,9 +9,31 @@ const site = {
 
 const reports = [
     {
+        "id": "talk240216",
+        "poster": "talk240216.jpg",
+        "date": "2024/02/16",
+        "daytime": "周五 14:00",
+        "title": "迈向多智能体智能：从鲁棒交互到联合对齐",
+        "speaker": "刘越江 @Stanford",
+        "host": "杨健程 @EPFL",
+        "materials": [
+            {
+                "tag": "讲者主页",
+                "href": "https://sites.google.com/view/yuejiangliu/home"
+            },
+            // {
+            //     "tag": "视频回放",
+            //     "href": "https://www.bilibili.com/video/#TODO"
+            // }
+        ],
+        "topics": [
+            "Intelligence"
+        ]
+    },    
+    {
         id: "talk240203",
         poster: "talk240203.jpg",
-        date: "2024/2/3",
+        date: "2024/02/03",
         daytime: "周六 20:00",
         title: "智能机器人超声检测：自适应、动态和学习驱动的图像采集",
         speaker: "蒋中亮 @TUM",
@@ -57,7 +79,7 @@ const reports = [
     {
         id: "talk240105",
         poster: "talk240105.jpg",
-        date: "2024/1/5",
+        date: "2024/01/05",
         daytime: "周五 20:30",
         title: "如何提高AI诊断模型的效率与可解释性",
         speaker: "尤晨羽 @Yale",
@@ -78,8 +100,8 @@ const reports = [
         ]
     },    
     {
-        id: "talk291229",
-        poster: "talk291229.jpg",
+        id: "talk231229",
+        poster: "talk231229.jpg",
         date: "2023/12/29",
         title: "面向医学影像的多模态多任务协同学习",
         speaker: "谷元杰 @复旦",
