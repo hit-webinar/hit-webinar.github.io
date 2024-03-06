@@ -9,6 +9,24 @@ const site = {
 
 const reports = [
     {
+        "id": "talk240308",
+        "poster": "talk240308.jpg",
+        "date": "2024/3/8",
+        "title": "高速高分辨超声和光声多模态成像",
+        "speaker": "张雅超 @苏州医工所",
+        "host": "杨炳乾 @中科大",
+        "materials": [
+            // {
+            //     "tag": "视频回放",
+            //     "href": "https://www.bilibili.com/video/#TODO"
+            // }
+        ],
+        "topics": [
+            "Healthcare",
+            "Technology"
+        ]
+    },    
+    {
         "id": "talk240216",
         "poster": "talk240216.jpg",
         "date": "2024/02/16",
@@ -20,11 +38,7 @@ const reports = [
             {
                 "tag": "讲者主页",
                 "href": "https://sites.google.com/view/yuejiangliu/home"
-            },
-            // {
-            //     "tag": "视频回放",
-            //     "href": "https://www.bilibili.com/video/#TODO"
-            // }
+            }
         ],
         "topics": [
             "Intelligence"
