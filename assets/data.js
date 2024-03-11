@@ -16,10 +16,10 @@ const reports = [
         "speaker": "张雅超 @苏州医工所",
         "host": "杨炳乾 @中科大",
         "materials": [
-            // {
-            //     "tag": "视频回放",
-            //     "href": "https://www.bilibili.com/video/#TODO"
-            // }
+            {
+                "tag": "视频回放",
+                "href": "https://www.bilibili.com/video/BV1pD421E7bx/"
+            }
         ],
         "topics": [
             "Healthcare",
