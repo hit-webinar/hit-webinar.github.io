@@ -9,6 +9,28 @@ const site = {
 
 const reports = [
     {
+        "id": "talk240322",
+        "poster": "talk240322.jpg",
+        "date": "2024/3/22",
+        "title": "医学图像中的公平性学习",
+        "speaker": "田宇 @Harvard",
+        "host": "杨健程 @EPFL",
+        "materials": [
+            {
+                "tag": "讲者主页",
+                "href": "https://yutianyt.com/"
+            },
+            {
+                "tag": "视频回放",
+                // "href": "https://www.bilibili.com/video/#TODO"
+            }
+        ],
+        "topics": [
+            "Healthcare",
+            "Intelligence"
+        ]
+    },
+    {
         "id": "talk240308",
         "poster": "talk240308.jpg",
         "date": "2024/3/8",
@@ -38,6 +60,9 @@ const reports = [
             {
                 "tag": "讲者主页",
                 "href": "https://sites.google.com/view/yuejiangliu/home"
+            },
+            {
+                "tag": "本次讲座不提供视频回放",
             }
         ],
         "topics": [
