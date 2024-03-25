@@ -8,7 +8,7 @@ const site = {
 };
 
 const about = `
-HIT Webinar是一个聚焦<b>Healthcare</b> 健康医疗，<b>Intelligence</b> 人工智能以及相关<b>Technology</b> 前沿科技的中文网络研讨会。
+HIT Webinar是一个聚焦健康医疗 <b>Healthcare</b>，人工智能 <b>Intelligence</b> 以及前沿科技 <b>Technology</b>的中文网络研讨会。
 <br>
 HIT网络研讨会由多位科学家、工程师和研究生发起，属于<b>完全开放的非营利性活动</b>，致力于打造轻松友好的交流氛围。
 <br>
