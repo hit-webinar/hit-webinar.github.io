@@ -17,9 +17,31 @@ HIT网络研讨会由多位科学家、工程师和研究生发起，属于<b>�
 
 const reports = [
     {
+        id: "talk240420",
+        // poster: "talk240420.jpg",
+        date: "2024/04/20",
+        daytime: "周六 20:00",
+        title: "医工交叉研究浅谈：医师的角度",
+        speaker: "赵伟 @湘雅",
+        host: "杨健程 @EPFL",
+        materials: [
+            {
+                tag: "讲者主页",
+                href: "https://scholar.google.com/citations?user=eOjhgb0AAAAJ&hl=zh-CN"
+            },
+            // {
+            //     tag: "视频回放",
+            //     href: "https://www.bilibili.com/video/#TODO"
+            // },
+        ],
+        topics: [
+            "Healthcare",
+        ]
+    },    
+    {
         "id": "talk240405",
         "poster": "talk240405.jpg",
-        "date": "2024/4/5",
+        "date": "2024/04/05",
         "title": "基于人工智能的心脏数字孪生：迈向个体化心脏疾病治疗",
         "speaker": "李雷 @Soton",
         "host": "杨健程 @EPFL",
@@ -41,7 +63,7 @@ const reports = [
     {
         "id": "talk240322",
         "poster": "talk240322.jpg",
-        "date": "2024/3/22",
+        "date": "2024/03/22",
         "title": "医学图像中的公平性学习",
         "speaker": "田宇 @Harvard",
         "host": "杨健程 @EPFL",
@@ -63,7 +85,7 @@ const reports = [
     {
         "id": "talk240308",
         "poster": "talk240308.jpg",
-        "date": "2024/3/8",
+        "date": "2024/03/08",
         "title": "高速高分辨超声和光声多模态成像",
         "speaker": "张雅超 @苏州医工所",
         "host": "杨炳乾 @中科大",
@@ -92,7 +114,7 @@ const reports = [
                 "href": "https://sites.google.com/view/yuejiangliu/home"
             },
             {
-                "tag": "本次讲座不提供视频回放",
+                "tag": "本次活动不提供视频回放",
             }
         ],
         "topics": [
@@ -300,6 +322,9 @@ const reports = [
         speakerPaper: "陶宝鑫 @上海交大",
         host: "罗虎 @复旦",
         materials: [
+            {
+                tag: "本次活动不提供视频回放",
+            }
         ],
         topics: [
             "Healthcare",
@@ -620,6 +645,9 @@ const reports = [
                 tag: "论文",
                 href: "https://arxiv.org/abs/2303.10406"
             },
+            {
+                tag: "本次活动不提供视频回放",
+            }
         ],
         topics: [
             "Intelligence",
@@ -942,6 +970,9 @@ const reports = [
                 tag: "论文",
                 href: "https://arxiv.org/abs/2112.01528"
             },
+            {
+                tag: "本次活动不提供视频回放",
+            },
         ],
         topics: [
             "Intelligence"
@@ -1023,6 +1054,9 @@ const reports = [
             {
                 tag: "讲者主页",
                 href: "https://zhengxiazou.github.io/"
+            },
+            {
+                tag: "本次活动不提供视频回放",
             }
         ],
         topics: [
@@ -1063,6 +1097,9 @@ const reports = [
                 tag: "论文",
                 href: "https://www.nature.com/articles/s41551-021-00697-x"
             },
+            {
+                tag: "本次活动不提供视频回放",
+            }
         ],
         topics: [
             "Healthcare",
@@ -1103,6 +1140,9 @@ const reports = [
                 tag: "论文",
                 href: "https://openaccess.thecvf.com/content/CVPR2022/papers/Iofinova_How_Well_Do_Sparse_ImageNet_Models_Transfer_CVPR_2022_paper.pdf"
             },
+            {
+                tag: "本次活动不提供视频回放",
+            }
         ],
         topics: [
             "Intelligence"
@@ -1120,6 +1160,9 @@ const reports = [
                 tag: "论文",
                 href: "https://arxiv.org/abs/2207.00476"
             },
+            {
+                tag: "本次活动不提供视频回放",
+            }
         ],
         topics: [
             "Intelligence"
@@ -1134,6 +1177,9 @@ const reports = [
         speaker: "曾以诺 @上海交大",
         host: "刘帅",
         materials: [
+            {
+                tag: "本次活动不提供视频回放",
+            }
         ],
         topics: [
             "Healthcare",
@@ -1173,6 +1219,9 @@ const reports = [
                 tag: "论文",
                 href: "https://arxiv.org/abs/2203.13254"
             },
+            {
+                tag: "本次活动不提供视频回放",
+            }
         ],
         topics: [
             "Intelligence"
@@ -1191,6 +1240,9 @@ const reports = [
                 tag: "讲者主页",
                 href: "https://weina.me/"
             },
+            {
+                tag: "本次活动不提供视频回放",
+            }
         ],
         topics: [
             "Healthcare",

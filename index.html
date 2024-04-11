@@ -94,9 +94,10 @@
                             </span>
                         </span>
 
-                        <span v-bind:class="[ hoverRepId === pid ? 'badge-dark': 'badge-light']">
+                        <span v-bind:class="[ hoverRepId === pid ? 'badge-dark': 'badge-light']" v-if="item.poster">
                             [<b>点击➚</b>查看海报]
                         </span>
+                        <span v-else>[海报尚未上传]</span>
                     </div>
 
                     <p align="center">
@@ -105,7 +106,6 @@
                         <img v-if="item.poster && (hoverRepId === pid)" v-bind:src="'assets/poster/'+item.poster"
                             class="img-fluid" style="max-width:600px;width:100%;height:auto;">
                     </p>
-
                     <hr>
                 </div>
             </div>
