@@ -29,10 +29,10 @@ const reports = [
                 tag: "讲者主页",
                 href: "https://scholar.google.com/citations?user=eOjhgb0AAAAJ&hl=zh-CN"
             },
-            // {
-            //     tag: "视频回放",
-            //     href: "https://www.bilibili.com/video/#TODO"
-            // },
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1Fx4y1h7EA/"
+            },
         ],
         topics: [
             "Healthcare",
