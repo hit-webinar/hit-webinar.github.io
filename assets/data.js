@@ -17,6 +17,29 @@ HIT网络研讨会由多位科学家、工程师和研究生发起，属于<b>�
 
 const reports = [
     {
+        id: "talk240503",
+        // poster: "talk240503.jpg",
+        date: "2024/05/03",
+        daytime: "周五 12:00",
+        title: "浅谈大语言模型和交互式机器学习在家庭机器人中的应用",
+        speaker: "崔雨晨 @Stanford",
+        host: "杨健程 @EPFL",
+        materials: [
+            {
+                tag: "讲者主页",
+                href: "https://web.stanford.edu/~yuchenc/"
+            },
+            {
+                tag: "视频回放",
+                // href: "https://www.bilibili.com/video/#TODO"
+            },
+        ],
+        topics: [
+            "Intelligence",
+            "Technology",
+        ]
+    },    
+    {
         id: "talk240420",
         poster: "talk240420.jpg",
         date: "2024/04/20",
