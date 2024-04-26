@@ -18,7 +18,7 @@ HIT网络研讨会由多位科学家、工程师和研究生发起，属于<b>�
 const reports = [
     {
         id: "talk240503",
-        // poster: "talk240503.jpg",
+        poster: "talk240503.jpg",
         date: "2024/05/03",
         daytime: "周五 12:00",
         title: "浅谈大语言模型和交互式机器学习在家庭机器人中的应用",
@@ -34,11 +34,23 @@ const reports = [
                 // href: "https://www.bilibili.com/video/#TODO"
             },
         ],
+        link: {
+            tag: "#腾讯会议：841-498-024",
+            href: "https://meeting.tencent.com/dw/E9PPpvNCArg5"
+        },
+        info: {
+            abstract: `
+            大语言模型的发展为智能机器人带来怎样的变革？通用家庭机器人要实现了吗？家务活有机器人包办了吗？欢迎大家一起来探讨大语言模型和交互式机器学习在家庭机器人中的实际应用！
+            `,
+            bio: `
+            斯坦福大学在职博士后研究员<s>（廉价劳动力）</s>，博士毕业于德克萨斯大学奥斯汀分校（UT Austin）。研究专注于机器学习算法与人机交互理论在智能家用机器人的应用。目标是开发算法和框架使机器人能够有效地从与普通用户的互动中学习辅助用户日常生活所需的技能，并适应用户的个体需求。
+            `,
+        },
         topics: [
             "Intelligence",
             "Technology",
         ]
-    },    
+    },
     {
         id: "talk240420",
         poster: "talk240420.jpg",
@@ -60,7 +72,7 @@ const reports = [
         topics: [
             "Healthcare",
         ]
-    },    
+    },
     {
         "id": "talk240405",
         "poster": "talk240405.jpg",
@@ -82,7 +94,7 @@ const reports = [
             "Healthcare",
             "Intelligence"
         ]
-    },    
+    },
     {
         "id": "talk240322",
         "poster": "talk240322.jpg",
@@ -122,7 +134,7 @@ const reports = [
             "Healthcare",
             "Technology"
         ]
-    },    
+    },
     {
         "id": "talk240216",
         "poster": "talk240216.jpg",
@@ -143,7 +155,7 @@ const reports = [
         "topics": [
             "Intelligence"
         ]
-    },    
+    },
     {
         id: "talk240203",
         poster: "talk240203.jpg",
@@ -167,7 +179,7 @@ const reports = [
             "Intelligence",
             "Technology"
         ]
-    },    
+    },
     {
         id: "talk240112",
         poster: "talk240112.jpg",
@@ -212,7 +224,7 @@ const reports = [
             "Healthcare",
             "Intelligence",
         ]
-    },    
+    },
     {
         id: "talk231229",
         poster: "talk231229.jpg",
@@ -230,7 +242,7 @@ const reports = [
             "Healthcare",
             "Intelligence",
         ]
-    },    
+    },
     {
         id: "talk231215",
         poster: "talk231215.jpg",
@@ -251,7 +263,7 @@ const reports = [
         topics: [
             "Intelligence",
         ]
-    },    
+    },
     {
         id: "talk231124",
         poster: "talk231124.jpg",
