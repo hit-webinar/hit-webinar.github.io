@@ -42,14 +42,12 @@ const reports = [
             abstract: `
             医疗3D数据（如CT和MRI扫描）在医疗保健中占据着至关重要的地位，可称之为“一等公民”。近年来，医疗3D数据分析已从人工智能的最新进展中获得极大的益处。本次活动将聚焦于3D医学影像分析的技术概念，并包括一些较为高级的话题讨论。我将首先介绍体素的基本概念以及3D卷积神经网络（CNNs），即3D医学影像中的事实标准，讨论其面临的独特技术挑战及解决方案。此外，我还将探讨包括点云和隐式场在内的其他3D视觉技术在医疗图像分析中的进展。
             <br>
-            备注：本活动内容基于讲者近期一次面向本科生的客座讲座。
+            本次活动是HIT Webinar x <a href="https://space.bilibili.com/1119860191/">钰沐菡</a>的联合活动。
             `,
             bio: `
             杨健程，瑞士洛桑联邦理工学院（EPFL）博士后，主要研究医疗AI、医学图像分析和3D计算机视觉。已发表50余篇研究论文，包括Cancer Research / eBioMedicine / TMI / CVPR / MICCAI / NeurIPS等顶刊顶会，谷歌学术累计引用约2500次，H因子20。担任MICCAI 2024 领域主席，并长期担任20余个主流人工智能和医学图像顶级学术会议程序委员和学术期刊审稿人，包括Nature/Cell子刊、机器学习/计算机视觉三大会等。曾两次举办MICCAI挑战赛，并多次夺冠国际AI大赛或名列前茅。曾入选世界人工智能大会（WAIC）云帆奖、胡润U30中国创业领袖和Forbes 30 Under 30 Asia。
             <br>
             作为一项业余活动，杨健程还是 <a href="https://hit-webinar.com/">#HIT-Webinar</a> 的发起人和主要组织者。这是一个关注健康医疗 Healthcare、人工智能 Intelligence以及前沿科技 Technology的中文网络研讨会，属于完全开放的非营利性活动。自2022年4月启动以来已成功举办70余期。
-            <br>
-            本次活动是HIT Webinar x <a href="https://space.bilibili.com/1119860191/">钰沐菡</a>的联合活动。
             `,
         },
         topics: [
