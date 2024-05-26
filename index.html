@@ -103,7 +103,7 @@
                     <p v-if="item.link && (new Date() <= new Date(item.date + ' 23:59:59'))">
                         <a v-bind:href="item.link.href" target="_blank">{{item.link.tag}}</a>
                         <br>
-                        <span v-on:click="generateICS(item)" class="badge badge-danger">下载.ics保存日历</span>
+                        <span v-on:click="generateICS(item)" class="badge badge-danger">下载ICS日历文件以添加日程</span>
                         <!-- &nbsp; -->
                     </p>
 
