@@ -58,18 +58,31 @@ DTEND:${endDateTime.toISOString().replace(/[-:]/g, '').split('.')[0]}Z
 SUMMARY:[HIT Webinar] ${event.title}
 DESCRIPTION:内容简介\\n${event.info.abstract}\\n\\n\\n嘉宾简介\\n${event.info.bio}\\n\\n\\n${event.link.tag}\\n或点击链接入会：${event.link.href}\\n\\n\\nHIT Webinar: https://hit-webinar.com/
 LOCATION:${event.link.href}
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
 URL:${event.link.href}
 END:VEVENT
 END:VCALENDAR`;
 
-            const blob = new Blob([icsContent], { type: 'text/calendar' });
-            const url = URL.createObjectURL(blob);
+            const encodedUri = `data:text/calendar;charset=utf8,${encodeURIComponent(icsContent)}`;
             const a = document.createElement('a');
-            a.href = url;
+            a.href = encodedUri;
             a.download = `hit-${event.id}.ics`;
             document.body.appendChild(a);
             a.click();
             document.body.removeChild(a);
+
+            // const blob = new Blob([icsContent], { type: 'text/calendar' });
+            // const url = URL.createObjectURL(blob);
+            // const a = document.createElement('a');
+            // a.href = url;
+            // a.download = `hit-${event.id}.ics`;
+            // document.body.appendChild(a);
+            // a.click();
+            // document.body.removeChild(a);
 
         },
     }
