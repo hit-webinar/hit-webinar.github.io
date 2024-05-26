@@ -39,6 +39,38 @@ const app = new Vue({
             else {
                 this.hoverRepId = pid;
             }
-        }
+        },
+        generateICS: function (event) {
+            const dateParts = event.date.split('/');
+            const formattedDate = `${dateParts[0]}-${dateParts[1]}-${dateParts[2]}`;
+            const daytime = event.daytime || "周五 20:00"; // default to Friday 20:00
+            const startDateTime = new Date(`${formattedDate}T${daytime.split(' ')[1]}:00+08:00`); // +08:00 is China Standard Time
+            const endDateTime = new Date(startDateTime.getTime() + 1.5 * 60 * 60 * 1000); // 1.5 hours
+
+            const icsContent = `BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//hit-webinar.com//HIT Webinar//ZH
+BEGIN:VEVENT
+UID:${event.id}
+DTSTAMP:${new Date().toISOString().replace(/[-:]/g, '').split('.')[0]}Z
+DTSTART:${startDateTime.toISOString().replace(/[-:]/g, '').split('.')[0]}Z
+DTEND:${endDateTime.toISOString().replace(/[-:]/g, '').split('.')[0]}Z
+SUMMARY:[HIT Webinar] ${event.title}
+DESCRIPTION:内容简介\\n${event.info.abstract}\\n\\n\\n嘉宾简介\\n${event.info.bio}\\n\\n\\n${event.link.tag}\\n或点击链接入会：${event.link.href}\\n\\n\\nHIT Webinar: https://hit-webinar.com/
+LOCATION:${event.link.href}
+URL:${event.link.href}
+END:VEVENT
+END:VCALENDAR`;
+
+            const blob = new Blob([icsContent], { type: 'text/calendar' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `hit-${event.id}.ics`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+
+        },
     }
 });

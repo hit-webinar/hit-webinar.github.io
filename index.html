@@ -88,11 +88,6 @@
 
                         <br>
 
-                        <a v-bind:href="item.link.href" target="_blank"
-                            v-if="item.link && (new Date() <= new Date(item.date + ' 23:59:59'))">
-                            {{item.link.tag}}<br>
-                        </a>
-
                         <span v-if="item.materials">
                             <span v-for="material in item.materials">
                                 [<a v-bind:href="material.href" target="_blank">{{material.tag}}</a>]
@@ -105,7 +100,12 @@
                         <span v-else>[海报尚未上传]</span>
                     </div>
 
-
+                    <p v-if="item.link && (new Date() <= new Date(item.date + ' 23:59:59'))">
+                        <a v-bind:href="item.link.href" target="_blank">{{item.link.tag}}</a>
+                        <br>
+                        <span v-on:click="generateICS(item)" class="badge badge-danger">下载.ics保存日历</span>
+                        <!-- &nbsp; -->
+                    </p>
 
                     <div v-if="item.info && !(item.poster && (hoverRepId === pid)) ">
                         <p>
