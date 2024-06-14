@@ -18,10 +18,10 @@ HIT网络研讨会由多位科学家、工程师和研究生发起，属于<b>�
 const reports = [
     {
         id: "talk240621",
-        // poster: "talk240621.jpg",
+        poster: "talk240621.jpg",
         date: "2024/06/21",
         title: "质子治疗技术和可变形图像配准",
-        speaker: "李夏 @ETH",
+        speaker: "李夏 @ETH Zurich",
         host: "杨健程 @EPFL",
         materials: [
             {
