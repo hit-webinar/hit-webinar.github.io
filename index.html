@@ -89,7 +89,7 @@
                         <br>
 
                         <span v-if="item.materials">
-                            <span v-for="material in item.materials">
+                            <span v-for="material in item.materials" v-if="material.href">
                                 [<a v-bind:href="material.href" target="_blank">{{material.tag}}</a>]
                             </span>
                         </span>
@@ -161,7 +161,7 @@
                         <br>
 
                         <span v-if="item.materials">
-                            <span v-for="material in item.materials">
+                            <span v-for="material in item.materials" v-if="material.href">
                                 [<a v-bind:href="material.href" target="_blank">{{material.tag}}</a>]
                             </span>
                         </span>
