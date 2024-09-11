@@ -17,6 +17,41 @@ HIT网络研讨会由多位科学家、工程师和研究生发起，属于<b>�
 
 const reports = [
     {
+        id: "talk240922",
+        // poster: "talk240922.jpg",
+        date: "2024/09/22",
+        daytime: "周日 13:00",
+        title: "GenAI时代的医学影像",
+        speaker: "彭伟 @Stanford",
+        host: "杨健程 @EPFL",
+        materials: [
+            {
+                tag: "讲者主页",
+                href: "https://xiaoiker.github.io/"
+            },
+            {
+                tag: "视频回放",
+                // href: "https://www.bilibili.com/video/"
+            },
+        ],
+        link: {
+            tag: "#腾讯会议：626-138-901",
+            href: "https://meeting.tencent.com/dw/EQt9yAJ3ZpPD"
+        },
+        info: {
+            abstract: `
+            图像及视频的生成是当前比较热门的话题。如何使用生成式AI来助力医学影像的理解和分析将变成一个非常有价值的研究主题。在今天的报告中将和大家来探讨如何构建3D医学影像的生成模型。主要从以下三个方面来讨论医学生成模型的构建： Efficency, Controllability, and Anatomy Plausibility。此外，还将探讨在未来的研究中3D影像数据如何能被更好的分析，理解和使用。
+            `,
+            bio: `
+            彭伟，斯坦福大学Staff Scientist。2022年博士毕业于芬兰奥卢大学，博士期间访问哈佛医学院，以及苏黎世联邦理工学院（ETH Zurich）。 研究方向为机器学习及其在医学影像中的应用。在TPAMI, TMI, MeDIA, CVPR, ICCV, MICCAI等会议和期刊上发表论文40余篇。 曾获芬兰人工智能最佳博士论文奖，IEEE Best Conference Paper，ISMRM Magna Cum Laude Merit Award，ECCV人体行为挑战赛亚军，IJCAI动作识别挑战赛冠军等。 长期担任AI和医学图像顶级学术会议程序委员和学术期刊审稿人，包括Nature子刊、TPAMI, IJCV, 机器学习/计算机视觉三大会等。
+            `
+        },
+        topics: [
+            "Healthcare",
+            "Intelligence"
+        ]
+    },
+    {
         id: "talk240901",
         poster: "talk240901.jpg",
         date: "2024/09/01",
