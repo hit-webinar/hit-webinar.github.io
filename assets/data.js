@@ -17,6 +17,37 @@ HIT网络研讨会由多位科学家、工程师和研究生发起，属于<b>�
 
 const reports = [
     {
+        id: "talk241010",
+        poster: "talk241010.jpg",
+        date: "2024/10/10",
+        daytime: "周四 20:00",
+        title: "诊疗一体化光纤LSPR细胞传感器的研究",
+        speaker: "罗泽伟 @四川大学",
+        host: "史林融",
+        materials: [
+            {
+                tag: "视频回放",
+                // href: "https://www.bilibili.com/video/BV16ztSeqEpJ/"
+            },
+        ],
+        link: {
+            tag: "#腾讯会议：694-179-234",
+            href: "https://meeting.tencent.com/dm/7bTAf0Kc1XRR"
+        },
+        info: {
+            abstract: `
+            血液循环系统内的癌细胞既是肿瘤的重要生物标志物，又能诱导肿瘤的发生癌症转移。开发集检测和杀死癌细胞于一体的生物传感器，对临床癌症早期诊断、治疗具有重要的意义。光纤传感器体积小、生物安全性高，能灵活操控光进入深层组织，适合开发诊疗一体化传感器。为提高细胞检测灵敏度，利用弯曲光纤增强折射灵敏度的特性，成功制备了U形、Ω形和J形等形状的新型光纤LSPR；为提高光热转化效率，制备了AuNPs/AuRs、AuNPs团聚体、聚多巴胺/金纳米颗粒/聚多巴胺（PDA/AuNPs/PDA）三明治等涂层，并成功修饰在弯曲光纤传感器区域。由于光纤LSPR产热的局域性、高效性和形状依赖性，Ω形光纤LSPR成功实现细胞传感-光热治疗一体化。为进一步提高治疗效率，通过精确地控制光纤表面温度，Ω形光纤LSPR实现了循环式细胞传感-光热治疗，能有效杀死流动系统中的癌细胞，为癌症诊疗提供了一种新技术。
+            `,
+            bio: `
+            罗泽伟，四川大学机械工程学院副研究员，从事光纤生物传感器研究，先后主持国自然科学青年基金、四川省/陕西省科技厅等项目8 项。在项目资助下，成功研制了U形、Ω形和J形等多种形状的光纤探针，并开发系列高灵敏的诊疗一体的光纤LSPR传感器。在Biosensors & Bioelectronics、Analytical Chemistry、Sensors and Actuators B: Chemical、Optics & Laser Technology等杂志发表一作/通讯SCI论文20余篇（中科院一区13篇），累计发表SCI论文50篇，它引1000余次，H-index为22，申请发明专利6项；担任Interdisciplinary Medicine青年编委；长期担任Research、Analytical Chemistry、ACS Sensors、Journal of Lightwave Technology、Photonic Sensors、IEEE Transactions on Instrumentation & Measurement等SCI杂志审稿人；担任中国光学工程学会光谱技术及应用专业委员会青年委员、四川省科技协同创新促进会智能制造专家服务团顾问；指导本科生获得第九届全国大学生基础医学创新大赛国赛银奖，第九届“互联网+”大学生创新创业大赛四川省一等奖。  
+            `
+        },
+        topics: [
+            "Healthcare",
+            "Te"
+        ]
+    },
+    {
         id: "talk240922",
         poster: "talk240922.jpg",
         date: "2024/09/22",
