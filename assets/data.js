@@ -80,7 +80,7 @@ const reports = [
         },
         topics: [
             "Healthcare",
-            "Te"
+            "Technology"
         ]
     },
     {
