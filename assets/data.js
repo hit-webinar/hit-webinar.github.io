@@ -10,12 +10,48 @@ const site = {
 const about = `
 HIT Webinar是一个聚焦健康医疗 <b>Healthcare</b>，人工智能 <b>Intelligence</b> 以及前沿科技 <b>Technology</b>的中文网络研讨会。
 <br>
-HIT网络研讨会由多位科学家、工程师和研究生发起，属于<b>完全开放的非营利性活动</b>，致力于打造轻松友好的交流氛围。
+HIT网络研讨会主要由几位学术界的小伙伴基于兴趣发起，属于<b>完全开放的非营利性活动</b>，致力于打造<b>轻松友好的交流氛围</b>。
 <br>
 我们欢迎各种形式的关注和参与。如果您愿意来 HIT Webinar 分享，请联系<a href="https://jiancheng-yang.com/">杨健程</a>或其他组织者。
 `;
 
 const reports = [
+    {
+        id: "talk241020",
+        // poster: "talk241020.jpg",
+        date: "2024/10/20",
+        daytime: "周日 13:00",
+        title: "图学习大模型在罕见病的旧药新用",
+        speaker: "黄柯鑫 @Stanford",
+        host: "杨健程 @EPFL",
+        materials: [
+            {
+                tag: "讲者主页",
+                href: "https://www.kexinhuang.com/"
+            },
+            {
+                tag: "视频回放",
+                // href: "https://www.bilibili.com/video/#TODO"
+            }
+        ],
+        link: {
+            tag: "#腾讯会议：885-653-856",
+            href: "https://meeting.tencent.com/dw/mVnZCbTxpDdR"
+        },
+        info: {
+            abstract: `
+            药物重定位（即为已批准的药物识别新的治疗用途）通常是一种偶然且机会主义的方法，旨在拓展药物在新疾病上的应用。然而，药物重定位人工智能（AI）模型的临床实用性仍然有限，因为这些模型往往聚焦于已有药物的疾病。为此，我们提出了TxGNN，这是一种面向零样本药物重定位的图基础模型，即使针对治疗选择有限或尚无药物的疾病也能识别治疗候选药物。TxGNN基于医学知识图进行训练，利用图神经网络和度量学习模块，为17,080种疾病排名药物作为潜在的适应症和禁忌症。与8种方法进行基准测试后，TxGNN在严格的零样本评估条件下，适应症预测准确性提高了49.2%，禁忌症预测准确性提高了35.1%。为了便于模型解释，TxGNN的解释模块提供了对多跳医学知识路径的透明洞察，形成TxGNN的预测依据。对TxGNN解释模块的人类评估表明，TxGNN的预测和解释在多个性能维度上优于准确性，并表现出令人鼓舞的效果。TxGNN的许多新预测与临床医生在大型医疗系统中此前的非适应症用药处方高度一致。TxGNN的药物重定位预测准确、一致，并可通过多跳可解释路径供专家进行深入分析。
+            该研究近期发表于Nature Medicine。
+            `,
+            bio: `
+            黄柯鑫是斯坦福大学计算机科学系的第四年博士生，由Jure Leskovec教授指导，隶属于斯坦福AI实验室。他的研究专注于使AI能够产生新颖、可部署且可解释的生物医学和药物发现。Kexin的研究重点包括跨越大量、多样化、多模态和多尺度的生物实验进行建模，以生成新颖的假设和发现。他致力于确保这些发现的可靠性和可信度，使其与科学家真正重视的事物保持一致。此外，他还探索如何构建一个能够帮助生物学家日常工作的AI，以及建立一个完全自主的AI生物学家所需的条件。在加入斯坦福之前，他曾与Marinka Zitnik教授、Cao Xiao博士、Jimeng Sun教授和Rajesh Ranganath教授合作。他还在Genentech、辉瑞、IQVIA、Dana-Farber、Flatiron Health和洛克菲勒大学有研究经验。他在纽约大学完成了数学、计算机科学和工作室艺术的本科学位，并在哈佛大学获得了健康数据科学的硕士学位。
+            `
+        },
+        topics: [
+            "Healthcare",
+            "Intelligence"
+        ]
+    },    
     {
         id: "talk241010",
         poster: "talk241010.jpg",
@@ -27,7 +63,7 @@ const reports = [
         materials: [
             {
                 tag: "视频回放",
-                // href: "https://www.bilibili.com/video/BV16ztSeqEpJ/"
+                // href: "https://www.bilibili.com/video/TODO"
             },
         ],
         link: {
@@ -39,7 +75,7 @@ const reports = [
             血液循环系统内的癌细胞既是肿瘤的重要生物标志物，又能诱导肿瘤的发生癌症转移。开发集检测和杀死癌细胞于一体的生物传感器，对临床癌症早期诊断、治疗具有重要的意义。光纤传感器体积小、生物安全性高，能灵活操控光进入深层组织，适合开发诊疗一体化传感器。为提高细胞检测灵敏度，利用弯曲光纤增强折射灵敏度的特性，成功制备了U形、Ω形和J形等形状的新型光纤LSPR；为提高光热转化效率，制备了AuNPs/AuRs、AuNPs团聚体、聚多巴胺/金纳米颗粒/聚多巴胺（PDA/AuNPs/PDA）三明治等涂层，并成功修饰在弯曲光纤传感器区域。由于光纤LSPR产热的局域性、高效性和形状依赖性，Ω形光纤LSPR成功实现细胞传感-光热治疗一体化。为进一步提高治疗效率，通过精确地控制光纤表面温度，Ω形光纤LSPR实现了循环式细胞传感-光热治疗，能有效杀死流动系统中的癌细胞，为癌症诊疗提供了一种新技术。
             `,
             bio: `
-            罗泽伟，四川大学机械工程学院副研究员，从事光纤生物传感器研究，先后主持国自然科学青年基金、四川省/陕西省科技厅等项目8 项。在项目资助下，成功研制了U形、Ω形和J形等多种形状的光纤探针，并开发系列高灵敏的诊疗一体的光纤LSPR传感器。在Biosensors & Bioelectronics、Analytical Chemistry、Sensors and Actuators B: Chemical、Optics & Laser Technology等杂志发表一作/通讯SCI论文20余篇（中科院一区13篇），累计发表SCI论文50篇，它引1000余次，H-index为22，申请发明专利6项；担任Interdisciplinary Medicine青年编委；长期担任Research、Analytical Chemistry、ACS Sensors、Journal of Lightwave Technology、Photonic Sensors、IEEE Transactions on Instrumentation & Measurement等SCI杂志审稿人；担任中国光学工程学会光谱技术及应用专业委员会青年委员、四川省科技协同创新促进会智能制造专家服务团顾问；指导本科生获得第九届全国大学生基础医学创新大赛国赛银奖，第九届“互联网+”大学生创新创业大赛四川省一等奖。  
+            罗泽伟，四川大学机械工程学院副研究员，从事光纤生物传感器研究，先后主持国自然科学青年基金、四川省/陕西省科技厅等项目8项。在项目资助下，成功研制了U形、Ω形和J形等多种形状的光纤探针，并开发系列高灵敏的诊疗一体的光纤LSPR传感器。在Biosensors & Bioelectronics、Analytical Chemistry、Sensors and Actuators B: Chemical、Optics & Laser Technology等杂志发表一作/通讯SCI论文20余篇（中科院一区13篇），累计发表SCI论文50篇，它引1000余次，H-index为22，申请发明专利6项；担任Interdisciplinary Medicine青年编委；长期担任Research、Analytical Chemistry、ACS Sensors、Journal of Lightwave Technology、Photonic Sensors、IEEE Transactions on Instrumentation & Measurement等SCI杂志审稿人；担任中国光学工程学会光谱技术及应用专业委员会青年委员、四川省科技协同创新促进会智能制造专家服务团顾问；指导本科生获得第九届全国大学生基础医学创新大赛国赛银奖，第九届“互联网+”大学生创新创业大赛四川省一等奖。  
             `
         },
         topics: [
