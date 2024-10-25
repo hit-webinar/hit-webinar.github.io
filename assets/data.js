@@ -17,6 +17,41 @@ HIT网络研讨会主要由几位学术界的小伙伴基于兴趣发起，属�
 
 const reports = [
     {
+        id: "talk241101",
+        // poster: "talk241101.jpg",
+        date: "2024/11/01",
+        title: "面向软组织与显微手术场景的增强现实手术导航",
+        speaker: "涂朴勋 @上海交大",
+        host: "杨健程 @EPFL",
+        materials: [
+            {
+                tag: "讲者主页",
+                href: "https://puxuntu.github.io/"
+            },
+            {
+                tag: "视频回放",
+                // href: "https://www.bilibili.com/video/#TODO"
+            }
+        ],
+        link: {
+            tag: "#腾讯会议：966-229-133",
+            href: "https://meeting.tencent.com/dw/FUeROLf4amYD"
+        },
+        info: {
+            abstract: `
+            手术导航系统被誉为手术室中的“GPS系统”，但目前手术导航系统的普及应用受限于手眼不协调、不适用于软组织和显微手术等问题。针对高度动态与细微软组织手术的多源多模术中影像融合与显微增强现实导航这一关键问题，面向精准、微创、智能的软组织手术临床需求，本报告将介绍本人及团队提出的基于深度多点感知原理的虚实融合配准方法、术中稀疏超声图像序列引导的软组织非刚性形变校正方法、显微视频在线时空多任务学习及增强现实导航方法，及研发集成的面向软组织手术的增强现实手术导航软硬件系统。将以头颈、肝胆等软组织手术及眼科等显微手术为应用案例，介绍我们开展的模型、动物、尸体、临床实验研究及结果。
+            `,
+            bio: `
+            涂朴勋，上海交通大学博士研究生，导师为陈晓军研究员，研究领域为图像引导手术。主持首批国家自然科学基金博士生项目，获博士生国家奖学金。发表论文20余篇，其中以第一作者在IEEE Transactions on Biomedical Engineering、Information Fusion、MICCAI等发表论文7篇，获授权国家发明专利4项。曾在德国明斯特大学、英国伦敦大学学院等相关实验室访问。曾两次获中国生物医学工程学会“青年优秀论文”奖，入选MICCAI PhD Thesis Madness Finalist。
+            `
+        },
+        topics: [
+            "Healthcare",
+            "Intelligence",
+            "Technology"
+        ]
+    },    
+    {
         id: "talk241025",
         poster: "talk241025.jpg",
         date: "2024/10/25",
