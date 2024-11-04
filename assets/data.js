@@ -18,19 +18,19 @@ HIT网络研讨会主要由几位学术界的小伙伴基于兴趣发起，属�
 const reports = [
     {
         id: "talk241110",
-        // poster: "talk241110.jpg",
+        poster: "talk241110.jpg",
         date: "2024/11/10",
         daytime: "周日 14:00",
         title: "超声贴片8年 - 全身，可穿戴，连续成像技术",
         speaker: "王冲和 @Sonologi & ex-MIT",
-        host: "杨健程 @EPFL + 张雅超 @苏州医工所",
+        host: "杨健程 @EPFL & 张雅超 @苏州医工所",
         materials: [
             {
                 tag: "讲者主页",
                 href: "https://scholar.google.com/citations?user=4caHOfIAAAAJ"
             },
             {
-                tag: "视频回放",
+                tag: "视频回放(todo)",
                 // href: "https://www.bilibili.com/video/#TODO"
             },
         ],
