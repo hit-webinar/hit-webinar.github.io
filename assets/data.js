@@ -30,7 +30,7 @@ const reports = [
                 href: "https://scholar.google.com/citations?user=4caHOfIAAAAJ"
             },
             {
-                tag: "视频回放(todo)",
+                tag: "视频回放(todo..)",
                 // href: "https://www.bilibili.com/video/#TODO"
             },
         ],
