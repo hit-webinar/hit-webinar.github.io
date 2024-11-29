@@ -17,6 +17,51 @@ HIT网络研讨会主要由几位学术界的小伙伴基于兴趣发起，属�
 
 const reports = [
     {
+        id: "routine37",
+        // poster: "routine37.jpg",
+        date: "2024/12/06",
+        daytime: "周五 20:30",
+        title: "[MedIA'25] 基于点图混合表征隐式场的3D肺部树状结构高效分割",
+        speakerPaper: "谢康贤 @Buffalo",
+        host: "杨健程 @EPFL",
+        materials: [
+            {
+                tag: "视频回放",
+                // href: "https://www.bilibili.com/video/#TODO"
+            },
+            {
+                tag: "论文链接",
+                href: "https://doi.org/10.1016/j.media.2024.103367"
+            },
+            {
+                tag: "模型代码",
+                href: "https://github.com/M3DV/pulmonary-tree-labeling"
+            },
+            {
+                tag: "数据集",
+                href: "https://github.com/M3DV/pulmonary-tree-labeling"
+            }
+        ],
+        link: {
+            tag: "#腾讯会议：783-427-051",
+            href: "https://meeting.tencent.com/dw/iUv0MJKTadBz"
+        },
+        info: {
+            abstract: `
+            肺部疾病是全球主要死亡原因之一。治愈这些疾病需要更深入地理解肺部系统中复杂的3D树状结构，如支气管和动静脉。然而，传统方法利用高分辨率图像堆栈和在稠密体素网格上运行的标准卷积神经网络（CNN），在计算效率、分辨率受限、局部上下文及形状拓扑结构的保持上面临挑战。
+            我们的方法通过从稠密体素转向稀疏点云表示，改善了内存效率并更好地利用了全局上下文。然而，点云表示的固有稀疏性可能导致树状结构中关键连通性的丢失。为此，我们引入基于骨架结构的图学习方法，结合可微分的特征融合技术，以改进拓扑结构和长距离上下文捕获。更进一步的，我们采用隐式神经表征实现稀疏表示到稠密重建的端到端高效重建。
+            相较于以往基于体素、点云或图的方法，我们的方法提升显著（2-13个百分点），并且推理速度在秒级，相比标准方法加速了约10倍。针对该领域的数据稀缺问题，我们还整理了一个全面的数据集用于验证我们的方法。
+            `,
+            bio: `
+            谢康贤是纽约州立大学布法罗分校的一年级博士生，导师是高明辰教授。他的主要研究方向是医学图像分析。他本硕分别毕业于加州大学圣地亚哥分校数学系，以及波士顿大学计算机系。在硕士期间，他与杨健程博士一起进行了隐式神经表征和肺部解剖结构的研究。他曾在生物医学影像会议 ISBI 以及医学影像顶刊 Medical Image Analysis 上以第一作者发表了论文。
+            `
+        },
+        topics: [
+            "Healthcare",
+            "Intelligence",
+        ]
+    },    
+    {
         id: "talk241129",
         poster: "talk241129.jpg",
         date: "2024/11/29",
@@ -27,7 +72,7 @@ const reports = [
         materials: [
             {
                 tag: "视频回放",
-                href: "https://www.bilibili.com/video/#TODO"
+                href: "https://www.bilibili.com/video/BV1eCz6YVEGZ/"
             }
         ],
         link: {
@@ -47,7 +92,6 @@ const reports = [
         topics: [
             "Healthcare",
             "Technology",
-            "Intelligence"
         ]
     },
     {
