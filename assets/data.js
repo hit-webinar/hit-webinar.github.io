@@ -65,7 +65,6 @@ const reports = [
         id: "talk241129",
         poster: "talk241129.jpg",
         date: "2024/11/29",
-        daytime: "周五 20:00",
         title: "从分子进化到基因编辑工具开发的研究",
         speaker: "张寿悦 @中科院微生物所",
         host: "史林融 @西交",
