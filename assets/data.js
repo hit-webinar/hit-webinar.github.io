@@ -27,7 +27,7 @@ const reports = [
         materials: [
             {
                 tag: "视频回放",
-                // href: "https://www.bilibili.com/video/#TODO"
+                href: "https://www.bilibili.com/video/BV19zi6YNEnF/"
             },
             {
                 tag: "论文链接",
