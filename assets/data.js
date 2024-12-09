@@ -16,11 +16,46 @@ HIT网络研讨会主要由几位学术界的小伙伴基于兴趣发起，属�
 `;
 
 const reports = [
+    // {
+    //     id: "talk241220",
+    //     // poster: "talk241220.jpg",
+    //     date: "2024/12/20",
+    //     daytime: "周五 20:30",
+    //     title: "量化衰老：从预测到预防",
+    //     speaker: "应可钧 @Harvard",
+    //     host: "杨健程 @EPFL",
+    //     materials: [
+    //         {
+    //             tag: "讲者主页",
+    //             href: "https://kejunying.com/"
+    //         },
+    //         {
+    //             tag: "视频回放",
+    //             // href: "https://www.bilibili.com/video/#TODO"
+    //         },
+    //     ],
+    //     link: {
+    //         tag: "#腾讯会议：684-744-905",
+    //         href: "https://meeting.tencent.com/dw/G0yfd34hUvG6"
+    //     },
+    //     info: {
+    //         abstract: `
+    //         生物衰老是一个复杂的多系统过程，其准确量化对于理解衰老机制和开发抗衰老干预措施至关重要。这里我们介绍了我们在生物年龄量化领域的最新进展，包括基于因果推断的衰老时钟开发、器官特异性衰老时钟的建立，以及在分子通路水平研究高维生物衰老的“Ageome”新概念。随着深度学习技术的发展，我们开发了基于 Transformer 的 methylGPT，作为 DNA 甲基化数据的基础模型，提升了对表观遗传学衰老标志物的理解。研究表明，这种多维度的衰老量化方法在预测疾病风险方面显著优于传统单一时钟。在此基础上，我们开发了 ClockBase 平台用于大规模筛选潜在的抗衰老干预措施。为促进领域发展，我们成立了 Biomarkers of Aging Consortium，发起了总奖金超过20万美元的生物衰老标志物国际竞赛（Biomarkers of Aging Challenge），旨在通过开放竞赛的方式推动多组学衰老生物标志物的研发。这些进展为理解衰老的异质性提供了新的视角，同时也展示了人工智能在模拟复杂生物系统中的应用潜力。未来，这些方法学创新将有助于开发更精确的抗衰老策略，推动个性化干预方案的制定。
+    //         `,
+    //         bio: `
+    //         应可钧，哈佛大学博士在读，同时于 2024年获得哈佛大学计算科学与工程硕士学位。他师从美国科学院院士 Vadim Gladyshev 教授，专攻衰老系统生物学。他的研究重点是解析衰老的潜在原因以及开发基于机器学习的衰老生物标志物。他提出首个基于因果推断的衰老时钟（Nature Aging 2024 封面文章），并建立了 ClockBase 平台，整合了全球超过两百万个样本的衰老时钟数据，该平台曾被 Nature Biotechnology 新闻报道。他领导 Biomarkers of Aging Consortium 的 Biolearn 和衰老生物标志物竞赛项目，在 2024 年被 Science 新闻报道。他的其他研究近年在 Cell，Nature Aging，Nature Medicine 等期刊发表。
+    //         `,
+    //     },
+    //     topics: [
+    //         "Healthcare",
+    //         "Intelligence",
+    //         "Technology",
+    //     ]
+    // },    
     {
         id: "talk241213",
         poster: "talk241213.jpg",
         date: "2024/12/13",
-        daytime: "周五 20:00",
         title: "DNA步行器——用于液体活检的新型分析技术",
         speaker: "柴华 @中科院苏州医工所",
         host: "许心愿",
