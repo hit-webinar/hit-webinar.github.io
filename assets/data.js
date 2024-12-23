@@ -16,43 +16,43 @@ HIT网络研讨会主要由几位学术界的小伙伴基于兴趣发起，属�
 `;
 
 const reports = [
-    // {
-    //     id: "routine38",
-    //     // poster: "routine38.jpg",
-    //     date: "2024/12/29",
-    //     daytime: "周日 14:00",
-    //     title: "[NeurIPS‘24] GMAI通用多模态医疗大模型的构建与评测",
-    //     speakerPaper: "陈鹏程 @华盛顿大学",
-    //     host: "杨健程 @EPFL",
-    //     materials: [
-    //         {
-    //             tag: "讲者主页",
-    //             href: "https://scholar.google.com/citations?user=-slpk2kAAAAJ"
-    //         },
-    //         {
-    //             tag: "视频回放",
-    //             // href: "https://www.bilibili.com/video/#TODO"
-    //         },
-    //     ],
-    //     link: {
-    //         tag: "#腾讯会议：874-440-051",
-    //         href: "https://meeting.tencent.com/dw/9LRBEOHhwvwz"
-    //     },
-    //     info: {
-    //         abstract: `
-    //         近年来，多模态大模型在图像、文本等领域取得了巨大突破，但在医疗领域仍然缺乏一款真正可靠的多模态大模型。对此，研究团队整合了数百个专业医学数据集，创建了规模庞大的多模态医疗数据集 GMAI-VL-5.5M，并通过图文配对的策略实现了多元医疗任务和高质量标注的覆盖。
-    //         在数据基础之上，团队提出了采用分阶段训练策略的通用医疗视觉语言模型 GMAI-VL，显著提升了视觉与文本信息的整合和理解能力，从而在多模态医疗场景下更好地支持辅助诊断和临床决策。
-    //         为了全面评估大型视觉语言模型（LVLMs）在医疗领域的实际表现，研究团队进一步提出了通用医疗 AI 基准 GMAI-MMBench。该基准覆盖了 38 种医疗图像模态、18 个临床相关任务、18 个科室和 4 个感知层级，并以视觉问答（VQA）的形式统一了评测框架。整项研究不仅提供了高质量的医疗数据与模型方案，也为后续研究如何构建更高效、更可靠的医疗 AI 奠定了坚实基础。
-    //         `,
-    //         bio: `
-    //         陈鹏程是华盛顿大学的博士生，目前在导师 Eric Seibel 的指导下从事研究工作，并在上海人工智能实验室担任实习生。他本科毕业于南方科技大学，主要研究方向包括手术机器人和多模态医疗大模型。他在通用医疗智能领域具有丰富的研究和实践经验，并多次在国际会议上获得 Best Paper 和 Best Paper Finalist 等荣誉。
-    //         `
-    //     },
-    //     topics: [
-    //         "Healthcare",
-    //         "Intelligence",
-    //     ]
-    // },    
+    {
+        id: "routine38",
+        poster: "routine38.jpg",
+        date: "2024/12/29",
+        daytime: "周日 14:00",
+        title: "[NeurIPS‘24] GMAI通用多模态医疗大模型的构建与评测",
+        speakerPaper: "陈鹏程 @华盛顿大学",
+        host: "杨健程 @EPFL",
+        materials: [
+            {
+                tag: "讲者主页",
+                href: "https://scholar.google.com/citations?user=-slpk2kAAAAJ"
+            },
+            {
+                tag: "视频回放",
+                // href: "https://www.bilibili.com/video/#TODO"
+            },
+        ],
+        link: {
+            tag: "#腾讯会议：874-440-051",
+            href: "https://meeting.tencent.com/dw/9LRBEOHhwvwz"
+        },
+        info: {
+            abstract: `
+            近年来，多模态大模型在图像、文本等领域取得了巨大突破，但在医疗领域仍然缺乏一款真正可靠的多模态大模型。对此，研究团队整合了数百个专业医学数据集，创建了规模庞大的多模态医疗数据集 GMAI-VL-5.5M，并通过图文配对的策略实现了多元医疗任务和高质量标注的覆盖。
+            在数据基础之上，团队提出了采用分阶段训练策略的通用医疗视觉语言模型 GMAI-VL，显著提升了视觉与文本信息的整合和理解能力，从而在多模态医疗场景下更好地支持辅助诊断和临床决策。
+            为了全面评估大型视觉语言模型（LVLMs）在医疗领域的实际表现，研究团队进一步提出了通用医疗 AI 基准 GMAI-MMBench。该基准覆盖了 38 种医疗图像模态、18 个临床相关任务、18 个科室和 4 个感知层级，并以视觉问答（VQA）的形式统一了评测框架。整项研究不仅提供了高质量的医疗数据与模型方案，也为后续研究如何构建更高效、更可靠的医疗 AI 奠定了坚实基础。
+            `,
+            bio: `
+            陈鹏程是华盛顿大学的博士生，目前在导师 Eric Seibel 的指导下从事研究工作，并在上海人工智能实验室担任实习生。他本科毕业于南方科技大学，主要研究方向包括手术机器人和多模态医疗大模型。他在通用医疗智能领域具有丰富的研究和实践经验，并多次在国际会议上获得 Best Paper 和 Best Paper Finalist 等荣誉。
+            `
+        },
+        topics: [
+            "Healthcare",
+            "Intelligence",
+        ]
+    },    
     {
         id: "talk241220",
         poster: "talk241220.jpeg",
