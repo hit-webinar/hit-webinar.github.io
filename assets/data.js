@@ -17,6 +17,39 @@ HIT网络研讨会主要由几位学术界的小伙伴基于兴趣发起，属�
 
 const reports = [
     {
+        id: "talk250105",
+        poster: "talk250105.jpg",
+        date: "2025/01/05",
+        daytime: "周日 20:00",
+        title: "柔性味觉神经界面——用于舌癌患者手术评估与味觉解码",
+        speaker: "王馨儿 @中科院微系统所",
+        host: "史林融 @西交",
+        materials: [
+            {
+                tag: "视频回放",
+                // href: "https://www.bilibili.com/video/#TODO"
+            }
+        ],
+        link: {
+            tag: "#腾讯会议：249-110-366",
+            href: "https://meeting.tencent.com/dw/ja8lb654owQR"
+        },
+        info: {
+            abstract: `
+            味觉是最重要的生理感觉之一，对人类的生存与进化至关重要。舌癌是全球十大恶性肿瘤之一，年新增病例超过35万例。舌癌病灶直接侵犯舌头的味觉感受区域，同时以游离组织皮瓣修复重建舌癌术后组织缺损会使患者味觉减退甚至完全丧失味觉功能，严重影响其整体生活质量，然而目前对味觉失能缺少有效的临床干预治疗手段。
+            
+            针对上述的临床问题，我们开发出高通量超柔性味觉神经界面，使皮肤也能感知“味觉”，帮助舌癌患者等舌瓣重建术后味觉失能患者重建味觉功能。
+            `,
+            bio: `
+            王馨儿，中国科学院上海微系统与信息技术研究所博士研究生，本科毕业于中国科学技术大学，博士期间的研究方向为柔性神经界面，曾获研究生国家奖学金、微纳传感器领域国际顶会 IEEE MEMS Best Student Oral Award Finalist 等，在味觉神经界面方面的最新研究成果发表在 Nature Communications 上。
+            `
+        },
+        topics: [
+            "Healthcare",
+            "Technology"
+        ]
+    },
+    {
         id: "routine38",
         poster: "routine38.jpg",
         date: "2024/12/29",
