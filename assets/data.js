@@ -50,7 +50,7 @@ const reports = [
             "Technology",
             "Intelligence"
         ]
-    },    
+    },
     {
         id: "talk250105",
         poster: "talk250105.jpg",
@@ -120,7 +120,7 @@ const reports = [
             "Healthcare",
             "Intelligence",
         ]
-    },    
+    },
     {
         id: "talk241220",
         poster: "talk241220.jpeg",
@@ -156,7 +156,7 @@ const reports = [
             "Intelligence",
             "Technology",
         ]
-    },    
+    },
     {
         id: "talk241213",
         poster: "talk241213.jpg",
@@ -181,7 +181,7 @@ const reports = [
         topics: [
             "Healthcare",
             "Technology",
-        ] 
+        ]
     },
     {
         id: "routine37",
@@ -227,7 +227,7 @@ const reports = [
             "Healthcare",
             "Intelligence",
         ]
-    },    
+    },
     {
         id: "talk241129",
         poster: "talk241129.jpg",
@@ -293,7 +293,7 @@ const reports = [
             "Healthcare",
             "Intelligence",
         ]
-    },    
+    },
     {
         id: "talk241115",
         poster: "talk241115.jpg",
@@ -324,7 +324,7 @@ const reports = [
             "Healthcare",
             "Technology"
         ]
-    },    
+    },
     {
         id: "talk241110",
         poster: "talk241110.jpg",
@@ -360,7 +360,7 @@ const reports = [
             "Healthcare",
             "Technology"
         ]
-    },    
+    },
     {
         id: "talk241101",
         poster: "talk241101.jpg",
@@ -395,7 +395,7 @@ const reports = [
             "Intelligence",
             "Technology"
         ]
-    },    
+    },
     {
         id: "talk241025",
         poster: "talk241025.jpg",
@@ -426,7 +426,7 @@ const reports = [
         topics: [
             "Healthcare"
         ]
-    },    
+    },
     {
         id: "talk241020",
         poster: "talk241020.jpg",
@@ -462,7 +462,7 @@ const reports = [
             "Healthcare",
             "Intelligence"
         ]
-    },    
+    },
     {
         id: "talk241010",
         poster: "talk241010.jpg",
@@ -601,7 +601,7 @@ const reports = [
             "Healthcare",
             "Intelligence"
         ]
-    },    
+    },
     {
         id: "talk240726",
         poster: "talk240726.jpg",
@@ -635,7 +635,7 @@ const reports = [
             "Healthcare",
             "Intelligence"
         ]
-    },    
+    },
     {
         id: "talk240628",
         poster: "talk240628.jpg",
@@ -668,7 +668,7 @@ const reports = [
         topics: [
             "Intelligence"
         ]
-    },    
+    },
     {
         id: "talk240621",
         poster: "talk240621.jpg",
@@ -705,7 +705,7 @@ const reports = [
             "Intelligence",
             "Technology"
         ]
-    },    
+    },
     {
         id: "talk240602",
         poster: "talk240602.jpg",
@@ -774,7 +774,7 @@ const reports = [
             "Healthcare",
             "Technology"
         ]
-    },    
+    },
     {
         id: "talk240503",
         poster: "talk240503.jpg",
