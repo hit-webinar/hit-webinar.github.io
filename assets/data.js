@@ -16,41 +16,41 @@ HIT网络研讨会主要由几位学术界的小伙伴基于兴趣发起，属�
 `;
 
 const reports = [
-    // {
-    //     id: "talk250112",
-    //     // poster: "talk250112.jpg",
-    //     date: "2025/01/12",
-    //     daytime: "周日 20:00",
-    //     title: "深度几何学习在工业设计优化中的应用",
-    //     speaker: "魏震 @EPFL",
-    //     host: "杨健程 @EPFL",
-    //     materials: [
-    //         {
-    //             tag: "讲者主页",
-    //             href: "https://scholar.google.com/citations?user=CYHddJMAAAAJ"
-    //         },
-    //         {
-    //             tag: "视频回放",
-    //             // href: "https://www.bilibili.com/video/#TODO"
-    //         },
-    //     ],
-    //     link: {
-    //         tag: "#腾讯会议：223-227-447",
-    //         href: "https://meeting.tencent.com/dw/dcQ7dCuBPnfS"
-    //     },
-    //     info: {
-    //         abstract: `
-    //         工业设计优化是计算机辅助设计和工业软件的核心功能之一，其目标是通过调整产品几何形态提升性能、可用性和制造效率。然而，当前的几何处理往往依赖于大量人工操作，导致开发成本高企，普及难度较大。本讲座将重点介绍利用深度几何学习技术在工业设计优化中提升几何处理自动化水平的最新研究进展，并探讨未来的研究方向与挑战。
-    //         `,
-    //         bio: `
-    //         魏震，洛桑联邦理工学院计算机视觉实验室博士研究生。他于2016年和2019年分别毕业于电子科技大学和中国科学院大学，获得学士和硕士学位。他的研究方向涵盖深度学习、三维计算机视觉、工业软件、流体力学及飞行器设计。他曾获美国航空航天学会（AIAA）Aviation Forum最佳学生论文奖及AIAA年度最佳论文奖。
-    //         `
-    //     },
-    //     topics: [
-    //         "Technology",
-    //         "Intelligence"
-    //     ]
-    // },
+    {
+        id: "talk250112",
+        // poster: "talk250112.jpg",
+        date: "2025/01/12",
+        daytime: "周日 20:00",
+        title: "深度几何学习在工业设计优化中的应用",
+        speaker: "魏震 @EPFL",
+        host: "杨健程 @EPFL",
+        materials: [
+            {
+                tag: "讲者主页",
+                href: "https://scholar.google.com/citations?user=CYHddJMAAAAJ"
+            },
+            {
+                tag: "视频回放",
+                // href: "https://www.bilibili.com/video/#TODO"
+            },
+        ],
+        link: {
+            tag: "#腾讯会议：223-227-447",
+            href: "https://meeting.tencent.com/dw/dcQ7dCuBPnfS"
+        },
+        info: {
+            abstract: `
+            工业设计优化是计算机辅助设计和工业软件的核心功能之一，其目标是通过调整产品几何形态提升性能、可用性和制造效率。然而，当前的几何处理往往依赖于大量人工操作，导致开发成本高企，普及难度较大。本讲座将重点介绍利用深度几何学习技术在工业设计优化中提升几何处理自动化水平的最新研究进展，并探讨未来的研究方向与挑战。
+            `,
+            bio: `
+            魏震，洛桑联邦理工学院计算机视觉实验室博士研究生。他于2016年和2019年分别毕业于电子科技大学和中国科学院大学，获得学士和硕士学位。他的研究方向涵盖深度学习、三维计算机视觉、工业软件、流体力学及飞行器设计。他曾获美国航空航天学会（AIAA）Aviation Forum最佳学生论文奖及AIAA年度最佳论文奖。
+            `
+        },
+        topics: [
+            "Technology",
+            "Intelligence"
+        ]
+    },
     {
         id: "talk250105",
         poster: "talk250105.jpg",
@@ -62,7 +62,7 @@ const reports = [
         materials: [
             {
                 tag: "视频回放",
-                // href: "https://www.bilibili.com/video/#TODO"
+                href: "https://www.bilibili.com/video/BV1A7rNYwEkJ/"
             }
         ],
         link: {
