@@ -22,8 +22,8 @@ const reports = [
         date: "2025/01/12",
         daytime: "周日 20:00",
         title: "深度几何学习在工业设计优化中的应用",
-        speaker: "魏震 @EPFL",
-        host: "杨健程 @EPFL",
+        speaker: "魏震 EPFL",
+        host: "杨健程 EPFL",
         materials: [
             {
                 tag: "讲者主页",
@@ -31,7 +31,7 @@ const reports = [
             },
             {
                 tag: "视频回放",
-                // href: "https://www.bilibili.com/video/#TODO"
+                href: "https://www.bilibili.com/video/BV1brcVejEp8/"
             },
         ],
         link: {
@@ -57,8 +57,8 @@ const reports = [
         date: "2025/01/05",
         daytime: "周日 20:00",
         title: "柔性味觉神经界面——用于舌癌患者手术评估与味觉解码",
-        speaker: "王馨儿 @中科院微系统所",
-        host: "史林融 @西交",
+        speaker: "王馨儿 中科院微系统所",
+        host: "史林融 西交",
         materials: [
             {
                 tag: "视频回放",
@@ -90,8 +90,8 @@ const reports = [
         date: "2024/12/29",
         daytime: "周日 14:00",
         title: "[NeurIPS‘24] GMAI通用多模态医疗大模型的构建与评测",
-        speakerPaper: "陈鹏程 @华盛顿大学",
-        host: "杨健程 @EPFL",
+        speakerPaper: "陈鹏程 华盛顿大学",
+        host: "杨健程 EPFL",
         materials: [
             {
                 tag: "讲者主页",
@@ -127,8 +127,8 @@ const reports = [
         date: "2024/12/20",
         daytime: "周五 20:30",
         title: "量化衰老：从预测到预防",
-        speaker: "应可钧 @Harvard",
-        host: "杨健程 @EPFL",
+        speaker: "应可钧 Harvard",
+        host: "杨健程 EPFL",
         materials: [
             {
                 tag: "讲者主页",
@@ -162,7 +162,7 @@ const reports = [
         poster: "talk241213.jpg",
         date: "2024/12/13",
         title: "DNA步行器——用于液体活检的新型分析技术",
-        speaker: "柴华 @中科院苏州医工所",
+        speaker: "柴华 中科院苏州医工所",
         host: "许心愿",
         materials: [
             {
@@ -189,8 +189,8 @@ const reports = [
         date: "2024/12/06",
         daytime: "周五 20:30",
         title: "[MedIA'25] 基于点图混合表征隐式场的3D肺部树状结构高效分割",
-        speakerPaper: "谢康贤 @Buffalo",
-        host: "杨健程 @EPFL",
+        speakerPaper: "谢康贤 Buffalo",
+        host: "杨健程 EPFL",
         materials: [
             {
                 tag: "视频回放",
@@ -233,8 +233,8 @@ const reports = [
         poster: "talk241129.jpg",
         date: "2024/11/29",
         title: "从分子进化到基因编辑工具开发的研究",
-        speaker: "张寿悦 @中科院微生物所",
-        host: "史林融 @西交",
+        speaker: "张寿悦 中科院微生物所",
+        host: "史林融 西交",
         materials: [
             {
                 tag: "视频回放",
@@ -265,8 +265,8 @@ const reports = [
         poster: "talk241122.jpg",
         date: "2024/11/22",
         title: "三维超声重建：探索隐式表征新方法",
-        speaker: "陈宏博 @上科大",
-        host: "杨健程 @EPFL",
+        speaker: "陈宏博 上科大",
+        host: "杨健程 EPFL",
         materials: [
             {
                 tag: "讲者主页",
@@ -300,8 +300,8 @@ const reports = [
         date: "2024/11/15",
         daytime: "周五 19:00",
         title: "磁驱介入机器人研究进展",
-        speaker: "杨正馨 @中科院苏州医工所",
-        host: "杨炳乾 @中科大",
+        speaker: "杨正馨 中科院苏州医工所",
+        host: "杨炳乾 中科大",
         materials: [
             {
                 tag: "视频回放",
@@ -331,8 +331,8 @@ const reports = [
         date: "2024/11/10",
         daytime: "周日 14:00",
         title: "超声贴片8年 - 全身，可穿戴，连续成像技术",
-        speaker: "王冲和 @Sonologi & ex-MIT",
-        host: "杨健程 @EPFL & 张雅超 @苏州医工所",
+        speaker: "王冲和 Sonologi & ex-MIT",
+        host: "杨健程 EPFL & 张雅超 苏州医工所",
         materials: [
             {
                 tag: "讲者主页",
@@ -366,8 +366,8 @@ const reports = [
         poster: "talk241101.jpg",
         date: "2024/11/01",
         title: "面向软组织与显微手术场景的增强现实手术导航",
-        speaker: "涂朴勋 @上海交大",
-        host: "杨健程 @EPFL",
+        speaker: "涂朴勋 上海交大",
+        host: "杨健程 EPFL",
         materials: [
             {
                 tag: "讲者主页",
@@ -401,8 +401,8 @@ const reports = [
         poster: "talk241025.jpg",
         date: "2024/10/25",
         title: "探索与实践：健康管理策略的深思与经验交流",
-        speaker: "匡大鹏 @上交一附院",
-        host: "史林融 @西交",
+        speaker: "匡大鹏 上交一附院",
+        host: "史林融 西交",
         materials: [
             {
                 tag: "视频回放",
@@ -433,8 +433,8 @@ const reports = [
         date: "2024/10/20",
         daytime: "周日 13:00",
         title: "图学习大模型在罕见病的旧药新用",
-        speaker: "黄柯鑫 @Stanford",
-        host: "杨健程 @EPFL",
+        speaker: "黄柯鑫 Stanford",
+        host: "杨健程 EPFL",
         materials: [
             {
                 tag: "讲者主页",
@@ -469,7 +469,7 @@ const reports = [
         date: "2024/10/10",
         daytime: "周四 20:00",
         title: "诊疗一体化光纤LSPR细胞传感器的研究",
-        speaker: "罗泽伟 @四川大学",
+        speaker: "罗泽伟 四川大学",
         host: "史林融",
         materials: [
             {
@@ -500,8 +500,8 @@ const reports = [
         date: "2024/09/22",
         daytime: "周日 13:00",
         title: "GenAI时代的医学影像",
-        speaker: "彭伟 @Stanford",
-        host: "杨健程 @EPFL",
+        speaker: "彭伟 Stanford",
+        host: "杨健程 EPFL",
         materials: [
             {
                 tag: "讲者主页",
@@ -535,8 +535,8 @@ const reports = [
         date: "2024/09/01",
         daytime: "周日 13:00",
         title: "面向医疗发现、服务和公平的机器学习方法",
-        speaker: "杨宇喆 @MIT",
-        host: "杨健程 @EPFL",
+        speaker: "杨宇喆 MIT",
+        host: "杨健程 EPFL",
         materials: [
             {
                 tag: "讲者主页",
@@ -573,8 +573,8 @@ const reports = [
         poster: "talk240809.jpg",
         date: "2024/08/09",
         title: "气管树建模：从体素分类到隐式表达",
-        speaker: "顾运 @上海交大",
-        host: "杨健程 @EPFL",
+        speaker: "顾运 上海交大",
+        host: "杨健程 EPFL",
         materials: [
             {
                 tag: "讲者主页",
@@ -607,8 +607,8 @@ const reports = [
         poster: "talk240726.jpg",
         date: "2024/07/26",
         title: "医学图像分析中的样本不均衡：挑战与改进方法探讨",
-        speaker: "李泽榉 @Oxford",
-        host: "杨健程 @EPFL",
+        speaker: "李泽榉 Oxford",
+        host: "杨健程 EPFL",
         materials: [
             {
                 tag: "讲者主页",
@@ -641,8 +641,8 @@ const reports = [
         poster: "talk240628.jpg",
         date: "2024/06/28",
         title: "自监督视觉学习",
-        speaker: "张同 @EPFL",
-        host: "杨健程 @EPFL",
+        speaker: "张同 EPFL",
+        host: "杨健程 EPFL",
         materials: [
             {
                 tag: "讲者主页",
@@ -674,8 +674,8 @@ const reports = [
         poster: "talk240621.jpg",
         date: "2024/06/21",
         title: "质子治疗技术和可变形图像配准",
-        speaker: "李夏 @ETH Zurich",
-        host: "杨健程 @EPFL",
+        speaker: "李夏 ETH Zurich",
+        host: "杨健程 EPFL",
         materials: [
             {
                 tag: "讲者主页",
@@ -712,7 +712,7 @@ const reports = [
         date: "2024/06/02",
         daytime: "周日 20:00",
         title: "3D医学图像分析：基础概念和一些高级主题",
-        speaker: "杨健程 @EPFL",
+        speaker: "杨健程 EPFL",
         host: "钰沐菡",
         materials: [
             {
@@ -750,8 +750,8 @@ const reports = [
         poster: "talk240524.jpg",
         date: "2024/05/24",
         title: "基于纳米导电材料的柔性医疗传感（电极）产业化进展",
-        speaker: "高峰 @佛山瑞联福",
-        host: "邹海达 @西安交大",
+        speaker: "高峰 佛山瑞联福",
+        host: "邹海达 西安交大",
         materials: [
             {
                 tag: "视频回放",
@@ -781,8 +781,8 @@ const reports = [
         date: "2024/05/03",
         daytime: "周五 12:00",
         title: "浅谈大语言模型和交互式机器学习在家庭机器人中的应用",
-        speaker: "崔雨晨 @Stanford",
-        host: "杨健程 @EPFL",
+        speaker: "崔雨晨 Stanford",
+        host: "杨健程 EPFL",
         materials: [
             {
                 tag: "讲者主页",
@@ -816,8 +816,8 @@ const reports = [
         date: "2024/04/20",
         daytime: "周六 20:00",
         title: "医工交叉研究浅谈：医师的角度",
-        speaker: "赵伟 @湘雅",
-        host: "杨健程 @EPFL",
+        speaker: "赵伟 湘雅",
+        host: "杨健程 EPFL",
         materials: [
             {
                 tag: "讲者主页",
@@ -837,8 +837,8 @@ const reports = [
         "poster": "talk240405.jpg",
         "date": "2024/04/05",
         "title": "基于人工智能的心脏数字孪生：迈向个体化心脏疾病治疗",
-        "speaker": "李雷 @Soton",
-        "host": "杨健程 @EPFL",
+        "speaker": "李雷 Soton",
+        "host": "杨健程 EPFL",
         "materials": [
             {
                 "tag": "讲者主页",
@@ -859,8 +859,8 @@ const reports = [
         "poster": "talk240322.jpg",
         "date": "2024/03/22",
         "title": "医学图像中的公平性学习",
-        "speaker": "田宇 @Harvard",
-        "host": "杨健程 @EPFL",
+        "speaker": "田宇 Harvard",
+        "host": "杨健程 EPFL",
         "materials": [
             {
                 "tag": "讲者主页",
@@ -881,8 +881,8 @@ const reports = [
         "poster": "talk240308.jpg",
         "date": "2024/03/08",
         "title": "高速高分辨超声和光声多模态成像",
-        "speaker": "张雅超 @苏州医工所",
-        "host": "杨炳乾 @中科大",
+        "speaker": "张雅超 苏州医工所",
+        "host": "杨炳乾 中科大",
         "materials": [
             {
                 "tag": "视频回放",
@@ -900,8 +900,8 @@ const reports = [
         "date": "2024/02/16",
         "daytime": "周五 14:00",
         "title": "迈向多智能体智能：从鲁棒交互到联合对齐",
-        "speaker": "刘越江 @Stanford",
-        "host": "杨健程 @EPFL",
+        "speaker": "刘越江 Stanford",
+        "host": "杨健程 EPFL",
         "materials": [
             {
                 "tag": "讲者主页",
@@ -921,8 +921,8 @@ const reports = [
         date: "2024/02/03",
         daytime: "周六 20:00",
         title: "智能机器人超声检测：自适应、动态和学习驱动的图像采集",
-        speaker: "蒋中亮 @TUM",
-        host: "杨健程 @EPFL",
+        speaker: "蒋中亮 TUM",
+        host: "杨健程 EPFL",
         materials: [
             {
                 tag: "讲者主页",
@@ -944,8 +944,8 @@ const reports = [
         poster: "talk240112.jpg",
         date: "2024/01/12",
         title: "“数据集压缩与合成”和“3D医学图像通用交互分割”双主题分享",
-        speaker: "赵波 & 杜雨新 & 白帆 @智源研究院",
-        host: "杨健程 @EPFL",
+        speaker: "赵波 & 杜雨新 & 白帆 智源研究院",
+        host: "杨健程 EPFL",
         materials: [
             {
                 tag: "讲者主页",
@@ -967,8 +967,8 @@ const reports = [
         date: "2024/01/05",
         daytime: "周五 20:30",
         title: "如何提高AI诊断模型的效率与可解释性",
-        speaker: "尤晨羽 @Yale",
-        host: "杨健程 @EPFL",
+        speaker: "尤晨羽 Yale",
+        host: "杨健程 EPFL",
         materials: [
             {
                 tag: "讲者主页",
@@ -989,8 +989,8 @@ const reports = [
         poster: "talk231229.jpg",
         date: "2023/12/29",
         title: "面向医学影像的多模态多任务协同学习",
-        speaker: "谷元杰 @复旦",
-        host: "罗虎 @复旦",
+        speaker: "谷元杰 复旦",
+        host: "罗虎 复旦",
         materials: [
             {
                 tag: "视频回放",
@@ -1007,8 +1007,8 @@ const reports = [
         poster: "talk231215.jpg",
         date: "2023/12/15",
         title: "长视频理解的挑战与创新：算力、算法和数据",
-        speaker: "赵琛 @KAUST",
-        host: "杨健程 @EPFL",
+        speaker: "赵琛 KAUST",
+        host: "杨健程 EPFL",
         materials: [
             {
                 tag: "讲者主页",
@@ -1028,8 +1028,8 @@ const reports = [
         poster: "talk231124.jpg",
         date: "2023/11/24",
         title: "基于因果推断的全景病理图像多实例学习",
-        speaker: "林天成 @上海交大",
-        host: "杨健程 @EPFL",
+        speaker: "林天成 上海交大",
+        host: "杨健程 EPFL",
         materials: [
             {
                 tag: "讲者主页",
@@ -1051,8 +1051,8 @@ const reports = [
         date: "2023/11/12",
         daytime: "周日 14:30",
         title: "针对不完美医学数据的组学图像多模态AI",
-        speaker: "邢小涵 @Stanford",
-        host: "杨健程 @EPFL",
+        speaker: "邢小涵 Stanford",
+        host: "杨健程 EPFL",
         materials: [
             {
                 tag: "讲者主页",
@@ -1073,8 +1073,8 @@ const reports = [
         poster: "routine36.jpg",
         date: "2023/10/27",
         title: "足底软组织多维力学特性在体动态表征",
-        speakerPaper: "吴龙燕 @复旦",
-        host: "李轶恒 @中科大",
+        speakerPaper: "吴龙燕 复旦",
+        host: "李轶恒 中科大",
         materials: [
             {
                 tag: "视频回放",
@@ -1091,8 +1091,8 @@ const reports = [
         poster: "talk231006.jpg",
         date: "2023/10/06",
         title: "STU-Net: 大规模预训练医学图像分割",
-        speaker: "何军军 @上海人工智能实验室",
-        host: "杨健程 @EPFL",
+        speaker: "何军军 上海人工智能实验室",
+        host: "杨健程 EPFL",
         materials: [
             {
                 tag: "讲者主页",
@@ -1113,8 +1113,8 @@ const reports = [
         poster: "routine35.jpg",
         date: "2023/09/22",
         title: "动态导航技术在颧种植手术中的应用",
-        speakerPaper: "陶宝鑫 @上海交大",
-        host: "罗虎 @复旦",
+        speakerPaper: "陶宝鑫 上海交大",
+        host: "罗虎 复旦",
         materials: [
             {
                 tag: "本次活动不提供视频回放",
@@ -1130,8 +1130,8 @@ const reports = [
         poster: "talk230901.jpg",
         date: "2023/09/01",
         title: "融合临床专业知识的医学视觉语言建模基准",
-        speaker: "Yingying Zhu @UT Arlington",
-        host: "张玉冰 @北大",
+        speaker: "Yingying Zhu UT Arlington",
+        host: "张玉冰 北大",
         materials: [
             {
                 tag: "讲者主页",
@@ -1152,8 +1152,8 @@ const reports = [
         poster: "talk230825.jpg",
         date: "2023/08/25",
         title: "智能超声：从智能成像、智能分析、泛化安全到基础软件",
-        speaker: "杨鑫 @深大",
-        host: "杨健程 @EPFL",
+        speaker: "杨鑫 深大",
+        host: "杨健程 EPFL",
         materials: [
             {
                 tag: "讲者主页",
@@ -1174,8 +1174,8 @@ const reports = [
         poster: "talk230818.jpg",
         date: "2023/08/18",
         title: "高灵敏度超快超声微泡造影成像研究进展",
-        speaker: "褚寒冰 @西安交大",
-        host: "杨炳乾 @中科大",
+        speaker: "褚寒冰 西安交大",
+        host: "杨炳乾 中科大",
         materials: [
             {
                 tag: "视频回放",
@@ -1192,8 +1192,8 @@ const reports = [
         poster: "routine34.png",
         date: "2023/08/11",
         title: "足底多维力检测平台：设计、制造与标定",
-        speakerPaper: "罗虎 @复旦",
-        host: "张玉冰 @北大",
+        speakerPaper: "罗虎 复旦",
+        host: "张玉冰 北大",
         materials: [
             {
                 tag: "视频回放",
@@ -1210,8 +1210,8 @@ const reports = [
         poster: "routine33.png",
         date: "2023/07/28",
         title: "[Nature BME'23] AI系统解读手术视频",
-        speakerPaper: "邵良靖 @复旦",
-        speakerNews: "张玉冰 @北大",
+        speakerPaper: "邵良靖 复旦",
+        speakerNews: "张玉冰 北大",
         materials: [
             {
                 tag: "论文",
@@ -1232,8 +1232,8 @@ const reports = [
         poster: "routine32.jpg",
         date: "2023/07/21",
         title: "下肢假肢机械仿生",
-        speakerPaper: "许阳阳 @复旦",
-        speakerNews: "罗虎 @复旦",
+        speakerPaper: "许阳阳 复旦",
+        speakerNews: "罗虎 复旦",
         materials: [
             {
                 tag: "视频回放",
@@ -1250,8 +1250,8 @@ const reports = [
         poster: "talk230714.jpg",
         date: "2023/07/14",
         title: "AI优化临床影像采集",
-        speaker: "项磊 @深透医疗",
-        host: "杨健程 @EPFL",
+        speaker: "项磊 深透医疗",
+        host: "杨健程 EPFL",
         materials: [
             {
                 tag: "讲者主页",
@@ -1274,8 +1274,8 @@ const reports = [
         date: "2023/07/02",
         daytime: "周日 9:00",
         title: "利用鲁棒机器学习深入了解阿尔茨海默病亚型",
-        speaker: "汪浩瀚 @UIUC",
-        host: "景宝宇 @UIUC",
+        speaker: "汪浩瀚 UIUC",
+        host: "景宝宇 UIUC",
         materials: [
             {
                 tag: "讲者主页",
@@ -1300,8 +1300,8 @@ const reports = [
         poster: "talk230623.jpeg",
         date: "2023/06/23",
         title: "智能对抗数据生成在深度医学图像分割的应用",
-        speaker: "陈晨 @牛津",
-        host: "杨健程 @EPFL",
+        speaker: "陈晨 牛津",
+        host: "杨健程 EPFL",
         materials: [
             {
                 tag: "讲者主页",
@@ -1359,8 +1359,8 @@ const reports = [
         poster: "talk230526.jpeg",
         date: "2023/05/26",
         title: "CAMEL：探索大语言模型LLM的多智能体社会",
-        speaker: "李国豪 @KAUST",
-        host: "杨健程 @EPFL",
+        speaker: "李国豪 KAUST",
+        host: "杨健程 EPFL",
         materials: [
             {
                 tag: "讲者主页",
@@ -1388,8 +1388,8 @@ const reports = [
         poster: "talk230519.jpeg",
         date: "2023/05/19",
         title: "AIGC中的视频/图像生成与编辑研究",
-        speaker: "陈炫宏 @上海交大",
-        host: "杨健程 @EPFL",
+        speaker: "陈炫宏 上海交大",
+        host: "杨健程 EPFL",
         materials: [
             {
                 tag: "讲者主页",
@@ -1431,8 +1431,8 @@ const reports = [
         poster: "routine29.jpg",
         date: "2023/04/21",
         title: "[CVPR'23 作者精读] 基于Diffusion Models的3D模型生成",
-        speakerAuthor: "李昱翰 @上海交大",
-        host: "杨健程 @EPFL",
+        speakerAuthor: "李昱翰 上海交大",
+        host: "杨健程 EPFL",
         speakerNews: "徐嘉阳",
         materials: [
             {
@@ -1474,8 +1474,8 @@ const reports = [
         poster: "talk230324.jpeg",
         date: "2023/03/24",
         title: "AR/VR中的神经渲染、编辑交互与基于耳廓重建的声场应用",
-        speaker: "黄晓阳 @上海交大",
-        host: "杨健程 @EPFL",
+        speaker: "黄晓阳 上海交大",
+        host: "杨健程 EPFL",
         materials: [
             {
                 tag: "讲者主页",
@@ -1514,8 +1514,8 @@ const reports = [
         poster: "talk230224.jpeg",
         date: "2023/02/24",
         title: "智能药物设计方法在难成药靶点上的实践",
-        speaker: "郑双佳 @中山/星药",
-        host: "杨健程 @EPFL",
+        speaker: "郑双佳 中山/星药",
+        host: "杨健程 EPFL",
         materials: [
             {
                 tag: "讲者主页",
@@ -1621,7 +1621,7 @@ const reports = [
         poster: "talk230106.jpeg",
         date: "2023/01/06",
         title: "多变量时序电子病历数据深度学习可解释分析",
-        speaker: "马连韬 @北大",
+        speaker: "马连韬 北大",
         host: "景宝宇",
         materials: [
             {
@@ -1690,8 +1690,8 @@ const reports = [
         poster: "talk221216.jpeg",
         date: "2022/12/16",
         title: "如何高效利用已公开的医学影像数据集",
-        speaker: "周纵苇 @JHU",
-        host: "杨健程 @EPFL",
+        speaker: "周纵苇 JHU",
+        host: "杨健程 EPFL",
         materials: [
             {
                 tag: "讲者主页",
@@ -1735,8 +1735,8 @@ const reports = [
         date: "2022/12/03",
         daytime: "周六 20:00",
         title: "蛋白质表征学习：基准测试与模型设计",
-        speaker: "徐明皓 @Mila",
-        host: "杨健程 @EPFL",
+        speaker: "徐明皓 Mila",
+        host: "杨健程 EPFL",
         materials: [
             {
                 tag: "讲者主页",
@@ -1842,8 +1842,8 @@ const reports = [
         poster: "talk221028.jpeg",
         date: "2022/10/28",
         title: "面向新一代无人系统的智能感知和混合现实技术",
-        speaker: "邹征夏 @北航",
-        host: "杨健程 @EPFL",
+        speaker: "邹征夏 北航",
+        host: "杨健程 EPFL",
         materials: [
             {
                 tag: "讲者主页",
@@ -1905,8 +1905,8 @@ const reports = [
         poster: "talk221007.jpeg",
         date: "2022/10/07",
         title: "神经图像合成技术及其在多发性硬化症的临床应用",
-        speaker: "李宏伟 @Harvard/TUM",
-        host: "杨健程 @EPFL",
+        speaker: "李宏伟 Harvard/TUM",
+        host: "杨健程 EPFL",
         materials: [
             {
                 tag: "讲者主页",
@@ -1968,7 +1968,7 @@ const reports = [
         date: "2022/09/18",
         daytime: "周日 20:00",
         title: "经颅超声刺激——一种新型的非侵入式神经调控技术",
-        speaker: "曾以诺 @上海交大",
+        speaker: "曾以诺 上海交大",
         host: "刘帅",
         materials: [
             {
@@ -2027,7 +2027,7 @@ const reports = [
         date: "2022/08/27",
         daytime: "周六 20:00",
         title: "以临床用户为中心的可解释AI在医学图像分析的应用",
-        speaker: "金巍娜 @Simon Fraser",
+        speaker: "金巍娜 Simon Fraser",
         host: "周介立",
         materials: [
             {
@@ -2110,7 +2110,7 @@ const reports = [
         date: "2022/07/30",
         daytime: "周六 20:00",
         title: "ECCV作者分享3D计算机视觉的前沿进展",
-        speaker: "赵晨 @EPFL",
+        speaker: "赵晨 EPFL",
         host: "杨健程",
         materials: [
             {
@@ -2167,7 +2167,7 @@ const reports = [
         date: "2022/07/10",
         daytime: "周日 11:00",
         title: "Nature Medicine 作者分享健康和医学领域的人工智能",
-        speaker: "Emma Chen @Stanford/Harvard",
+        speaker: "Emma Chen Stanford/Harvard",
         host: "周介立",
         materials: [
             {
@@ -2259,7 +2259,7 @@ const tests = [
     {
         date: "2022/05/27",
         title: "[Patterns'22] HINT: Hierarchical Interaction Network for Clinical Trial Outcome Prediction",
-        speaker: "符天凡 @Gatech",
+        speaker: "符天凡 Gatech",
         host: "周介立",
         materials: [
             {
