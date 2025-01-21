@@ -17,6 +17,44 @@ HIT网络研讨会主要由几位学术界的小伙伴基于兴趣发起，属�
 
 const reports = [
     {
+        id: "talk250124",
+        poster: "talk250124.jpg",
+        date: "2025/01/24",
+        // daytime: "周五 20:00",
+        title: "面向医学图像处理的可变性探索：标签与数据",
+        speaker: "吴轶成 Monash",
+        host: "黄典业 TUM",
+        materials: [
+            {
+                tag: "讲者主页",
+                href: "https://scholar.google.com.hk/citations?hl=zh-CN&user=_h1y48MAAAAJ&view_op=list_works&sortby=pubdate"
+            },
+            // {
+            //     tag: "视频回放",
+            //     href: "https://www.bilibili.com/video/#TODO"
+            // },
+        ],
+        link: {
+            tag: "#腾讯会议：916-603-061",
+            href: "https://meeting.tencent.com/dm/I5D92ClBeFD7"
+        },
+        info: {
+            abstract: `
+            随着通用基础模型的兴起，医学图像处理也迈入了全新的发展阶段。然而，临床应用中的可变性为医疗通用基础模型的开发和部署带来了巨大挑战。本次报告将从两个核心方面探讨可变性问题：标签和数据。
+            首先，在病变与肿瘤等目标的分割任务中，由于专家标注之间存在显著差异，我们提出了一种方法，能够同时提供多样化和个性化的分割结果，以满足不同临床需求。其次，针对多种医疗数据缺失场景，我们开发了一种统一模型，用于序列补全和对齐，从而实现全模态数据的高效学习，以期望提升临床应用准确性。
+            最后，报告还将展望未来研究方向，探讨如何进一步解决医学图像处理中的可变性问题，为临床提供可靠的技术支持。
+            `,
+            bio: `
+            吴轶成，现任 Monash 大学信息技术学院博士后研究员，博士毕业于 Monash 大学，导师为蔡剑飞教授，本硕毕业于西北工业大学，导师为夏勇教授。他的研究方向涵盖医学图像处理与计算机视觉，在国际顶级会议与期刊（如 IJCV、Medical Image Analysis、CVPR、MICCAI 等）发表论文 18 篇，其中第一作者 10 篇，包含一篇 ESI 高被引论文及一篇 Highlight 论文，Google Scholar 总引用次数超 1400 次。他担任MICCAI 2025领域主席，主办过ACM MM MMIS 2024挑战赛，并曾获Monash FIT研究生优秀奖，MBH-Seg 2024挑战赛亚军等。
+            `,
+        },
+        topics: [
+            "Healthcare",
+            "Technology",
+            "Intelligence"
+        ]
+    },
+    {
         id: "talk250112",
         poster: "talk250112.jpg",
         date: "2025/01/12",
