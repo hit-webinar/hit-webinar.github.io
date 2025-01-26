@@ -20,7 +20,6 @@ const reports = [
         id: "talk250124",
         poster: "talk250124.jpg",
         date: "2025/01/24",
-        // daytime: "周五 20:00",
         title: "面向医学图像处理的可变性探索：标签与数据",
         speaker: "吴轶成 Monash",
         host: "黄典业 TUM",
@@ -29,10 +28,10 @@ const reports = [
                 tag: "讲者主页",
                 href: "https://scholar.google.com.hk/citations?hl=zh-CN&user=_h1y48MAAAAJ&view_op=list_works&sortby=pubdate"
             },
-            // {
-            //     tag: "视频回放",
-            //     href: "https://www.bilibili.com/video/#TODO"
-            // },
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1ZVf6YaEqx/"
+            },
         ],
         link: {
             tag: "#腾讯会议：916-603-061",
