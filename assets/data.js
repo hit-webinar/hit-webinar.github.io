@@ -17,6 +17,41 @@ HIT网络研讨会主要由几位学术界的小伙伴基于兴趣发起，属�
 
 const reports = [
     {
+        id: "talk250131",
+        poster: "talk250131.jpg",
+        date: "2025/01/31",
+        daytime: "周五 21:00",
+        title: "形变环境下手术机器人的同步定位与地图创建（SLAM）技术",
+        speaker: "赵亮 @爱丁堡大学",
+        host: "黄典业 @TUM",
+        materials: [
+            {
+                tag: "讲者主页",
+                href: "https://scholar.google.com.au/citations?user=1OagsSYAAAAJ&hl=en"
+            },
+            {
+                tag: "视频回放",
+                // href: "https://www.bilibili.com/video/#TODO"
+            }
+        ],
+        link: {
+            tag: "#腾讯会议：131-756-493",
+            href: "https://meeting.tencent.com/dm/p5KxAO7nLjTb"
+        },
+        info: {
+            abstract: `
+            自主机器人研究的核心问题之一是同步定位与建图（SLAM）技术。作为一项研究已有30多年的技术，其主要任务是帮助机器人在未知环境中同时构建地图并确定自身位置，从而实现自主导航。然而，在手术机器人领域，由于体内环境的可变形性和复杂性，SLAM问题变得更加困难且充满挑战。本次报告将介绍我们在图像引导机器人手术中的SLAM技术研究进展，包括其在血管内介入手术、腹腔镜手术、结肠镜检查、经食管超声心动图以及全膝关节置换术等医疗应用中的创新方法与成果。
+            `,
+            bio: `
+            赵亮教授，现为英国爱丁堡大学信息学院博士生导师，曾在英国帝国理工学院哈姆林手术机器人中心从事博士后研究。此前，他曾担任悉尼科技大学机器人研究院医疗机器人实验室主任，主要研究方向包括移动机器人和手术机器人的SLAM技术。在国际顶级期刊及会议（如T-RO、IJRR、RA-L、T-MRB、RSS、MICCAI、ICRA、IROS）上，以核心作者身份发表论文80余篇。迄今主持或参与各类科研基金项目20余项，总资助金额达400万澳元。赵亮教授还担任机器人领域顶级期刊 IEEE Transactions on Robotics（T-RO）副主编，以及国际顶级机器人学术会议ICRA和IROS的副主编。
+            `
+        },
+        topics: [
+            "Healthcare",
+            "Technology"
+        ]
+    },
+    {
         id: "talk250124",
         poster: "talk250124.jpg",
         date: "2025/01/24",
