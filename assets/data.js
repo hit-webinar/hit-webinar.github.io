@@ -17,12 +17,47 @@ HIT网络研讨会主要由几位学术界的小伙伴基于兴趣发起，属�
 
 const reports = [
     {
+        id: "talk250213",
+        // poster: "talk250213.jpg",
+        date: "2025/02/13",
+        daytime: "周四 20:00",
+        title: "基础模型在医学图像的迁移应用",
+        speaker: "陈城 HKU",
+        host: "杨健程 EPFL",
+        materials: [
+            {
+                tag: "讲者主页",
+                href: "https://cchen-cc.github.io/"
+            },
+            {
+                tag: "视频回放",
+                // href: "https://www.bilibili.com/video/#TODO"
+            },
+        ],
+        link: {
+            tag: "#腾讯会议：391-178-947",
+            href: "https://meeting.tencent.com/dm/WzdwFFjWri4e"
+        },
+        info: {
+            abstract: `
+            医学图像分析在真实场景中面临数据获取难、标注成本高、设备异质性大及多模态信息融合困难等多重挑战。基础模型因其在跨模态和跨任务中的强泛化能力，正在医学图像领域展现出重要价值。本报告聚焦于基础模型在医学图像分割、检测及表征学习中的迁移应用，讨论如何通过提示学习、跨模态一致性建模以及对比学习等方法，充分发挥基础模型的潜能。我们将探讨这些技术在提升医学图像分析效率、降低标注需求及增强模型泛化性方面的成效。同时，本报告还将分析当前面临的技术挑战，并展望基础模型在医学分析任务中的未来应用前景。
+            `,
+            bio: `
+            陈城，香港大学电机电子工程系助理教授。此前于哈佛医学院担任博士后研究员。于香港中文大学获得博士学位，于约翰霍普金斯大学、浙江大学分别取得硕士及学士学位。研究聚焦于医学图像分析、多模态数据融合、模型的泛化性、鲁棒性研究等。发表期刊/会议论文 30 余篇，包括 Nature Communications、IEEE TMI、MedIA、NeurIPS、CVPR、ICCV 等。入选斯坦福大学 2024 全球前 2% 顶尖科学家榜单。获 2023 年全球前 80 名人工智能中国青年女性学者称号。担任 MICCAI 2024 领域主席，以及领域内顶级期刊和会议的审稿人。
+            `,
+        },
+        topics: [
+            "Healthcare",
+            "Intelligence",
+        ]
+    },    
+    {
         id: "talk250207",
         poster: "talk250207.jpg",
         date: "2025/02/07",
         // daytime: "周五 20:00",
         title: "基于生物MEMS技术的病原体核酸检测方法及小型化仪器",
-        speaker: "张浩卿 @西安交通大学",
+        speaker: "张浩卿 西安交通大学",
         host: "王树彤",
         materials: [
             {
@@ -59,8 +94,8 @@ const reports = [
         date: "2025/01/31",
         daytime: "周五 21:00",
         title: "形变环境下手术机器人的同步定位与地图创建（SLAM）技术",
-        speaker: "赵亮 @爱丁堡大学",
-        host: "黄典业 @TUM",
+        speaker: "赵亮 爱丁堡大学",
+        host: "黄典业 TUM",
         materials: [
             {
                 tag: "讲者主页",
