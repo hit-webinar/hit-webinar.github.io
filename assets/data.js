@@ -22,8 +22,8 @@ const reports = [
     //     date: "2025/03/16",
     //     daytime: "周日 13:00",
     //     title: "从假设到证据：大语言模型在医学科学发现中的应用",
-    //     speaker: "王子丰 @UIUC",
-    //     host: "杨健程 @EPFL",
+    //     speaker: "王子丰 UIUC",
+    //     host: "杨健程 EPFL",
     //     materials: [
     //         {
     //             tag: "讲者主页",
