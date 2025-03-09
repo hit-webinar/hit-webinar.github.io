@@ -16,41 +16,41 @@ HIT网络研讨会主要由几位学术界的小伙伴基于兴趣发起，属�
 `;
 
 const reports = [
-    // {
-    //     id: "talk250316",
-    //     // poster: "talk250316.jpg",
-    //     date: "2025/03/16",
-    //     daytime: "周日 13:00",
-    //     title: "从假设到证据：大语言模型在医学科学发现中的应用",
-    //     speaker: "王子丰 UIUC",
-    //     host: "杨健程 EPFL",
-    //     materials: [
-    //         {
-    //             tag: "讲者主页",
-    //             href: "https://zifengwang.xyz/"
-    //         },
-    //         {
-    //             tag: "视频回放",
-    //             // href: "https://www.bilibili.com/video/#TODO"
-    //         }
-    //     ],
-    //     link: {
-    //         tag: "#腾讯会议：576-594-210",
-    //         href: "https://meeting.tencent.com/dm/y6BdpikPrmhs"
-    //     },
-    //     info: {
-    //         abstract: `
-    //         大语言模型（LLMs）在加速科学发现方面具有巨大潜力，但仍需优化以适应医学研究任务，并高效融入专家工作流程。本次演讲聚焦于医学科学发现的三个核心环节：假设生成、实验执行和假设验证，重点探讨 LLM 在文献研究、临床研究和数据科学研究中的应用。我将首先介绍 LEADS 和 TrialMind，两种专为文献挖掘设计的 LLM 方法，促进医学文献的搜索、筛选和数据抽取。随后，我将介绍 TrialGPT，一个用于优化临床试验患者招募的 LLM 管道。最后，我将探讨 LLM 在代码生成和医学及生物医学数据分析中的应用，以加速假设验证并推动新的医学发现。
-    //         `,
-    //         bio: `
-    //         王子丰是伊利诺伊大学香槟分校（UIUC）计算机科学系博士生，师从 Jimeng Sun 教授，致力于使用人工智能 (AI) 加速医学科学发现。他的研究涵盖 AI 驱动的文献研究、数据科学研究和临床研究，重点改进文献检索、筛选和数据提取，自动化临床试验和真实世界数据的分析建模，并优化临床试验的设计、招募和结果分析。他的研究成果曾被《自然》、美国国立卫生研究院（NIH）、NIH 主任博客、《政客》等多家媒体报道。自 2023 年起，他联合创办了 Keiji.AI，推出了临床试验 AI 平台 TrialMind，已被多家药企应用。在加入 UIUC 之前，他从同济大学和清华大学分别获得了本科和硕士学位。
-    //         `,
-    //     },
-    //     topics: [
-    //         "Healthcare",
-    //         "Intelligence",
-    //     ]
-    // },    
+    {
+        id: "talk250316",
+        // poster: "talk250316.jpg",
+        date: "2025/03/16",
+        daytime: "周日 13:00",
+        title: "从假设到证据：大语言模型在医学科学发现中的应用",
+        speaker: "王子丰 UIUC",
+        host: "杨健程 EPFL",
+        materials: [
+            {
+                tag: "讲者主页",
+                href: "https://zifengwang.xyz/"
+            },
+            {
+                tag: "视频回放",
+                // href: "https://www.bilibili.com/video/#TODO"
+            }
+        ],
+        link: {
+            tag: "#腾讯会议：576-594-210",
+            href: "https://meeting.tencent.com/dm/y6BdpikPrmhs"
+        },
+        info: {
+            abstract: `
+            大语言模型（LLMs）在加速科学发现方面具有巨大潜力，但仍需优化以适应医学研究任务，并高效融入专家工作流程。本次演讲聚焦于医学科学发现的三个核心环节：假设生成、实验执行和假设验证，重点探讨 LLM 在文献研究、临床研究和数据科学研究中的应用。我将首先介绍 LEADS 和 TrialMind，两种专为文献挖掘设计的 LLM 方法，促进医学文献的搜索、筛选和数据抽取。随后，我将介绍 TrialGPT，一个用于优化临床试验患者招募的 LLM 管道。最后，我将探讨 LLM 在代码生成和医学及生物医学数据分析中的应用，以加速假设验证并推动新的医学发现。
+            `,
+            bio: `
+            王子丰是伊利诺伊大学香槟分校（UIUC）计算机科学系博士生，师从 Jimeng Sun 教授，致力于使用人工智能 (AI) 加速医学科学发现。他的研究涵盖 AI 驱动的文献研究、数据科学研究和临床研究，重点改进文献检索、筛选和数据提取，自动化临床试验和真实世界数据的分析建模，并优化临床试验的设计、招募和结果分析。他的研究成果曾被《自然》、美国国立卫生研究院（NIH）、NIH 主任博客、《政客》等多家媒体报道。自 2023 年起，他联合创办了 Keiji.AI，推出了临床试验 AI 平台 TrialMind，已被多家药企应用。在加入 UIUC 之前，他从同济大学和清华大学分别获得了本科和硕士学位。
+            `,
+        },
+        topics: [
+            "Healthcare",
+            "Intelligence",
+        ]
+    },    
     {
         id: "routine39",
         poster: "routine39.jpg",
@@ -66,7 +66,7 @@ const reports = [
             },
             {
                 tag: "视频回放",
-                // href: "https://www.bilibili.com/video/#TODO"
+                href: "https://www.bilibili.com/video/BV1XRRaYoEfo/"
             }
         ],
         link: {
