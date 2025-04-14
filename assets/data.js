@@ -17,6 +17,41 @@ HIT网络研讨会主要由几位学术界的小伙伴基于兴趣发起，属�
 
 const reports = [
     {
+        id: "talk250418",
+        poster: "talk250418.jpg",
+        date: "2025/04/18",
+        daytime: "周四 20:00",
+        title: "机器人辅助的超声，光声及OCT成像",
+        speaker: "马曦晗 @WPI",
+        host: "黄典业 @TUM",
+        materials: [
+            {
+                tag: "讲者主页",
+                href: "https://scholar.google.com/citations?user=4brJi0QAAAAJ&hl=en"
+            },
+            {
+                tag: "视频回放",
+                // href: "https://www.bilibili.com/video/#TODO"
+            }
+        ],
+        link: {
+            tag: "#腾讯会议：985-367-117",
+            href: "https://meeting.tencent.com/dm/K4s7GAnod7ip"
+        },
+        info: {
+            abstract: `
+            医学成像在现代医疗中扮演着核心角色，贯穿临床诊断、治疗监测与手术导航等关键环节。传统成像流程依赖大量人工操作，导致患者间及患者个体内扫描结果的可重复性受限。近十年来，机器人辅助医学成像概念（Robot-Assisted Medical Imaging）受到广泛关注。RAMI系统通过机器人精准控制成像轨迹，实现可重复的影像采集，从而提升医学成像的自主性、一致性与全球可及性。本次报告将展示RAMI系统如何赋能超声（US）、光声（PA）及光学相干断层扫描（OCT）等常见成像技术；聚焦算法驱动的机器人自主扫描策略，精准组织三维重建以及具体的临床应用。
+            `,
+            bio: `
+            马曦晗，美国伍斯特理工学院（WPI）机器人工程专业四年级博士生。师从张海崇（Haichong K. Zhang）教授。此前于伍斯特理工学院获得机器人工程硕士学位，于北京化工大学获得机械设计制造及其自动化学士学位。他的研究方向为医学超声图像的处理和机器人辅助的医学成像，包括机器人辅助的超声，光声及OCT成像。曾任飞利浦北美研究院软件研发工程师实习生，从事造影增强超声的算法研发与落地工作。相关研究成果在IEEE RA-L，IEEE T-ASE，IEEE TBME，Biomedical Optics Express，Communications Engineering等期刊上发表。
+            `
+        },
+        topics: [
+            "Healthcare",
+            "Technology"
+        ]
+    },    
+    {
         id: "talk250404",
         poster: "talk250404.jpg",
         date: "2025/04/04",
@@ -31,7 +66,7 @@ const reports = [
             },
             {
                 tag: "视频回放",
-                // href: "https://www.bilibili.com/video/#TODO"
+                href: "https://www.bilibili.com/video/BV1vAZZYgEsD/"
             },
         ],
         link: {
