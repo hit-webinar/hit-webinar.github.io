@@ -20,7 +20,7 @@ const reports = [
         id: "talk250418",
         poster: "talk250418.jpg",
         date: "2025/04/18",
-        daytime: "周四 20:00",
+        daytime: "周五 20:00",
         title: "机器人辅助的超声，光声及OCT成像",
         speaker: "马曦晗 @WPI",
         host: "黄典业 @TUM",
