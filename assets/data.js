@@ -18,10 +18,10 @@ HIT网络研讨会主要由几位学术界的小伙伴基于兴趣发起，属�
 const reports = [
     // {
     //     id: "routine40",
-    //     // poster: "routine40.jpg",
+    //     poster: "routine40.jpg",
     //     date: "2025/05/02",
     //     title: "[ICLR‘25 Spotlight] LeFusion - 可控合成医学数据的病灶聚焦扩散模型",
-    //     speakerPaper: "张瀚韬 中科大/EPFL",
+    //     speakerPaper: "张翰韬 中科大/EPFL",
     //     host: "杨健程 EPFL",
     //     materials: [
     //         {
@@ -49,7 +49,7 @@ const reports = [
     
     //         实验结果显示，该方法在多个真实医学数据集（如 3D 心脏 MRI、肺结节 CT）上生成数据可显著提升主流分割模型的性能。
 
-    //         代码和模型均已开源。  
+    //         代码和模型均已开源：<a href="https://github.com/M3DV/LeFusion">https://github.com/M3DV/LeFusion</a> 。  
     //         `,
     //         bio: `
     //         张瀚韬是中国科学技术大学计算机专业的硕士三年级学生，目前作为交换访问硕士在瑞士洛桑联邦理工学院（EPFL）学习，由 Pascal Fua 教授与杨健程博士联合指导，研究方向为医学图像分析。
