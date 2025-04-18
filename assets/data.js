@@ -16,52 +16,52 @@ HIT网络研讨会主要由几位学术界的小伙伴基于兴趣发起，属�
 `;
 
 const reports = [
-    // {
-    //     id: "routine40",
-    //     poster: "routine40.jpg",
-    //     date: "2025/05/02",
-    //     title: "[ICLR‘25 Spotlight] LeFusion - 可控合成医学数据的病灶聚焦扩散模型",
-    //     speakerPaper: "张翰韬 中科大/EPFL",
-    //     host: "杨健程 EPFL",
-    //     materials: [
-    //         {
-    //             tag: "视频回放",
-    //             href: "https://www.bilibili.com/video/#TODO"
-    //         },
-    //         {
-    //             tag: "论文",
-    //             href: "https://openreview.net/forum?id=3b9SKkRAKw"
-    //         },
-    //         {
-    //             tag: "代码地址",
-    //             href: "https://github.com/M3DV/LeFusion"
-    //         }
-    //     ],
-    //     link: {
-    //         tag: "#腾讯会议：775-213-548",
-    //         href: "https://meeting.tencent.com/dm/Tw3ONpnJPeJC"
-    //     },
-    //     info: {
-    //         abstract: `
-    //         在真实临床实践中，患者数据常因样本稀缺和长尾分布不均而导致模型输出产生偏差，甚至引发算法公平性问题。为了解决这一挑战，本研究提出了一种全新的方法，通过从无病灶图像中合成含病灶的图像-分割对，从根本上缓解数据稀缺问题。
+    {
+        id: "routine40",
+        poster: "routine40.jpg",
+        date: "2025/05/02",
+        title: "[ICLR‘25 Spotlight] LeFusion - 可控合成医学数据的病灶聚焦扩散模型",
+        speakerPaper: "张翰韬 中科大/EPFL",
+        host: "杨健程 EPFL",
+        materials: [
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/#TODO"
+            },
+            {
+                tag: "论文",
+                href: "https://openreview.net/forum?id=3b9SKkRAKw"
+            },
+            {
+                tag: "代码地址",
+                href: "https://github.com/M3DV/LeFusion"
+            }
+        ],
+        link: {
+            tag: "#腾讯会议：775-213-548",
+            href: "https://meeting.tencent.com/dm/Tw3ONpnJPeJC"
+        },
+        info: {
+            abstract: `
+            在真实临床实践中，患者数据常因样本稀缺和长尾分布不均而导致模型输出产生偏差，甚至引发算法公平性问题。为了解决这一挑战，本研究提出了一种全新的方法，通过从无病灶图像中合成含病灶的图像-分割对，从根本上缓解数据稀缺问题。
     
-    //         LeFusion 是一种以病灶为核心的扩散模型，通过重新设计扩散学习目标，使模型专注于病灶区域，从而在保证背景高保真的前提下，提升对合成结果的可控性。具体来说，LeFusion 在反向扩散过程中融合正向扩散产生的背景上下文，并引入基于直方图的纹理控制与多通道分解方法，解决多峰值结构与多类别病灶生成问题。同时，设计了病灶掩膜扩散机制，实现对病灶大小、位置及边界的精准调控，提升多样性与真实感。
+            LeFusion 是一种以病灶为核心的扩散模型，通过重新设计扩散学习目标，使模型专注于病灶区域，从而在保证背景高保真的前提下，提升对合成结果的可控性。具体来说，LeFusion 在反向扩散过程中融合正向扩散产生的背景上下文，并引入基于直方图的纹理控制与多通道分解方法，解决多峰值结构与多类别病灶生成问题。同时，设计了病灶掩膜扩散机制，实现对病灶大小、位置及边界的精准调控，提升多样性与真实感。
     
-    //         实验结果显示，该方法在多个真实医学数据集（如 3D 心脏 MRI、肺结节 CT）上生成数据可显著提升主流分割模型的性能。
+            实验结果显示，该方法在多个真实医学数据集（如 3D 心脏 MRI、肺结节 CT）上生成数据可显著提升主流分割模型的性能。
 
-    //         代码和模型均已开源：<a href="https://github.com/M3DV/LeFusion">https://github.com/M3DV/LeFusion</a> 。  
-    //         `,
-    //         bio: `
-    //         张瀚韬是中国科学技术大学计算机专业的硕士三年级学生，目前作为交换访问硕士在瑞士洛桑联邦理工学院（EPFL）学习，由 Pascal Fua 教授与杨健程博士联合指导，研究方向为医学图像分析。
+            代码和模型均已开源：<a href="https://github.com/M3DV/LeFusion">https://github.com/M3DV/LeFusion</a> 。  
+            `,
+            bio: `
+            张瀚韬是中国科学技术大学计算机专业的硕士三年级学生，目前作为交换访问硕士在瑞士洛桑联邦理工学院（EPFL）学习，由 Pascal Fua 教授与杨健程博士联合指导，研究方向为医学图像分析。
     
-    //         他本科毕业于东北大学，多次获得国家奖学金。硕士期间主要研究扩散模型在医学三维视觉中的应用，已以第一作者或共同一作身份在 ICLR、Communications Medicine（Nature 旗下期刊）、AAAI、ICME、BIBM 等会议与期刊发表论文，同时也担任 ICCV 和 IEEE TIP 等会议与期刊的审稿人。
-    //         `
-    //     },
-    //     topics: [
-    //         "Healthcare",
-    //         "Intelligence",
-    //     ]
-    // },    
+            他本科毕业于东北大学，多次获得国家奖学金。硕士期间主要研究扩散模型在医学三维视觉中的应用，已以第一作者或共同一作身份在 ICLR、Communications Medicine（Nature 旗下期刊）、AAAI、ICME、BIBM 等会议与期刊发表论文，同时也担任 ICCV 和 IEEE TIP 等会议与期刊的审稿人。
+            `
+        },
+        topics: [
+            "Healthcare",
+            "Intelligence",
+        ]
+    },    
     {
         id: "talk250418",
         poster: "talk250418.jpg",
@@ -77,7 +77,7 @@ const reports = [
             },
             {
                 tag: "视频回放",
-                // href: "https://www.bilibili.com/video/#TODO"
+                href: "https://www.bilibili.com/video/BV1Wb5EzjEzJ/"
             }
         ],
         link: {
