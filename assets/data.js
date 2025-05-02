@@ -26,14 +26,14 @@ const reports = [
         materials: [
             {
                 tag: "视频回放",
-                href: "https://www.bilibili.com/video/#TODO"
+                href: "https://www.bilibili.com/video/BV1gwVLz5E5P/"
             },
             {
                 tag: "论文",
                 href: "https://openreview.net/forum?id=3b9SKkRAKw"
             },
             {
-                tag: "代码地址",
+                tag: "代码",
                 href: "https://github.com/M3DV/LeFusion"
             }
         ],
