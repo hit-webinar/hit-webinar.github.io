@@ -21,13 +21,13 @@ const reports = [
         poster: "talk250510.jpg",
         date: "2025/05/10",
         daytime: "周六 20:00",
-        title: "植入式声学超构凝胶传感器",
+            title: "植入式声学超构凝胶传感器",
         speaker: "田野 @CWRU",
         host: "罗虎 @复旦",
-        materials: [
+            materials: [
             {
                 tag: "视频回放",
-                // href: "https://www.bilibili.com/video/#TODO"
+                // href: "https://www.bilibili.com/video/#TODO "
             }
         ],
         link: {
