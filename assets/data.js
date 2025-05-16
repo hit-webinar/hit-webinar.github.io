@@ -62,7 +62,7 @@ const reports = [
     // },    
     {
         id: "talk250521",
-        // poster: "talk250521.jpg",
+        poster: "talk250521.jpg",
         date: "2025/05/21",
         daytime: "周三 20:00",
         title: "将人工智能与科学计算整合应用于心血管疾病的个性化医疗",
