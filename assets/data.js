@@ -20,14 +20,13 @@ const reports = [
         id: "routine41",
         poster: "routine41.jpg",
         date: "2025/07/11",
-        daytime: "周五 20:00",
         title: "DeepSPV：面向临床需求的稀疏2D超声3D脾脏体积预测管道",
         speakerPaper: "袁振 KCL",
         host: "杨健程 EPFL",
         materials: [
             {
                 tag: "视频回放",
-                // href: "https://www.bilibili.com/video/#TODO"
+                href: "https://www.bilibili.com/video/BV1hQgGzaEuf/"
             }
         ],
         link: {
