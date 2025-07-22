@@ -17,6 +17,42 @@ HIT网络研讨会主要由几位学术界的小伙伴基于兴趣发起，属�
 
 const reports = [
     {
+        id: "talk250725",
+        poster: "talk250725.jpg",
+        date: "2025/07/25",
+        daytime: "周五 20:00",
+        title: "融合影像分析和自主决策的智能医疗机器人",
+        speaker: "宁国琛 @清华大学",
+        host: "黄典业 @TUM",
+        materials: [
+            {
+                tag: "讲者主页",
+                href: "https://scholar.google.com/citations?user=vSsdec8AAAAJ&hl=en"
+            },
+            {
+                tag: "视频回放",
+                // href: "https://www.bilibili.com/video/#TODO"
+            }
+        ],
+        link: {
+            tag: "#腾讯会议：903-789-225",
+            href: "https://meeting.tencent.com/dm/RbnEwQzOoyfh"
+        },
+        info: {
+            abstract: `
+            自主化医疗机器人在现代医疗领域正日益成为变革的核心力量，涵盖诊断支持、手术执行等多个关键环节。传统医疗机器人多依赖人工操作，限制了操作的精准性和智能化水平。近年来，随着视觉感知、机械控制与人工智能技术的融合，自主化医疗机器人系统逐渐实现从“眼、手、脑”三大维度的全面升级。本次报告将从医学影像学对医疗环境的高精度环境感知与病灶识别，新型医疗机器人结构，以及智能决策与学习方法在复杂手术中的应用，展示自主化医疗机器人在提升医疗安全性、效率及个性化治疗方面的相关内容。
+            `,
+            bio: `
+            宁国琛，清华大学助理教授、特别研究员、博士生导师。聚焦以临床需求为牵引的智能医疗机器人系统，以在体机器人自主诊疗一体化为主线，在临床医工融合、机器人学、医学影像学的前沿交叉领域展开了系统性的研究工作。在包括 IEEE Trans. 系列、Medical Image Analysis、Theranostics 等医工交叉领域学术期刊、会议发表论文40余篇。主持包括国家自然科学基金面上项目、青年基金项目、第九届中国科协“青年人才托举工程”项目等多项科研项目。
+            `
+        },
+        topics: [
+            "Healthcare",
+            "Intelligence",
+            "Technology"
+        ]
+    },
+    {
         id: "routine41",
         poster: "routine41.jpg",
         date: "2025/07/11",
