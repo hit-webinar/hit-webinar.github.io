@@ -17,6 +17,41 @@ HIT网络研讨会主要由几位学术界的小伙伴基于兴趣发起，属�
 
 const reports = [
     {
+        id: "talk250815",
+        poster: "talk250815.jpg",
+        date: "2025/08/15",
+        // daytime: "周五 20:00",
+        title: "面向临床应用的超分辨率超声成像技术研究",
+        speaker: "闫纪朋 哈尔滨工业大学",
+        host: "黄典业 TUM",
+        materials: [
+            {
+                tag: "讲者主页",
+                href: "https://scholar.google.com/citations?user=4kuUPg4AAAAJ&hl=zh-CN"
+            },
+            {
+                tag: "视频回放",
+                // href: "https://www.bilibili.com/video/#TODO"
+            },
+        ],
+        link: {
+            tag: "#腾讯会议：802-405-490",
+            href: "https://meeting.tencent.com/dm/if7CtgdHWjVp"
+        },
+        info: {
+            abstract: `
+            超声定位显微成像技术通过定位及追踪血液中离散的微泡信号，能够突破声波的衍射极限，实现对组织深处的微血流成像。该技术是当前医学超声成像领域的研究热点。本报告将讲述报告人为推进该技术的临床应用所开展的相关技术研究工作，包括机器人辅助的超声数据采集、超声图像重建、超分辨微泡定位及运动追踪，已在人体心肌、淋巴结等器官内实现了微血流成像。
+            `,
+            bio: `
+            闫纪朋，哈尔滨工业大学教授、博士生导师、“神舟青年学者”，当前主要从事医学超声成像及感知研究，在Nature Biomedical Engineering、IEEE Transactions on Medical Imaging等期刊发表期刊论文30余篇，开发了超分辨率超声图像处理软件（SRUS Software），获得IEEE IUS 2022 "Ultra-SR Challenge Winner Award" 和 WICUMB 2025 “Young Investigator Scholarship First Price”。
+            `
+        },
+        topics: [
+            "Healthcare",
+            "Technology"
+        ]
+    },
+    {
         id: "routine42",
         poster: "routine42.jpg",
         date: "2025/08/01",
