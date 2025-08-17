@@ -20,9 +20,8 @@ const reports = [
         id: "talk250815",
         poster: "talk250815.jpg",
         date: "2025/08/15",
-        // daytime: "周五 20:00",
         title: "面向临床应用的超分辨率超声成像技术研究",
-        speaker: "闫纪朋 哈尔滨工业大学",
+        speaker: "闫纪朋 哈工大",
         host: "黄典业 TUM",
         materials: [
             {
@@ -31,7 +30,7 @@ const reports = [
             },
             {
                 tag: "视频回放",
-                // href: "https://www.bilibili.com/video/#TODO"
+                href: "https://www.bilibili.com/video/BV1nGYHz8EwV/"
             },
         ],
         link: {
