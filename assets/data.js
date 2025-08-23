@@ -18,7 +18,7 @@ HIT网络研讨会主要由几位学术界的小伙伴基于兴趣发起，属�
 const reports = [
     {
         id: "talk250829",
-        // poster: "talk250829.jpg",
+        poster: "talk250829.jpg",
         date: "2025/08/29",
         title: "医学人工智能的本源性学习：结构性、可靠性与可解释性",
         speaker: "胡晓灵 哈佛医学院",
