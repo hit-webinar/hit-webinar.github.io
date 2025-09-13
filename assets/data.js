@@ -17,6 +17,43 @@ HIT网络研讨会主要由几位学术界的小伙伴基于兴趣发起，属�
 
 const reports = [
     {
+        id: "talk250919",
+        // poster: "talk250919.jpg",
+        date: "2025/09/19",
+        title: "基于大规模隐式结构学习的心血管智能超声扫查",
+        speaker: "蒋昊峻 清华",
+        host: "杨健程 ELLIS & Aalto",
+        materials: [
+            {
+                tag: "讲者主页",
+                href: "https://scholar.google.com/citations?user=ULmStp8AAAAJ"
+            },
+            {
+                tag: "视频回放",
+                // href: "https://www.bilibili.com/video/#TODO"
+            }
+        ],
+        link: {
+            tag: "#腾讯会议：783-120-859",
+            href: "https://meeting.tencent.com/dm/PHcZECBiJxOV"
+        },
+        info: {
+            abstract: `
+        医学超声是一种安全、无创、无辐射的临床检查手段，可应用于多个器官和多种疾病的检查。在中国，每年约有20亿人次接受各类医学超声检查，其使用频次位居所有影像诊断方式之首。与CT、X光等检查方式不同，超声成像高度依赖医生的手法与经验——在检查过程中，医生需要根据实时超声影像，结合患者的姿态、体型和呼吸节奏，手持探头动态调整位置与角度，以捕捉目标器官特定切面的动态影像。该操作要求医生有极高的手眼脑协调能力，操作难度高，工作强度大。因此，医学超声领域长期面临优质医生资源短缺、标准化程度不足、检查效率偏低等挑战。
+
+        随着我国人口老龄化进程加快，医学超声作为疾病早期筛查和诊断的重要手段，其需求仍在持续快速增长。利用先进的人工智能和机器人技术实现智能化的自主超声扫查，成为应对上述挑战的关键途径。本次报告将聚焦心血管领域，分享我们如何通过人工智能与机器人技术实现智能化的自主超声扫查，以应对上述挑战。本报告将介绍我们在心血管智能超声扫查方面的研究工作与最新进展。
+        `,
+            bio: `
+        蒋昊峻，清华大学自动化系博士生，师从黄高副教授，主要研究方向为智能超声机器人、多模态学习与高效深度学习。博士期间以第一/共一作者在 Nature Communications，Pattern Recognition，CVPR，MICCAI上发表论文。
+        `
+        },
+        topics: [
+            "Healthcare",
+            "Intelligence",
+            "Technology"
+        ]
+    },
+    {
         id: "talk250912",
         poster: "talk250912.jpg",
         date: "2025/09/12",
@@ -30,7 +67,7 @@ const reports = [
             },
             {
                 tag: "视频回放",
-                // href: "https://www.bilibili.com/video/#TODO"
+                href: "https://www.bilibili.com/video/BV1HwpJzAE2s/"
             },
         ],
         link: {
