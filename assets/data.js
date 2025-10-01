@@ -18,7 +18,7 @@ HIT网络研讨会主要由几位学术界的小伙伴基于兴趣发起，属�
 const reports = [
     {
         id: "talk251010",
-        // poster: "talk251010.jpg",
+        poster: "talk251010.jpg",
         date: "2025/10/10",
         title: "通用模型在医学影像领域的潜力与挑战：我们是否需要重新训练医学基础模型？",
         speaker: "刘澈 Imperial",
