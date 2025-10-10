@@ -16,48 +16,48 @@ HIT网络研讨会主要由几位学术界的小伙伴基于兴趣发起，属�
 `;
 
 const reports = [
-    // {
-    //     id: "talk251017",
-    //     // poster: "talk251017.jpg",
-    //     date: "2025/10/17",
-    //     title: "医学影像处理中的鲁棒性与物理驱动的可解释性",
-    //     speaker: "刘沛榕 JHU",
-    //     host: "杨健程 ELLIS & Aalto",
-    //     materials: [
-    //         {
-    //             tag: "讲者主页",
-    //             href: "https://peirong26.github.io/"
-    //         },
-    //         {
-    //             tag: "视频回放",
-    //             // href: "https://www.bilibili.com/video/#TODO"
-    //         },
-    //     ],
-    //     link: {
-    //         tag: "#腾讯会议：531-127-435",
-    //         href: "https://meeting.tencent.com/dm/UW8E9mezlb3I"
-    //     },
-    //     info: {
-    //         abstract: `
-    //     近年机器学习领域的快速进展为更快速、更准确的大规模数据分析提供了可能。然而，尤其是在临床床边的多样化实践中，依赖于理论的算法往往难以完全覆盖实际应用场景。
+    {
+        id: "talk251017",
+        // poster: "talk251017.jpg",
+        date: "2025/10/17",
+        title: "医学影像处理中的鲁棒性与物理驱动的可解释性",
+        speaker: "刘沛榕 JHU",
+        host: "杨健程 ELLIS & Aalto",
+        materials: [
+            {
+                tag: "讲者主页",
+                href: "https://peirong26.github.io/"
+            },
+            {
+                tag: "视频回放",
+                // href: "https://www.bilibili.com/video/#TODO"
+            },
+        ],
+        link: {
+            tag: "#腾讯会议：531-127-435",
+            href: "https://meeting.tencent.com/dm/UW8E9mezlb3I"
+        },
+        info: {
+            abstract: `
+        近年机器学习领域的快速进展为更快速、更准确的大规模数据分析提供了可能。然而，尤其是在临床床边的多样化实践中，依赖于理论的算法往往难以完全覆盖实际应用场景。
 
-    //     本次报告中，首先，我将介绍我开发的一系列基于物理的学习方法（MICCAI’20, TMI’21, CVPR’21 Oral, CVPR’22 Oral）。这些方法能够连续重建脑灌注成像时间序列，为中风诊断提供可解释的表征，并显著提升病灶检测性能。
+        本次报告中，首先，我将介绍我开发的一系列基于物理的学习方法（MICCAI’20, TMI’21, CVPR’21 Oral, CVPR’22 Oral）。这些方法能够连续重建脑灌注成像时间序列，为中风诊断提供可解释的表征，并显著提升病灶检测性能。
 
-    //     其次，我将介绍我在医学影像多模态图像生成以及表征学习方面的工作（ECCV’24, MICCAI’24, CVPR’25，FreeSurfer SuperSynth工具箱），这些方法致力于构建鲁棒和表示性广泛的基础模型。
+        其次，我将介绍我在医学影像多模态图像生成以及表征学习方面的工作（ECCV’24, MICCAI’24, CVPR’25，FreeSurfer SuperSynth工具箱），这些方法致力于构建鲁棒和表示性广泛的基础模型。
 
-    //     在霍普金斯，我计划继续探索真实临床场景下的物理驱动方法，开发用于实时预测介入治疗后患者结局的交互式模型。同时，我将继续致力于开发鲁棒且泛化的算法，以帮助提升诊断性能并推动全球可及医疗的发展。
-    //     `,
-    //         bio: `
-    //     刘沛榕（Peirong Liu)，是约翰霍普金斯大学（JHU)工程学院电气与计算机工程系（ECE）及数据科学与人工智能研究所（DSAI）的助理教授。2023年于北卡罗来纳大学教堂山分校（UNC-Chapel Hill）获得计算机科学博士学位，其后于哈佛医学院及麻省总医院（MGH）完成博士后研究。
+        在霍普金斯，我计划继续探索真实临床场景下的物理驱动方法，开发用于实时预测介入治疗后患者结局的交互式模型。同时，我将继续致力于开发鲁棒且泛化的算法，以帮助提升诊断性能并推动全球可及医疗的发展。
+        `,
+            bio: `
+        刘沛榕（Peirong Liu)，是约翰霍普金斯大学（JHU)工程学院电气与计算机工程系（ECE）及数据科学与人工智能研究所（DSAI）的助理教授。2023年于北卡罗来纳大学教堂山分校（UNC-Chapel Hill）获得计算机科学博士学位，其后于哈佛医学院及麻省总医院（MGH）完成博士后研究。
 
-    //     曾被MIT评为计算机科学领域新星，以及被加州大学圣地亚哥分校、芝加哥大学和斯坦福大学评为数据科学领域新星。
-    //     `,
-    //     },
-    //     topics: [
-    //         "Healthcare",
-    //         "Intelligence"
-    //     ]
-    // },
+        曾被MIT评为计算机科学领域新星，以及被加州大学圣地亚哥分校、芝加哥大学和斯坦福大学评为数据科学领域新星。
+        `,
+        },
+        topics: [
+            "Healthcare",
+            "Intelligence"
+        ]
+    },
     {
         id: "talk251010",
         poster: "talk251010.jpg",
@@ -72,7 +72,7 @@ const reports = [
             },
             {
                 tag: "视频回放",
-                // href: "https://www.bilibili.com/video/#TODO"
+                href: "https://www.bilibili.com/video/BV1Hn4pzHEXH/"
             },
         ],
         link: {
