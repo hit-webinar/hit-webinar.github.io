@@ -17,6 +17,43 @@ HIT网络研讨会主要由几位学术界的小伙伴基于兴趣发起，属�
 
 const reports = [
     {
+        id: "routine43",
+        // poster: "routine43.jpg",
+        date: "2025/10/31",
+        title: "面向机器人超声与超声引导骨科手术的高性能仿真平台",
+        speakerPaper: "敖云轲 ETH",
+        host: "杨健程 ELLIS & Aalto",
+        materials: [
+            {
+                tag: "讲者主页",
+                href: "https://scholar.google.com/citations?user=IWbnaMoAAAAJ"
+            },
+            {
+                tag: "视频回放",
+                // href: "https://www.bilibili.com/video/#TODO"
+            }
+        ],
+        link: {
+            tag: "#腾讯会议：540-911-587",
+            href: "https://meeting.tencent.com/dm/cAAL4Ku4aeSG"
+        },
+        info: {
+            abstract: `
+        超声成像凭借其实时性、无创性和经济性等优势，已成为临床不可或缺的医学影像手段。机器人超声系统的引入，在降低操作者依赖性的同时，能够有助于提升扫描稳定性和可重复性。尽管深度强化学习与模仿学习在机器人超声自主导航领域展现出潜力，但在三维解剖重建与手术导航等复杂任务中的应用仍面临挑战，这主要源于缺乏能够准确模拟真实手术场景的高效仿真平台。
+        <br><br>
+        为解决这一问题，本研究开发了可扩展的机器人超声仿真平台 SonoGym，支持数十至数百个环境的并行仿真。该平台融合物理建模与生成模型方法，实现了基于CT图像的实时超声图像仿真。基于该平台，我们成功训练了面向机器人超声任务的深度强化学习与模仿学习策略。实验结果表明，该平台在多种场景下均能实现有效的策略学习，同时也揭示了现有方法在临床环境中的局限性。本研究为推动机器人手术领域的机器学习方法创新提供了重要的仿真基础设施与研究平台。
+        `,
+            bio: `
+        敖云轲是苏黎世联邦理工学院 (ETH Zurich) 博士三年级学生，师从 Philipp Fuernstahl 教授和 Andreas Krause 教授。此前于苏黎世联邦理工学院获得硕士学位，于上海交通大学获得学士学位。研究聚焦于医学图像分析、医疗机器人、控制理论以及强化学习等方向。在 MedIA、NeurIPS、ICRA、CoRL 和 IROS 等权威期刊或会议上发表论文，同时也担任 ICRA、IROS 和 Automatica 等会议或期刊的审稿人。
+        `
+        },
+        topics: [
+            "Healthcare",
+            "Intelligence",
+            "Technology"
+        ]
+    },
+    {
         id: "talk251017",
         poster: "talk251017.jpg",
         date: "2025/10/17",
