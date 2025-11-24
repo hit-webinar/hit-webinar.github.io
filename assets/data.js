@@ -17,6 +17,40 @@ HIT网络研讨会主要由几位学术界的小伙伴基于兴趣发起，属�
 
 const reports = [
     {
+        id: "talk251128",
+        poster: "talk251128.jpg",
+        date: "2025/11/28",
+        title: "从基础模型和视觉模型到智能体: 迈向可靠性，可解释性和可用性AI",
+        speaker: "邹可 NUS",
+        host: "杨健程 ELLIS & Aalto",
+        materials: [
+            {
+                tag: "讲者主页",
+                href: "https://cocofeat.github.io/"
+            },
+            {
+                tag: "视频回放",
+                // href: "https://www.bilibili.com/video/#TODO"
+            },
+        ],
+        link: {
+            tag: "#腾讯会议：842-169-798",
+            href: "https://meeting.tencent.com/dm/0LcjogwinCOO"
+        },
+        info: {
+            abstract: `
+        本讲座以 “从基础模型和视觉模型到智能体：迈向可靠性、可解释性和可用性 AI” 为主题，分为三部分展开。首先，从基础模型（Foundation Models, FM）出发，探讨其在医学图像中的可靠性，涵盖从多模态分类、图像分割到交互式分割的应用，并进一步引入全球化基础模型（Global Foundation Model），以提升模型的泛化能力和公平性。其次，随着视觉语言模型（VLM）的引入，其可解释性仍然是亟待解决的挑战。本讲座将介绍基于 Grounding 的可解释方法，突出与关键诊断短语一致的视觉证据，支持临床医生解释各种类型的文本输入，从而提升辅助诊疗能力。最后，智能体（Agent）的概念和应用近年来备受关注，但如何将其有效落地于临床流程、以及如何提升其可用性，将在本讲座中进行深入探讨和展示。
+        `,
+            bio: `
+        邹可，现为新加坡国立大学（NUS）研究员，师从新加坡国立大学校长青年助理教授覃宇宗以及新加坡科学技术研究局（A*STAR）首席科学家付华柱。博士毕业于四川大学计算机学院视觉合成图形图像技术国家重点学科实验室，导师为沈晓静教授和袁学东教授。于 2022 年 9 月至 2023 年 9 月在新加坡科学技术研究局（A*STAR）开展访问研究。主要研究方向包括视觉语言模型（VLM）、基础模型（Foundation Models）、不确定性估计（Uncertainty Estimation）以及医学图像分析（Medical Image Analysis），相关成果发表在 Nature 子刊, The Lancet 子刊, IEEE TPAMI, IEEE TMI, IEEE TCYB, IEEE TCSVT, MedIA, ICCV 和 MICCAI 等国际顶级期刊与会议。
+        `,
+        },
+        topics: [
+            "Healthcare",
+            "Intelligence",
+        ]
+    },
+    {
         id: "routine43",
         poster: "routine43.jpg",
         date: "2025/10/31",
