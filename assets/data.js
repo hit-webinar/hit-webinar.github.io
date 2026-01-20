@@ -1,10 +1,10 @@
 const site = {
-    year: "2022-2025",
+    year: "2022-2026",
     repoURL: "https://github.com/hit-webinar/hit-webinar.github.io",
     siteURL: "https://hit-webinar.github.io/",
     creator: "Jiancheng Yang",
     creatorURL: "https://jiancheng-yang.com/",
-    showPageviews: false,
+    showPageviews: true,
 };
 
 const about = `
