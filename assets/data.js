@@ -18,7 +18,7 @@ HIT网络研讨会主要由几位学术界的小伙伴基于兴趣发起，属�
 const reports = [
     {
         id: "routine44",
-        // poster: "routine44.jpg",
+        poster: "routine44.jpg",
         date: "2026/01/23",
         title: "CADS：构建一致性的全身 CT 解剖分割数据、模型与工具",
         speakerPaper: "徐慕榕 UZH",
