@@ -27,6 +27,14 @@ const reports = [
             {
                 tag: "视频回放",
                 href: "https://www.bilibili.com/video/BV1T7zTBaEL9/"
+            },
+            {
+                tag: "项目主页",
+                href: "https://github.com/murong-xu/CADS"
+            },
+            {
+                tag: "数据集",
+                href: "https://huggingface.co/datasets/mrmrx/CADS-dataset"
             }
         ],
         link: {
