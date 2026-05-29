@@ -4,7 +4,7 @@ const site = {
     siteURL: "https://hit-webinar.github.io/",
     creator: "Jiancheng Yang",
     creatorURL: "https://jiancheng-yang.com/",
-    showPageviews: true,
+    showPageviews: false,
 };
 
 const about = `
