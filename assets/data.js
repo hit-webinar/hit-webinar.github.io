@@ -17,6 +17,40 @@ HIT网络研讨会主要由几位学术界的小伙伴基于兴趣发起，属�
 
 const reports = [
     {
+        id: "routine45",
+        poster: "routine45.jpg",
+        date: "2026/07/10",
+        title: "[MICCAI'26] PlaneCycle：无训练、无适配器、无参数，转换 2D 基础模型为 3D",
+        speakerPaper: "俞映红 ELLIS & Aalto",
+        host: "杨健程 ELLIS & Aalto",
+        materials: [
+            {
+                tag: "项目主页",
+                href: "https://github.com/HINTLab/PlaneCycle"
+            },
+            {
+                tag: "视频回放",
+                // href: "https://www.bilibili.com/video/#TODO"
+            },
+        ],
+        link: {
+            tag: "#腾讯会议：470-424-966",
+            href: "https://meeting.tencent.com/dm/RaFmpikqMY2n"
+        },
+        info: {
+            abstract: `
+        2D 基础模型已成为众多视觉任务的通用骨干，但要扩展到 CT、MRI 等三维数据，通常需要重新训练、增加适配器或改造网络结构，代价高昂。为此，本研究提出 PlaneCycle，一种免训练、无适配器、且与网络结构无关的 2D-to-3D 提升方法：它完全复用预训练的 2D 主干、不引入任何额外参数，通过在网络各层沿正交的 HW、DW、DH 三个平面循环地分配空间聚合，逐层实现三维融合，同时保留预训练的归纳偏置。基于预训练的DINOv3，PlaneCycle 无需训练即展现出内在的三维融合能力，在线性探测下超过逐切片 2D 基线与 3D 方法，并在全量微调后以更低代价比肩标准 3D 网络。报告将介绍其设计动机、核心机制及在医学影像等三维场景中的应用。代码已开源：https://github.com/HINTLab/PlaneCycle
+        `,
+            bio: `
+        俞映红现为 ELLIS Institute Finland 与阿尔托大学的博士一年级学生，导师为杨健程教授。她硕士毕业于上海交通大学，目前的研究方向为医疗人工智能，主要关注 3D 医学影像的基础模型与多模态学习。相关工作发表于 npj Precision Oncology等国际期刊。
+        `
+        },
+        topics: [
+            "Healthcare",
+            "Intelligence",
+        ]
+    },
+    {
         id: "talk260613",
         poster: "talk260613.jpg",
         date: "2026/06/13",
