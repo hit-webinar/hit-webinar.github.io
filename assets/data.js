@@ -61,8 +61,8 @@ const reports = [
                 href: "https://www.cs.cit.tum.de/camp/members/yuan-bi/"
             },
             {
-                // tag: "视频回放",
-                // href: "https://www.bilibili.com/video/#TODO"
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1Jc3n6pEpp/"
             },
         ],
         link: {
