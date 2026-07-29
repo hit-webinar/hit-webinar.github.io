@@ -17,6 +17,39 @@ HIT网络研讨会主要由几位学术界的小伙伴基于兴趣发起，属�
 
 const reports = [
     {
+        id: "talk260731",
+        poster: "talk260731.jpg",
+        date: "2026/07/31",
+        daytime: "周五 21:00",
+        title: "从诊断到治疗：表型组学，人工智能眼中的生命密码",
+        speaker: "赵俊涵 UChicago",
+        host: "杨健程 ELLIS & Aalto",
+        materials: [
+            {
+                // tag: "视频回放",
+                // href: "https://www.bilibili.com/video/#TODO"
+            },
+        ],
+        link: {
+            tag: "#腾讯会议：754-595-904",
+            href: "https://meeting.tencent.com/dm/azC1Kyg0bRD0"
+        },
+        info: {
+            abstract: `
+            表型是基因与环境共同书写的生命密码，也是连接诊断与治疗的关键桥梁。本讲座将分享赵教授近年来在表型组学人工智能领域的探索：如何用深度学习从病理图像中解读疾病信号，如何借助可穿戴传感器与体力活动数据刻画个体的健康表型，以及如何将这些多模态表型线索用于病人预后，药物重定位等，加速从诊断到治疗的转化。我们希望展示人工智能不仅能"看见"表型，更能读懂其背后的生命逻辑，为精准医学开辟新路径。
+            `,
+            bio: `
+            赵俊涵，芝加哥大学研究助理教授，博士生导师，同时担任哈佛医学院，麻省总医院外科和太空医学中心的卫生系统研究访问科学家。他在哈佛医学院完成了生物医学信息学博士后研究。赵教授曾获比尔斯兰奖（Bilsland Fellowship），在普渡大学担任讲师期间获得了计算机图形学博士学位。他的工程学训练始于上海交通大学和康奈尔大学，并以优异成绩毕业。此外，他还拥有哈佛大学生物统计学硕士学位。
+            赵教授已在Nature、Nature Communications、Light: Science & Applications、Med以及IEEE旗下期刊（包括TVCG、TIP、TMI、TIM、TCSVT、JBHI）等高影响力出版物上以第一作者或资深作者身份发表多篇论文。他领导多家初创企业的人工智能开发与部署工作，涉及医疗AI，可穿戴设备、太空医学、干细胞及再生医学等领域。PLOS Digital Health学术编辑，Frontiers in Medicine 副主编，GigaScience, Organoid Research和BME Frontier青年编委。
+            `,
+        },
+        topics: [
+            "Healthcare",
+            "Intelligence",
+            "Technology",
+        ]
+    },
+    {
         id: "talk260724",
         poster: "talk260724.jpg",
         date: "2026/07/24",
