@@ -46,7 +46,6 @@ const reports = [
         topics: [
             "Healthcare",
             "Intelligence",
-            "Technology",
         ]
     },
     {
