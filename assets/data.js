@@ -26,8 +26,12 @@ const reports = [
         host: "杨健程 ELLIS & Aalto",
         materials: [
             {
-                // tag: "视频回放",
-                // href: "https://www.bilibili.com/video/#TODO"
+                tag: "讲者主页",
+                href: "https://junhan-zhao.space/"
+            },
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1DHGK6vEEb/"
             },
         ],
         link: {
