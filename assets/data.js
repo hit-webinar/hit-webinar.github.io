@@ -17,6 +17,40 @@ HIT网络研讨会主要由几位学术界的小伙伴基于兴趣发起，属�
 
 const reports = [
     {
+        id: "talk260828",
+        poster: "talk260828.jpg",
+        date: "2026/08/28",
+        title: "通用手术人工智能",
+        speaker: "袁焜 TUM",
+        host: "黄典业 HKU",
+        materials: [
+            {
+                tag: "讲者主页",
+                href: "https://flaick.github.io/"
+            },
+            // {
+            //     tag: "视频回放",
+            //     href: "https://www.bilibili.com/video/#TODO"
+            // },
+        ],
+        link: {
+            tag: "#腾讯会议：328-383-948",
+            href: "https://meeting.tencent.com/dm/NAeJHbuD55l7"
+        },
+        info: {
+            abstract: `
+            本报告将探讨如何从面向单一任务的手术人工智能，迈向能够感知、理解、推理并适应不同手术场景的通用外科智能（Generalist Surgical Intelligence）。报告将重点介绍视觉-语言学习、多模态基础模型以及知识增强预训练在手术视频理解中的应用，并结合系列研究工作，讨论如何利用大规模手术数据与医学知识，构建能够跨术式、跨任务和跨临床环境泛化的统一模型，为未来智能手术辅助与人机协作奠定基础。
+            `,
+            bio: `
+            袁焜，慕尼黑工业大学（TUM）与斯特拉斯堡大学联合培养博士，研究方向为外科人工智能、视觉-语言学习与多模态基础模型，致力于构建能够理解、推理并泛化至不同手术场景的通用外科智能系统。相关研究成果发表于 NeurIPS、ICCV、MICCAI、IPCAI、Medical Image Analysis 等人工智能与医学影像领域会议及期刊，并多次获得 MICCAI、IPCAI 等学术奖项。
+            `,
+        },
+        topics: [
+            "Healthcare",
+            "Intelligence",
+        ]
+    },
+    {
         id: "talk260731",
         poster: "talk260731.jpg",
         date: "2026/07/31",
