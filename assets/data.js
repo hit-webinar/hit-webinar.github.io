@@ -28,10 +28,10 @@ const reports = [
                 tag: "讲者主页",
                 href: "https://flaick.github.io/"
             },
-            // {
-            //     tag: "视频回放",
-            //     href: "https://www.bilibili.com/video/#TODO"
-            // },
+            {
+                tag: "视频回放",
+                href: "https://www.bilibili.com/video/BV1cwtN6sEHh/"
+            },
         ],
         link: {
             tag: "#腾讯会议：328-383-948",
