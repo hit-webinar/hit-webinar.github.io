@@ -17,6 +17,41 @@ HIT网络研讨会主要由几位学术界的小伙伴基于兴趣发起，属�
 
 const reports = [
     {
+        id: "talk260906",
+        // poster: "talk260906.jpg", // TODO: add the original poster when available
+        date: "2026/09/06",
+        daytime: "周日 20:00",
+        title: "微生物群落建模:从机制模型到数据驱动的人工智能",
+        speaker: "戢博阳 丹麦生物创新研究院",
+        host: "杨健程 ELLIS & Aalto",
+        materials: [
+            {
+                tag: "讲者主页",
+                href: "https://scholar.google.com/citations?user=7_jO3nQAAAAJ"
+            },
+            {
+                tag: "视频回放",
+                // href: "https://www.bilibili.com/video/#TODO"
+            },
+        ],
+        link: {
+            tag: "#腾讯会议：344-589-589",
+            href: "https://meeting.tencent.com/dm/f3KHdF00cCzX"
+        },
+        info: {
+            abstract: `
+            微生物群落是由多种具有不同代谢能力和生态功能的微生物共同构成的复杂动态系统，其组成、代谢互作及群落功能受到物种特征、环境条件和宿主因素等多重因素的共同影响。如何从复杂的群落数据中解析微生物之间的相互作用，并进一步预测群落的动态变化与功能，是微生物生态学与系统生物学领域的重要问题之一。微生物群落建模为理解和预测这些复杂过程提供了重要的理论与计算框架。本报告将围绕微生物群落建模的方法演进，从基于生态学和代谢机制的机制模型出发，介绍基于基因组尺度代谢模型的建模方法，讨论其在描述微生物互作、代谢分工和群落动态方面的优势与局限。在此基础上，进一步介绍数据驱动方法，包括机器学习、深度学习和多组学数据整合在微生物群落组成、功能及动态预测中的应用。最后，将讨论人工智能为微生物群落建模带来的新机遇，包括从大规模微生物组数据中学习群落表征、处理复杂和动态的群落数据，以及融合机制知识与数据驱动模型。
+            `,
+            bio: `
+            戢博阳，丹麦生物创新研究院 (BioInnovation Institute，BII) Data Scientist。于2009年6月获得华中农业大学微生物学硕士学位，2013年10月获得法国艾克斯-马赛大学基因组学与生物信息学专业博士学位。2013年12月加入瑞典查尔姆斯理工大学Jens Nielsen课题组，开展人类微生物组和代谢疾病的系统生物学研究。2021年1月加入丹麦生物创新研究院开展生物医学相关的数据科学研究，研究方向为多组学数据整合，数学建模和机器学习，以及其在代谢系统生物学、微生物组、生物医学工程中的应用。目前发表论文90余篇，并担任BMC Medicine, PloS Computational Biology, Methods in Ecology and Evolution, International Journal of Antimicrobial Agents, Microbiology Outlooks等多个国际期刊编委。
+            `,
+        },
+        topics: [
+            "Healthcare",
+            "Intelligence",
+        ]
+    },
+    {
         id: "talk260828",
         poster: "talk260828.jpg",
         date: "2026/08/28",
