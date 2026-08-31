@@ -18,7 +18,7 @@ HIT网络研讨会主要由几位学术界的小伙伴基于兴趣发起，属�
 const reports = [
     {
         id: "talk260906",
-        // poster: "talk260906.jpg", // TODO: add the original poster when available
+        poster: "talk260906.jpg",
         date: "2026/09/06",
         daytime: "周日 20:00",
         title: "微生物群落建模:从机制模型到数据驱动的人工智能",
