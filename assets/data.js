@@ -17,6 +17,40 @@ HIT网络研讨会主要由几位学术界的小伙伴基于兴趣发起，属�
 
 const reports = [
     {
+        id: "talk260911",
+        // poster: "talk260911.jpg", // TODO: add the original event poster when available
+        date: "2026/09/11",
+        title: "链接人工与生物智能：从基于大语言模型的神经编解码到生命科学基础模型",
+        speaker: "孙静远 曼大",
+        host: "杨健程 ELLIS & Aalto",
+        materials: [
+            {
+                tag: "讲者主页",
+                href: "https://sites.google.com/view/jingyuan-sun/home"
+            },
+            {
+                tag: "视频回放",
+                // href: "https://www.bilibili.com/video/#TODO"
+            },
+        ],
+        link: {
+            tag: "#腾讯会议：335-973-809",
+            href: "https://meeting.tencent.com/dm/s8VA0SujqGXH"
+        },
+        info: {
+            abstract: `
+            大语言模型（LLM）和基础人工智能（Foundational AI）的飞速发展不仅重塑了人工智能领域，也为神经科学和生命科学探索开辟了前所未有的路径。本次讲座将深入探讨人工神经网络与人类大脑的交叉融合。首先，我们将介绍如何利用LLM作为计算框架，去解析人类大脑在语言理解、认知处理及语义表征过程中的底层神经机制。通过将基础AI的表征空间与大脑的功能性活动进行对齐，我们将展示构建下一代高精度脑机接口（BCI）的全新路径，以实现高效的“意念到文本”解码与认知状态识别。此外，讲座还将探讨这些基础AI架构在人类语言之外的广泛泛化能力。我们将重点分析如何将生成式AI和序列建模的核心逻辑，扩展应用到生命科学领域的其他复杂序列化数据中，例如基因组序列、蛋白质结构以及连续的多模态神经信号建模。
+            `,
+            bio: `
+            孙静远是英国曼彻斯特大学（The University of Manchester）计算机科学系的助理教授及博士生导师。同时，他是欧洲学习与智能系统实验室（ELLIS）的成员，并担任《术语与知识工程杂志》（Journal of Terminology and Knowledge Engineering）的创始编委。在加入曼彻斯特大学之前，他曾于百度担任资深人工智能研发工程师。他毕业于中国科学院自动化研究所。 他的研究重点集中在人工智能与神经科学的交叉领域，核心方向包括：脑机接口（Brain-Computer Interface, BCI）、面向人类大脑的基础人工智能模型，以及人工智能在医疗与认知科学研究中的前沿应用。 作为第一作者和通讯作者，他在 NeurIPS、ACL、AAAI、EMNLP 以及TNNLS, Information Fusion等人工智能领域的顶级会议与期刊上发表了多篇学术论文。此外，他积极参与学术社区的建设，长期受邀担任上述顶级学术会议的高级程序委员会委员。
+            `,
+        },
+        topics: [
+            "Healthcare",
+            "Intelligence",
+        ]
+    },
+    {
         id: "talk260906",
         poster: "talk260906.jpg",
         date: "2026/09/06",
