@@ -18,7 +18,7 @@ HIT网络研讨会主要由几位学术界的小伙伴基于兴趣发起，属�
 const reports = [
     {
         id: "talk260911",
-        // poster: "talk260911.jpg", // TODO: add the original event poster when available
+        poster: "talk260911.jpg",
         date: "2026/09/11",
         title: "链接人工与生物智能：从基于大语言模型的神经编解码到生命科学基础模型",
         speaker: "孙静远 曼大",
