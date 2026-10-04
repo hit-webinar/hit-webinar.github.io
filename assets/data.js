@@ -17,6 +17,40 @@ HIT网络研讨会主要由几位学术界的小伙伴基于兴趣发起，属�
 
 const reports = [
     {
+        id: "talk261009",
+        // poster: "talk261009.jpg", // TODO: obtain the original event poster
+        date: "2026/10/09",
+        title: "从构象分布到跃迁路径：生成式 AI 如何学习蛋白质动力学",
+        speaker: "程泽华 Korea U",
+        host: "杨健程 ELLIS & Aalto",
+        materials: [
+            {
+                tag: "讲者主页",
+                href: "https://scholar.google.com/citations?user=7DCKxa4AAAAJ"
+            },
+            {
+                tag: "视频回放",
+                // href: "https://www.bilibili.com/video/#TODO"
+            },
+        ],
+        link: {
+            tag: "#腾讯会议：394-390-165",
+            href: "https://meeting.tencent.com/dm/xx4AcyrUdfLX"
+        },
+        info: {
+            abstract: `
+            近年来，生成式人工智能在蛋白质结构建模中取得了显著进展，但蛋白质本质上并非静态结构，而是跨越多个时间尺度演化的复杂动态系统。如何从有限且异质的分子动力学数据中学习这种动态结构，并进一步生成稀有但具有功能意义的构象转变过程，是Scientific AI 中一个仍未充分解决的问题。本报告将介绍我们近期被顶会收入的两个工作，讨论生成模型如何从静态分布拟合进一步走向动态系统建模：显式刻画不同时间尺度的结构、利用异质数据学习可迁移的动力学表示，并将完整轨迹而非单个状态作为生成对象。以蛋白质动力学为例，我们进一步讨论物理归纳偏置、过程级生成与 structured generative modeling 之间更一般的联系。
+            `,
+            bio: `
+            程泽华博士，牛津大学计算机科学博士，现韩国高丽大学教授，曾任牛津大学数学系讲师、助理教授。其研究横跨 Structured Machine Reasoning，AI for Science。核心方向为探索如何让 AI 从模式拟合进一步走向对复杂结构、动态过程与推理机制的建模。他围绕结构化推理、生成模型、科学智能与大规模 AI 系统建立了一系列连续研究方向，并保持极高的科研产出，仅 2026 年已有 20 余篇论文发表于国际AI顶级会议。
+            `,
+        },
+        topics: [
+            "Intelligence",
+            "Technology",
+        ]
+    },
+    {
         id: "talk260911",
         poster: "talk260911.jpg",
         date: "2026/09/11",
