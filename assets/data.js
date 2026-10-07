@@ -21,7 +21,6 @@ const reports = [
         poster: "talk261023.jpg",
         photo: "talk261023.jpg",
         date: "2026/10/23",
-        daytime: "周五 20:00-21:30",
         title: "从构象分布到跃迁路径：生成式 AI 如何学习蛋白质动力学",
         speaker: "程泽华 Korea U",
         host: "杨健程 ELLIS & Aalto",
