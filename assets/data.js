@@ -17,9 +17,10 @@ HIT网络研讨会主要由几位学术界的小伙伴基于兴趣发起，属�
 
 const reports = [
     {
-        id: "talk261009",
-        // poster: "talk261009.jpg", // TODO: obtain the original event poster
-        date: "2026/10/09",
+        id: "talk261023",
+        poster: "talk261023.jpg",
+        date: "2026/10/23",
+        daytime: "周五 20:00-21:30",
         title: "从构象分布到跃迁路径：生成式 AI 如何学习蛋白质动力学",
         speaker: "程泽华 Korea U",
         host: "杨健程 ELLIS & Aalto",
