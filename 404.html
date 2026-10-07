@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HIT Webinar</title>
+<script>
+// GitHub Pages has no routing: forward /poster/<id> and /cover/<id> to the real pages.
+var m = location.pathname.match(/^\/(poster|cover)\/([A-Za-z0-9_-]+)\/?$/);
+if (m) location.replace("/" + m[1] + "/?id=" + m[2]);
+</script>
+</head>
+<body style="font-family:sans-serif;text-align:center;padding:48px 16px">
+<p>页面不存在。</p>
+<p><a href="/">返回 HIT Webinar 主页</a></p>
+</body>
+</html>

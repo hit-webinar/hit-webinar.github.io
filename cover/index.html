@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>直播封面 · HIT Webinar</title>
+<link rel="icon" href="/assets/favicon.ico">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<style>
+[hidden]{display:none!important}
+body{margin:0;background:#f4f6f8;color:#1b1e24;font:15px/1.5 -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif}
+main{max-width:720px;margin:0 auto;padding:16px}
+header{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:8px}
+header img{height:36px}
+h1{font-size:18px;margin:8px 0 2px}
+.meta{color:#5d6470;margin-bottom:10px}
+.bar{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px}
+.bar a{padding:6px 12px;border-radius:8px;text-decoration:none;font-weight:600;border:1px solid #cfd6de;color:#1b1e24;background:#fff}
+.bar a.primary{background:#1f7ae0;border-color:#1f7ae0;color:#fff}
+.note{font-size:13px;color:#5d6470;margin-bottom:10px}
+.note.warn{color:#b45309}.note.err{color:#c0392b}
+#img{width:100%;height:auto;display:block;box-shadow:0 1px 6px rgba(0,0,0,.12);background:#fff}
+</style>
+<script src="/assets/data.js"></script>
+</head>
+<body data-kind="cover">
+<main>
+  <header><a href="/"><img src="/assets/logo.png" alt="HIT Webinar"></a></header>
+  <h1 id="title"></h1>
+  <div class="meta" id="meta"></div>
+  <div class="bar">
+    <a id="download" class="primary" hidden>下载直播封面</a>
+    <a id="switch"></a>
+    <a id="original" hidden target="_blank">原始海报</a>
+  </div>
+  <div class="note" id="note"></div>
+  <img id="img" alt="直播封面" hidden>
+</main>
+<script type="module" src="/assets/posterkit/page.js"></script>
+</body>
+</html>

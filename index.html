@@ -95,7 +95,12 @@
                             </span>
                         </span>
 
-                        <span v-bind:class="[ hoverRepId === pid ? 'badge-dark': 'badge-light']" v-if="item.poster">
+                        <span v-if="canGenerate(item)">
+                            [<a v-bind:href="'poster/' + item.id" target="_blank" v-on:click.stop>海报</a>]
+                            [<a v-bind:href="'cover/' + item.id" target="_blank" v-on:click.stop>直播封面</a>]
+                        </span>
+
+                        <span v-bind:class="[ hoverRepId === pid ? 'badge-dark': 'badge-light']" v-if="hasPoster(item)">
                             [<b>点击➚</b>查看海报]
                         </span>
                         <span v-else>[海报尚未上传]</span>
@@ -108,7 +113,7 @@
                         <!-- &nbsp; -->
                     </p>
 
-                    <div v-if="item.info && !(item.poster && (hoverRepId === pid)) ">
+                    <div v-if="item.info && !(hasPoster(item) && (hoverRepId === pid)) ">
                         <p>
                         <h5>内容简介</h5>
                         <span v-html="item.info.abstract"></span>
@@ -121,8 +126,9 @@
                     <p align="center">
                         <!-- <img v-if="item.poster && (hoverRepId === pid)" v-bind:src="'assets/poster/'+item.poster"
                             class="img-fluid" style="max-width:400px;width:100%;height:auto;"> -->
-                        <img v-if="item.poster && (hoverRepId === pid)" v-bind:src="'assets/poster/'+item.poster"
+                        <img v-if="hoverRepId === pid && posterSrc(item)" v-bind:src="posterSrc(item)"
                             class="img-fluid" style="max-width:600px;width:100%;height:auto;">
+                        <span v-else-if="hoverRepId === pid && hasPoster(item)" class="text-muted">海报生成中…</span>
                     </p>
                     <hr>
                 </div>

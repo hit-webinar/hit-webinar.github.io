@@ -9,11 +9,14 @@ const app = new Vue({
             "Technology": 0,
         },
         selectedTopic: "All",
+        // id -> object URL of a poster generated in the browser (assets/posterkit)
+        generatedPosters: {},
     },
     created: function () {
         console.log("READY");
         this.countTopic(reports);
         this.countTopic(tests);
+        if (reports.length) this.ensurePoster(reports[0]);
     },
     methods: {
         countTopic: function (allReports) {
@@ -38,7 +41,37 @@ const app = new Vue({
             }
             else {
                 this.hoverRepId = pid;
+                this.ensurePoster(reports[pid]);
             }
+        },
+        // Posters: an event with `photo` (assets/speaker/<photo>) gets a poster generated
+        // in the browser; without a photo the uploaded `poster` image is shown; with
+        // neither, a poster with a placeholder portrait is generated.
+        canGenerate: function (item) {
+            var info = item.info || {}, link = item.link || {};
+            return !!(item.title && (item.speaker || item.speakerPaper) && item.host && item.date
+                && info.abstract && info.bio && link.href && /\d{3}-\d{3}-\d{3,4}/.test(link.tag || ""));
+        },
+        generatesPoster: function (item) {
+            return this.canGenerate(item) && !!(item.photo || !item.poster);
+        },
+        hasPoster: function (item) {
+            return !!item.poster || this.generatesPoster(item);
+        },
+        posterSrc: function (item) {
+            var url = this.generatedPosters[item.id];
+            if (url) return url === "failed" ? (item.poster ? "assets/poster/" + item.poster : null) : url;
+            return this.generatesPoster(item) ? null : (item.poster ? "assets/poster/" + item.poster : null);
+        },
+        ensurePoster: function (item) {
+            if (!item || !this.generatesPoster(item) || this.generatedPosters[item.id] !== undefined) return;
+            var self = this;
+            this.$set(this.generatedPosters, item.id, null);
+            // Function wrapper keeps older browsers from failing to parse app.js at all
+            new Function("u", "return import(u)")(new URL("assets/posterkit/poster.js", location.href).href)
+                .then(function (kit) { return kit.generate(item, "poster"); })
+                .then(function (r) { self.$set(self.generatedPosters, item.id, r.url); })
+                .catch(function (e) { console.error(e); self.$set(self.generatedPosters, item.id, "failed"); });
         },
         generateICS: function (event) {
             const dateParts = event.date.split('/');
