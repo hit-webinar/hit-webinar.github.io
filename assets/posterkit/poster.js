@@ -445,18 +445,22 @@ export function canGenerate(item) {
 }
 
 const generated = new Map();
-export function generate(item, kind = "poster") {
+// `photo` (optional): an Image/canvas to use instead of the event's own photo, for
+// previewing a candidate photo before it is published; such results are not cached.
+export function generate(item, kind = "poster", photo = null) {
   const key = `${item.id}|${kind}|${item.photo || ""}`;
-  if (!generated.has(key)) generated.set(key, (async () => {
+  const run = async () => {
     const f = eventFields(item), missing = missingFields(f);
     if (missing.length) throw new Error(`${item.id} 缺少 ${missing.join("、")}`);
     await ensureKit();
-    const photo = item.photo ? await loadImage(SPEAKER + item.photo) : placeholderPhoto();
-    const canvas = await (kind === "cover" ? renderCover : renderPoster)(f, photo);
+    const img = photo || (item.photo ? await loadImage(SPEAKER + item.photo) : placeholderPhoto());
+    const canvas = await (kind === "cover" ? renderCover : renderPoster)(f, img);
     const { blob, quality } = await toJpeg(canvas);
     return { blob, url: URL.createObjectURL(blob), width: canvas.width, height: canvas.height, quality,
-             placeholder: !item.photo };
-  })());
+             placeholder: !photo && !item.photo };
+  };
+  if (photo) return run();
+  if (!generated.has(key)) generated.set(key, run());
   const p = generated.get(key);
   p.catch(() => generated.delete(key));
   return p;

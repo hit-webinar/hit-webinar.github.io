@@ -44,16 +44,16 @@ const app = new Vue({
                 this.ensurePoster(reports[pid]);
             }
         },
-        // Posters: an event with `photo` (assets/speaker/<photo>) gets a poster generated
-        // in the browser; without a photo the uploaded `poster` image is shown; with
-        // neither, a poster with a placeholder portrait is generated.
+        // Posters: an event with `photo` (assets/speaker/<photo>) and complete data gets
+        // its poster generated in the browser (assets/posterkit); every other event shows
+        // the uploaded `poster` image as before. Organizers preview any event on poster.html.
         canGenerate: function (item) {
             var info = item.info || {}, link = item.link || {};
             return !!(item.title && (item.speaker || item.speakerPaper) && item.host && item.date
                 && info.abstract && info.bio && link.href && /\d{3}-\d{3}-\d{3,4}/.test(link.tag || ""));
         },
         generatesPoster: function (item) {
-            return this.canGenerate(item) && !!(item.photo || !item.poster);
+            return !!item.photo && this.canGenerate(item);
         },
         hasPoster: function (item) {
             return !!item.poster || this.generatesPoster(item);

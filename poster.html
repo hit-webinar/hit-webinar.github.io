@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>海报工具 · HIT Webinar</title>
+<link rel="icon" href="assets/favicon.ico">
+<style>
+[hidden]{display:none!important}
+*{box-sizing:border-box}
+body{margin:0;background:#f4f6f8;color:#1b1e24;font:14px/1.5 -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif}
+main{max-width:1500px;margin:0 auto;padding:14px 16px 40px}
+.top{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-bottom:8px}
+.top img.logo{height:32px}
+.top h1{font-size:17px;margin:0 8px 0 0}
+select{flex:1;min-width:240px;max-width:640px;padding:7px 8px;border:1px solid #cfd6de;border-radius:8px;font:inherit;background:#fff}
+button,.btn{padding:6px 11px;border:1px solid #cfd6de;border-radius:8px;background:#fff;font:inherit;cursor:pointer;color:#1b1e24;text-decoration:none;white-space:nowrap}
+.btn.primary{background:#1f7ae0;border-color:#1f7ae0;color:#fff;font-weight:600}
+.drop{border:1.5px dashed #b8c2cc;border-radius:8px;padding:6px 10px;color:#5d6470;cursor:pointer;white-space:nowrap}
+.drop.over{border-color:#1f7ae0;color:#1f7ae0}
+.status{color:#5d6470;margin:4px 0 12px;min-height:21px}
+.status .warn{color:#b45309}.status .err{color:#c0392b}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;align-items:start}
+@media (max-width:900px){.grid{grid-template-columns:minmax(0,1fr)}}
+figure{margin:0;background:#fff;border:1px solid #e1e6eb;border-radius:10px;padding:10px}
+figcaption{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:8px}
+figcaption b{font-size:14px}
+figcaption span{color:#5d6470;font-size:12px}
+figure img{width:100%;height:auto;display:block}
+.empty{color:#8a919c;padding:40px 0;text-align:center}
+.hint{color:#8a919c;font-size:12px}
+</style>
+<script src="assets/data.js"></script>
+</head>
+<body>
+<main>
+  <div class="top">
+    <a href="./"><img class="logo" src="assets/logo.png" alt="HIT Webinar"></a>
+    <h1>海报工具</h1>
+    <button id="prev" title="上一期 (←)">←</button>
+    <select id="event"></select>
+    <button id="next" title="下一期 (→)">→</button>
+    <label class="drop" id="drop">试用照片…<input type="file" id="file" accept="image/*" hidden></label>
+  </div>
+  <div class="status" id="status"></div>
+  <div class="grid">
+    <figure><figcaption><b>自动海报</b><span id="posterInfo"></span><a class="btn primary" id="posterDl" hidden>下载</a></figcaption><img id="posterImg" alt="" hidden><div class="empty" id="posterEmpty">生成中…</div></figure>
+    <figure><figcaption><b>直播封面</b><span id="coverInfo"></span><a class="btn primary" id="coverDl" hidden>下载</a></figcaption><img id="coverImg" alt="" hidden><div class="empty" id="coverEmpty">生成中…</div></figure>
+    <figure><figcaption><b>原始海报</b><span id="origInfo"></span><a class="btn" id="origDl" hidden target="_blank">打开</a></figcaption><img id="origImg" alt="" hidden><div class="empty" id="origEmpty">没有上传的原始海报</div></figure>
+  </div>
+  <p class="hint">组织者用：选一期活动，查看自动生成的海报和直播封面，并与原始海报对照。← → 切换活动。“试用照片”只在本机预览，不会上传；要正式使用，请把照片放到 assets/speaker/ 并在 data.js 里写 photo 字段。</p>
+</main>
+<script type="module">
+import { generate } from "./assets/posterkit/poster.js";
+
+const $ = id => document.getElementById(id);
+const events = typeof reports !== "undefined" ? reports.filter(r => r.id && r.date) : [];
+let idx = 0, trial = null, seq = 0;
+
+$("event").innerHTML = events.map((r, i) => {
+  const kind = r.id.startsWith("routine") ? `论文精读${r.id.replace(/\D/g, "")}` : "特邀报告";
+  return `<option value="${i}">${r.date} · ${kind} · ${r.speaker || r.speakerPaper || ""}${r.photo ? " · 有照片" : ""} · ${r.title.replace(/<[^>]+>/g, "")}</option>`;
+}).join("");
+
+function setStatus(html) { $("status").innerHTML = html; }
+
+function slot(name, state) {
+  const img = $(name + "Img"), empty = $(name + "Empty"), dl = $(name + "Dl"), info = $(name + "Info");
+  img.hidden = !state.src; empty.hidden = !!state.src;
+  if (state.src) img.src = state.src; else img.removeAttribute("src");
+  empty.textContent = state.empty || "";
+  info.textContent = state.info || "";
+  dl.hidden = !state.href;
+  if (state.href) { dl.href = state.href; if (state.download) dl.download = state.download; else dl.removeAttribute("download"); }
+}
+
+async function show() {
+  const my = ++seq, item = events[idx];
+  $("event").value = idx;
+  history.replaceState(null, "", "?id=" + item.id);
+  const source = trial ? "试用照片（仅本机）" : item.photo ? `网站照片 assets/speaker/${item.photo}` : null;
+  setStatus(source ? `照片：${source}` : `<span class="warn">这一期没有 photo 字段，自动海报和封面使用占位头像。</span>`);
+  if (item.poster) {
+    const src = "assets/poster/" + item.poster;
+    slot("orig", { src, href: src, info: item.poster });
+  } else slot("orig", { empty: "没有上传的原始海报" });
+  for (const kind of ["poster", "cover"]) {
+    slot(kind, { empty: "生成中…" });
+    generate(item, kind, trial).then(r => {
+      if (my !== seq) return;
+      slot(kind, { src: r.url, href: r.url, download: `${item.id}${kind === "cover" ? "_cover" : ""}.jpg`,
+                   info: `${r.width}×${r.height} · ${Math.round(r.blob.size / 1024)} KB` });
+    }).catch(e => {
+      if (my !== seq) return;
+      slot(kind, { empty: "无法生成：" + e.message });
+    });
+  }
+}
+
+function go(i) { if (i < 0 || i >= events.length) return; idx = i; trial = null; $("drop").firstChild.textContent = "试用照片…"; show(); }
+
+$("event").addEventListener("change", e => go(+e.target.value));
+$("prev").onclick = () => go(idx - 1);
+$("next").onclick = () => go(idx + 1);
+document.addEventListener("keydown", e => {
+  if (e.target.tagName === "SELECT" || e.target.tagName === "INPUT") return;
+  if (e.key === "ArrowLeft") { go(idx - 1); e.preventDefault(); }
+  if (e.key === "ArrowRight") { go(idx + 1); e.preventDefault(); }
+});
+
+async function useTrial(file) {
+  if (!file || !file.type.startsWith("image/")) return;
+  const img = new Image();
+  img.src = URL.createObjectURL(file);
+  await img.decode();
+  trial = img;
+  $("drop").firstChild.textContent = "试用：" + file.name;
+  show();
+}
+$("file").addEventListener("change", e => useTrial(e.target.files[0]));
+const drop = $("drop");
+drop.addEventListener("dragover", e => { e.preventDefault(); drop.classList.add("over"); });
+drop.addEventListener("dragleave", () => drop.classList.remove("over"));
+drop.addEventListener("drop", e => { e.preventDefault(); drop.classList.remove("over"); useTrial(e.dataTransfer.files[0]); });
+
+const wanted = new URLSearchParams(location.search).get("id");
+const start = events.findIndex(r => r.id === wanted);
+if (events.length) go(start >= 0 ? start : 0);
+else setStatus('<span class="err">读不到 assets/data.js</span>');
+</script>
+</body>
+</html>

@@ -95,11 +95,6 @@
                             </span>
                         </span>
 
-                        <span v-if="canGenerate(item)">
-                            [<a v-bind:href="'poster/' + item.id" target="_blank" v-on:click.stop>海报</a>]
-                            [<a v-bind:href="'cover/' + item.id" target="_blank" v-on:click.stop>直播封面</a>]
-                        </span>
-
                         <span v-bind:class="[ hoverRepId === pid ? 'badge-dark': 'badge-light']" v-if="hasPoster(item)">
                             [<b>点击➚</b>查看海报]
                         </span>
