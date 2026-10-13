@@ -77,7 +77,8 @@ const app = new Vue({
             const dateParts = event.date.split('/');
             const formattedDate = `${dateParts[0]}-${dateParts[1]}-${dateParts[2]}`;
             const daytime = event.daytime || "周五 20:00"; // default to Friday 20:00
-            const startDateTime = new Date(`${formattedDate}T${daytime.split(' ')[1]}:00+08:00`); // +08:00 is China Standard Time
+            const clock = daytime.split(' ')[1].padStart(5, '0'); // "9:00" -> "09:00", else the date is invalid
+            const startDateTime = new Date(`${formattedDate}T${clock}:00+08:00`); // +08:00 is China Standard Time
             const endDateTime = new Date(startDateTime.getTime() + 1.5 * 60 * 60 * 1000); // 1.5 hours
 
             const icsContent = `BEGIN:VCALENDAR
